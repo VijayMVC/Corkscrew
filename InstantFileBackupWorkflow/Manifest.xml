@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Component Name="InstantFileBackupWorkflow" InstallFailureIsFatal="false" CabFileName="Workflows-InstantFileBackupWorkflow" InstallFolderName="Samples\Workflows\InstantFileBackupWorkflow" RequiredFarmState="MustExist">
+  <description>
+    This will install the sample workflow for file archival directly into the Corkscrew Farm.
+  </description>
+  <Depependencies>
+    <DependsOn Name="InstallWorkflow" />
+  </Depependencies>
+  <Installers>
+    <Installer type="ToolRunner">
+      <parameters 
+        installer="$(InstallTargetRoot)\CommandlineTools\InstallWorkflow\Corkscrew.Tools.InstallWorkflow.exe" 
+        installArguments="$(InstallTargetRoot)\$(ComponentDestination)\InstallManifest.xml" 
+      />
+    </Installer>
+    <Installer type="Registry">
+      <Actions>
+        <Action type="Install" hive="LocalMachine" parentKey="SOFTWARE\Aquarius Operating Systems\CMS\InstalledComponents" keyPath="InstantFileBackupWorkflow" keyType="ValueName" value="1" />
+      </Actions>
+    </Installer>
+  </Installers>
+</Component>

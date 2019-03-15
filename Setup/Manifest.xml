@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+    This is a FORMAT file. This should never be used or copied into the installation directory. 
+    
+    Xml comments should be deleted after creating the actual manifest.
+    
+    How to use:
+    
+      1)  Each CS component will have one file with the contents of a single <Component>. Suitably, they should be in the project root directory 
+          and copied to the BuildDrops folder via the Post-Build script. This includes the ConfigDB database project! In fact, any project for 
+          which we are creating an installer should have one of this.
+          
+          Files must be named "manifest.xml" (casing not important)
+      
+      2)  Keep ONLY the installers valid for that component. the "type" attribute on <Installer> must match the class name of the installer without 
+          the word "Installer" ("FilesystemInstaller" -> "Filesystem"). Casing MUST match.
+
+      3)  The SFX generator will read each individual manifest and create the combined manifest during package generation in the build process.
+      
+  -->
+
+<Corkscrew>
+  <Components>
+    <Component Name="" InstallFailureIsFatal="" CabFileName="" InstallFolderName="" RequiredFarmState="">
+      <description></description>
+      <Depependencies>
+        <DependsOn Name="" />
+      </Depependencies>
+      <Installers>
+        <Installer type="Database">
+          <parameters source="" patches="" skipWorkflow="" />
+        </Installer>
+        <Installer type="Filesystem">
+          <parameters source="" overwrite="" />
+        </Installer>
+        <Installer type="IIS">
+          <parameters appName="" webName="" defaultPort="" requireSSL="" appFolder="" />
+        </Installer>
+        <Installer type="Registry">
+          <Actions>
+            <Action type="" hive="" parentKey="" keyPath="" keyType="" value="" />
+          </Actions>
+        </Installer>
+        <Installer type="ProgramShortcuts">
+          <parameters targetFilePath="" placeIn="" icon="" workingDirectory="" title="" description="" />
+        </Installer>
+        <Installer type="WindowsService">
+          <parameters serviceName="" executableName="" />
+        </Installer>
+        <Installer type="ConnectionString">
+          <parameters configFile="" />
+        </Installer>
+        <Installer type="ToolRunner">
+          <parameters
+            installer=""
+            installArguments="" 
+            repair=""
+            repairArguments=""
+            uninstaller=""
+            uninstallArguments=""
+          />
+        </Installer>
+      </Installers>
+    </Component>
+  </Components>
+</Corkscrew>

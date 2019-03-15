@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<OperationManifest>
+
+  <Operation
+      type="import"
+    >
+
+    <Source
+        Url="http://local.sharepoint.address/"
+        Username="DOMAIN\SharePointAdminUser" Password="P@ssW0rd!"
+        />
+
+    <Destination
+        Url="corkscrew://"
+        Username="farm.admin" Password="P@ssW0rd!" 
+        />
+
+    <Options 
+        overwrite="true" 
+        skipSecurity="false"
+        passwordForImportedUsers="P@ssW0rd!"
+      />
+       
+  </Operation>
+  
+</OperationManifest>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Component Name="SDK" InstallFailureIsFatal="false" CabFileName="SDK" InstallFolderName="SDK">
+  <description>
+    This component is meant for developers. The SDK provides an object-model way to interact with the Corkscrew system. When you distribute applications that use the SDK to 
+    interact with Corkscrew, you must bundle the files in this component with your application. For this, you must adhere to the terms and conditions of the 
+    Aquarius Corkscrew Redistribution License.
+  </description>
+  <Depependencies />
+  <Installers>
+    <Installer type="Filesystem">
+      <parameters source="$(InstallSource)\SDK" overwrite="true" />
+    </Installer>
+    <Installer type="Registry">
+      <Actions>
+        <Action type="Install" hive="LocalMachine" parentKey="SOFTWARE\Aquarius Operating Systems\CMS\InstalledComponents" keyPath="SDK" keyType="ValueName" value="1" />
+      </Actions>
+    </Installer>
+  </Installers>
+</Component>

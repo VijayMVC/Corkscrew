@@ -1,0 +1,1627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="4ce47efd-1898-477f-accd-eb536aa9baf9" Title="aquariusos.corkscrew.library" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="a82eff4f-70f0-4c0d-a7be-b7726ed2f7e3" Title="Corkscrew.SDK.ActiveDirectory" Url="html/N_Corkscrew_SDK_ActiveDirectory.htm">
+      <HelpTOCNode Id="c98852e6-8cba-4c0d-bf1d-43d9f803ba75" Title="CSActiveDirectoryUser Class" Url="html/T_Corkscrew_SDK_ActiveDirectory_CSActiveDirectoryUser.htm">
+        <HelpTOCNode Title="CSActiveDirectoryUser Properties" Url="html/Properties_T_Corkscrew_SDK_ActiveDirectory_CSActiveDirectoryUser.htm" />
+        <HelpTOCNode Id="5a75ccd0-35ee-4eff-b884-66bc5913957c" Title="CSActiveDirectoryUser Methods" Url="html/Methods_T_Corkscrew_SDK_ActiveDirectory_CSActiveDirectoryUser.htm">
+          <HelpTOCNode Title="CreateUser Method " Url="html/M_Corkscrew_SDK_ActiveDirectory_CSActiveDirectoryUser_CreateUser.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="95e163da-dab2-4199-90d6-0dfb16784eb3" Title="CSActiveDirectoryUserGroup Class" Url="html/T_Corkscrew_SDK_ActiveDirectory_CSActiveDirectoryUserGroup.htm">
+        <HelpTOCNode Title="CSActiveDirectoryUserGroup Properties" Url="html/Properties_T_Corkscrew_SDK_ActiveDirectory_CSActiveDirectoryUserGroup.htm" />
+        <HelpTOCNode Id="9f21bf87-ad4e-4627-a7a8-99ebfab1b91d" Title="CSActiveDirectoryUserGroup Methods" Url="html/Methods_T_Corkscrew_SDK_ActiveDirectory_CSActiveDirectoryUserGroup.htm">
+          <HelpTOCNode Title="CreateUserGroup Method " Url="html/M_Corkscrew_SDK_ActiveDirectory_CSActiveDirectoryUserGroup_CreateUserGroup.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1e709709-7034-4ed8-9005-84050e0ee2b9" Title="Corkscrew.SDK.constants" Url="html/N_Corkscrew_SDK_constants.htm">
+      <HelpTOCNode Title="ChangeTypeEnum Enumeration" Url="html/T_Corkscrew_SDK_constants_ChangeTypeEnum.htm" />
+      <HelpTOCNode Title="FileSystemEntryLocationEnum Enumeration" Url="html/T_Corkscrew_SDK_constants_FileSystemEntryLocationEnum.htm" />
+      <HelpTOCNode Id="41fec71f-b641-4c61-b17b-2fb2d2c17079" Title="LoggingConstants Class" Url="html/T_Corkscrew_SDK_constants_LoggingConstants.htm">
+        <HelpTOCNode Id="1ae23bd9-baa8-43d7-8901-d7d4de00783b" Title="LoggingConstants Methods" Url="html/Methods_T_Corkscrew_SDK_constants_LoggingConstants.htm">
+          <HelpTOCNode Title="GetEventSourceName Method " Url="html/M_Corkscrew_SDK_constants_LoggingConstants_GetEventSourceName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="09e6f4b6-7b92-4339-a497-90a30c9fc95d" Title="LoggingConstants Fields" Url="html/Fields_T_Corkscrew_SDK_constants_LoggingConstants.htm">
+          <HelpTOCNode Title="LOG_EVENTID_ERROR Field" Url="html/F_Corkscrew_SDK_constants_LoggingConstants_LOG_EVENTID_ERROR.htm" />
+          <HelpTOCNode Title="LOG_EVENTID_INFO Field" Url="html/F_Corkscrew_SDK_constants_LoggingConstants_LOG_EVENTID_INFO.htm" />
+          <HelpTOCNode Title="LOG_EVENTSOURCE_NAME_PRIMARY Field" Url="html/F_Corkscrew_SDK_constants_LoggingConstants_LOG_EVENTSOURCE_NAME_PRIMARY.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="LoggingConstants.LogEntryTypeEnum Enumeration" Url="html/T_Corkscrew_SDK_constants_LoggingConstants_LogEntryTypeEnum.htm" />
+      <HelpTOCNode Title="ScopeEnum Enumeration" Url="html/T_Corkscrew_SDK_constants_ScopeEnum.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3ed731da-e37e-46f8-8473-98697cf93e49" Title="Corkscrew.SDK.diagnostics" Url="html/N_Corkscrew_SDK_diagnostics.htm">
+      <HelpTOCNode Id="c3f6e7a5-d8b3-4c63-a68e-86a5f4524a6f" Title="CSDiagnostics Class" Url="html/T_Corkscrew_SDK_diagnostics_CSDiagnostics.htm">
+        <HelpTOCNode Id="134994a3-39c9-4bca-9af1-269b1b07d9a7" Title="CSDiagnostics Methods" Url="html/Methods_T_Corkscrew_SDK_diagnostics_CSDiagnostics.htm">
+          <HelpTOCNode Title="CreateEventSourceIfNotExists Method " Url="html/M_Corkscrew_SDK_diagnostics_CSDiagnostics_CreateEventSourceIfNotExists.htm" />
+          <HelpTOCNode Title="CreateLogEntry Method " Url="html/M_Corkscrew_SDK_diagnostics_CSDiagnostics_CreateLogEntry.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="63fa5dce-d5bf-4f43-9b8b-a30680fbf927" Title="Corkscrew.SDK.exceptions" Url="html/N_Corkscrew_SDK_exceptions.htm">
+      <HelpTOCNode Id="3fc4aed9-5cbb-4afd-ab94-4d51960b7030" Title="CSExceptionHelper Class" Url="html/T_Corkscrew_SDK_exceptions_CSExceptionHelper.htm">
+        <HelpTOCNode Id="7dcf63b5-ef93-4309-a6fe-9a65998fce5d" Title="CSExceptionHelper Methods" Url="html/Methods_T_Corkscrew_SDK_exceptions_CSExceptionHelper.htm">
+          <HelpTOCNode Title="GetExceptionFromValidationErrors Method " Url="html/M_Corkscrew_SDK_exceptions_CSExceptionHelper_GetExceptionFromValidationErrors.htm" />
+          <HelpTOCNode Title="GetExceptionRollup Method " Url="html/M_Corkscrew_SDK_exceptions_CSExceptionHelper_GetExceptionRollup.htm" />
+          <HelpTOCNode Id="27ad7ee7-7221-467e-ac28-eb54e4346cfb" Title="ThrowIfNull Method " Url="html/Overload_Corkscrew_SDK_exceptions_CSExceptionHelper_ThrowIfNull.htm">
+            <HelpTOCNode Title="ThrowIfNull Method (Object[])" Url="html/M_Corkscrew_SDK_exceptions_CSExceptionHelper_ThrowIfNull.htm" />
+            <HelpTOCNode Title="ThrowIfNull Method (String, Object[])" Url="html/M_Corkscrew_SDK_exceptions_CSExceptionHelper_ThrowIfNull_1.htm" />
+            <HelpTOCNode Title="ThrowIfNull Method (String[], Object[])" Url="html/M_Corkscrew_SDK_exceptions_CSExceptionHelper_ThrowIfNull_2.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="2b93b35f-c034-4550-80d9-6c87fd51c85e" Title="CSWorkflowException Class" Url="html/T_Corkscrew_SDK_exceptions_CSWorkflowException.htm">
+        <HelpTOCNode Id="6a028d02-cbdc-4b69-a0d2-d188013c0323" Title="CSWorkflowException Constructor " Url="html/Overload_Corkscrew_SDK_exceptions_CSWorkflowException__ctor.htm">
+          <HelpTOCNode Title="CSWorkflowException Constructor " Url="html/M_Corkscrew_SDK_exceptions_CSWorkflowException__ctor.htm" />
+          <HelpTOCNode Title="CSWorkflowException Constructor (String)" Url="html/M_Corkscrew_SDK_exceptions_CSWorkflowException__ctor_2.htm" />
+          <HelpTOCNode Title="CSWorkflowException Constructor (SerializationInfo, StreamingContext)" Url="html/M_Corkscrew_SDK_exceptions_CSWorkflowException__ctor_1.htm" />
+          <HelpTOCNode Title="CSWorkflowException Constructor (String, Exception)" Url="html/M_Corkscrew_SDK_exceptions_CSWorkflowException__ctor_6.htm" />
+          <HelpTOCNode Title="CSWorkflowException Constructor (String, CSWorkflowAssociation, Exception)" Url="html/M_Corkscrew_SDK_exceptions_CSWorkflowException__ctor_3.htm" />
+          <HelpTOCNode Title="CSWorkflowException Constructor (String, CSWorkflowDefinition, Exception)" Url="html/M_Corkscrew_SDK_exceptions_CSWorkflowException__ctor_4.htm" />
+          <HelpTOCNode Title="CSWorkflowException Constructor (String, CSWorkflowInstance, Exception)" Url="html/M_Corkscrew_SDK_exceptions_CSWorkflowException__ctor_5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3aef13a5-cdb6-44f2-9b22-0abc0de3641b" Title="CSWorkflowException Properties" Url="html/Properties_T_Corkscrew_SDK_exceptions_CSWorkflowException.htm">
+          <HelpTOCNode Title="Context Property " Url="html/P_Corkscrew_SDK_exceptions_CSWorkflowException_Context.htm" />
+          <HelpTOCNode Title="WorkflowAssociation Property " Url="html/P_Corkscrew_SDK_exceptions_CSWorkflowException_WorkflowAssociation.htm" />
+          <HelpTOCNode Title="WorkflowDefinition Property " Url="html/P_Corkscrew_SDK_exceptions_CSWorkflowException_WorkflowDefinition.htm" />
+          <HelpTOCNode Title="WorkflowInstance Property " Url="html/P_Corkscrew_SDK_exceptions_CSWorkflowException_WorkflowInstance.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="199a6718-5a32-4280-9f86-66cda1323f1b" Title="CSWorkflowException Methods" Url="html/Methods_T_Corkscrew_SDK_exceptions_CSWorkflowException.htm">
+          <HelpTOCNode Title="GetObjectData Method " Url="html/M_Corkscrew_SDK_exceptions_CSWorkflowException_GetObjectData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="eda62d20-ddc6-4a33-94c3-d6d637d8c378" Title="IsReadonlyException Class" Url="html/T_Corkscrew_SDK_exceptions_IsReadonlyException.htm">
+        <HelpTOCNode Id="47073b86-067a-4a4f-a61a-220bde5bda07" Title="IsReadonlyException Constructor " Url="html/Overload_Corkscrew_SDK_exceptions_IsReadonlyException__ctor.htm">
+          <HelpTOCNode Title="IsReadonlyException Constructor " Url="html/M_Corkscrew_SDK_exceptions_IsReadonlyException__ctor.htm" />
+          <HelpTOCNode Title="IsReadonlyException Constructor (String)" Url="html/M_Corkscrew_SDK_exceptions_IsReadonlyException__ctor_2.htm" />
+          <HelpTOCNode Title="IsReadonlyException Constructor (SerializationInfo, StreamingContext)" Url="html/M_Corkscrew_SDK_exceptions_IsReadonlyException__ctor_1.htm" />
+          <HelpTOCNode Title="IsReadonlyException Constructor (String, Exception)" Url="html/M_Corkscrew_SDK_exceptions_IsReadonlyException__ctor_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IsReadonlyException Properties" Url="html/Properties_T_Corkscrew_SDK_exceptions_IsReadonlyException.htm" />
+        <HelpTOCNode Id="a8a7738b-16a9-42df-85df-029738744b04" Title="IsReadonlyException Methods" Url="html/Methods_T_Corkscrew_SDK_exceptions_IsReadonlyException.htm">
+          <HelpTOCNode Title="GetObjectData Method " Url="html/M_Corkscrew_SDK_exceptions_IsReadonlyException_GetObjectData.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IsReadonlyException Events" Url="html/Events_T_Corkscrew_SDK_exceptions_IsReadonlyException.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="47e585b3-2eda-4a31-ae33-9a8ed4894472" Title="Corkscrew.SDK.objects" Url="html/N_Corkscrew_SDK_objects.htm">
+      <HelpTOCNode Title="ColumnChangedEventHandler Delegate" Url="html/T_Corkscrew_SDK_objects_ColumnChangedEventHandler.htm" />
+      <HelpTOCNode Id="1cef9e20-f2a3-4275-857c-97591028acde" Title="CSBaseCollection(T) Class" Url="html/T_Corkscrew_SDK_objects_CSBaseCollection_1.htm">
+        <HelpTOCNode Id="9676b0a0-4af8-44f4-b8a7-5cd133716223" Title="CSBaseCollection(T) Constructor " Url="html/Overload_Corkscrew_SDK_objects_CSBaseCollection_1__ctor.htm">
+          <HelpTOCNode Title="CSBaseCollection(T) Constructor (Boolean)" Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1__ctor.htm" />
+          <HelpTOCNode Title="CSBaseCollection(T) Constructor (IEnumerable(T), Boolean)" Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fda3ba40-6398-4c73-8e50-0ff71ba8b039" Title="CSBaseCollection(T) Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSBaseCollection_1.htm">
+          <HelpTOCNode Title="Collection Property " Url="html/P_Corkscrew_SDK_objects_CSBaseCollection_1_Collection.htm" />
+          <HelpTOCNode Title="Count Property " Url="html/P_Corkscrew_SDK_objects_CSBaseCollection_1_Count.htm" />
+          <HelpTOCNode Title="IsEmpty Property " Url="html/P_Corkscrew_SDK_objects_CSBaseCollection_1_IsEmpty.htm" />
+          <HelpTOCNode Title="IsReadonly Property " Url="html/P_Corkscrew_SDK_objects_CSBaseCollection_1_IsReadonly.htm" />
+          <HelpTOCNode Title="Item Property " Url="html/P_Corkscrew_SDK_objects_CSBaseCollection_1_Item.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="003389cb-95b1-49d7-94af-fc6f1403ce75" Title="CSBaseCollection(T) Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSBaseCollection_1.htm">
+          <HelpTOCNode Title="AddInternal Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_AddInternal.htm" />
+          <HelpTOCNode Title="AddInternalUniquely Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_AddInternalUniquely.htm" />
+          <HelpTOCNode Title="Clear Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_Clear.htm" />
+          <HelpTOCNode Id="916b9655-e88c-45ff-9de7-a740eb76d2c1" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_objects_CSBaseCollection_1_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Exists Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_Exists.htm" />
+          <HelpTOCNode Title="Find Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_Find.htm" />
+          <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_GetEnumerator.htm" />
+          <HelpTOCNode Title="IndexOf Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_IndexOf.htm" />
+          <HelpTOCNode Id="33544cf2-cf07-4c68-835e-a1f7c2a897df" Title="RemoveInternal Method " Url="html/Overload_Corkscrew_SDK_objects_CSBaseCollection_1_RemoveInternal.htm">
+            <HelpTOCNode Title="RemoveInternal Method (Int32)" Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_RemoveInternal.htm" />
+            <HelpTOCNode Title="RemoveInternal Method (T, Boolean)" Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_RemoveInternal_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ThrowIfReadonly Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_ThrowIfReadonly.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="96e55b6d-4743-4f28-8542-2b0258e5ba24" Title="CSBaseCollection(T) Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSBaseCollection_1.htm">
+          <HelpTOCNode Title="SyncRoot Field" Url="html/F_Corkscrew_SDK_objects_CSBaseCollection_1_SyncRoot.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="82b1d239-dddc-4764-90cd-2279f003d874" Title="CSBaseCollection(T).CSBaseCollectionEnumerator Class" Url="html/T_Corkscrew_SDK_objects_CSBaseCollection_1_CSBaseCollectionEnumerator.htm">
+        <HelpTOCNode Id="a2611c3b-a1b0-4cc5-b7e8-177c4db6b950" Title="CSBaseCollectionEnumerator Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSBaseCollection_1_CSBaseCollectionEnumerator.htm">
+          <HelpTOCNode Title="Current Property " Url="html/P_Corkscrew_SDK_objects_CSBaseCollection_1_CSBaseCollectionEnumerator_Current.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9921e007-520b-4741-a645-9663cbd92185" Title="CSBaseCollectionEnumerator Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSBaseCollection_1_CSBaseCollectionEnumerator.htm">
+          <HelpTOCNode Id="944a9f6d-556f-492b-be4c-8392741033e9" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_objects_CSBaseCollection_1_CSBaseCollectionEnumerator_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_CSBaseCollectionEnumerator_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_CSBaseCollectionEnumerator_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="MoveNext Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_CSBaseCollectionEnumerator_MoveNext.htm" />
+          <HelpTOCNode Title="Reset Method " Url="html/M_Corkscrew_SDK_objects_CSBaseCollection_1_CSBaseCollectionEnumerator_Reset.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0b1b667c-4a7f-48ee-83c6-1fcce4047ac9" Title="CSConfigurationCollection Class" Url="html/T_Corkscrew_SDK_objects_CSConfigurationCollection.htm">
+        <HelpTOCNode Id="a77e1252-474d-40b2-8ce8-4a7de35cf03e" Title="CSConfigurationCollection Constructor " Url="html/Overload_Corkscrew_SDK_objects_CSConfigurationCollection__ctor.htm">
+          <HelpTOCNode Title="CSConfigurationCollection Constructor (CSFarm)" Url="html/M_Corkscrew_SDK_objects_CSConfigurationCollection__ctor.htm" />
+          <HelpTOCNode Title="CSConfigurationCollection Constructor (CSFarm, Dictionary(String, String), Boolean)" Url="html/M_Corkscrew_SDK_objects_CSConfigurationCollection__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="69ff5904-2028-48b2-b20a-d32e495c96dd" Title="CSConfigurationCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSConfigurationCollection.htm">
+          <HelpTOCNode Id="f4b97d5e-dd85-45d8-aecf-a37e32517c6e" Title="Item Property " Url="html/Overload_Corkscrew_SDK_objects_CSConfigurationCollection_Item.htm">
+            <HelpTOCNode Title="Item Property (String)" Url="html/P_Corkscrew_SDK_objects_CSConfigurationCollection_Item.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="d16c2aa1-990f-4903-b2ee-50f34c5ce9f7" Title="CSConfigurationCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSConfigurationCollection.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Corkscrew_SDK_objects_CSConfigurationCollection_Add.htm" />
+          <HelpTOCNode Title="Contains Method " Url="html/M_Corkscrew_SDK_objects_CSConfigurationCollection_Contains.htm" />
+          <HelpTOCNode Id="4f31b632-993c-4086-be8d-83db8935ebe9" Title="IndexOf Method " Url="html/Overload_Corkscrew_SDK_objects_CSConfigurationCollection_IndexOf.htm">
+            <HelpTOCNode Title="IndexOf Method (String)" Url="html/M_Corkscrew_SDK_objects_CSConfigurationCollection_IndexOf.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Remove Method " Url="html/M_Corkscrew_SDK_objects_CSConfigurationCollection_Remove.htm" />
+          <HelpTOCNode Title="Update Method " Url="html/M_Corkscrew_SDK_objects_CSConfigurationCollection_Update.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSConfigurationCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSConfigurationCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1b1699e6-d400-4280-89f1-ea592695c66f" Title="CSDiagnosticsEntry Class" Url="html/T_Corkscrew_SDK_objects_CSDiagnosticsEntry.htm">
+        <HelpTOCNode Title="CSDiagnosticsEntry Constructor " Url="html/M_Corkscrew_SDK_objects_CSDiagnosticsEntry__ctor.htm" />
+        <HelpTOCNode Id="eb60b9a7-edf6-4c67-b50f-8e4b60247417" Title="CSDiagnosticsEntry Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSDiagnosticsEntry.htm">
+          <HelpTOCNode Title="CorrelationId Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_CorrelationId.htm" />
+          <HelpTOCNode Title="EntryType Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_EntryType.htm" />
+          <HelpTOCNode Title="EventClass Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_EventClass.htm" />
+          <HelpTOCNode Title="EventId Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_EventId.htm" />
+          <HelpTOCNode Title="EventType Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_EventType.htm" />
+          <HelpTOCNode Title="ExceptionStack Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_ExceptionStack.htm" />
+          <HelpTOCNode Title="FileSystemEntryId Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_FileSystemEntryId.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_Id.htm" />
+          <HelpTOCNode Title="MachineName Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_MachineName.htm" />
+          <HelpTOCNode Title="Message Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_Message.htm" />
+          <HelpTOCNode Title="ModuleName Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_ModuleName.htm" />
+          <HelpTOCNode Title="SiteId Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_SiteId.htm" />
+          <HelpTOCNode Title="StateInfo Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_StateInfo.htm" />
+          <HelpTOCNode Title="Timestamp Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_Timestamp.htm" />
+          <HelpTOCNode Title="UserId Property " Url="html/P_Corkscrew_SDK_objects_CSDiagnosticsEntry_UserId.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f873d8e5-006c-4282-a44d-d272de49b4fb" Title="CSDiagnosticsEntry Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSDiagnosticsEntry.htm">
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_objects_CSDiagnosticsEntry_Save.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fd8cd2b3-9e9e-4edc-939f-501e4f098619" Title="CSFarm Class" Url="html/T_Corkscrew_SDK_objects_CSFarm.htm">
+        <HelpTOCNode Id="52387580-8e75-4b16-8c9f-ac6159c7b598" Title="CSFarm Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSFarm.htm">
+          <HelpTOCNode Title="AllAdministrators Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_AllAdministrators.htm" />
+          <HelpTOCNode Title="AllConfiguration Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_AllConfiguration.htm" />
+          <HelpTOCNode Title="AllContentTypes Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_AllContentTypes.htm" />
+          <HelpTOCNode Title="AllSites Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_AllSites.htm" />
+          <HelpTOCNode Title="AllUserGroups Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_AllUserGroups.htm" />
+          <HelpTOCNode Title="AllUsers Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_AllUsers.htm" />
+          <HelpTOCNode Title="AllWorkflowAssociations Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_AllWorkflowAssociations.htm" />
+          <HelpTOCNode Title="AllWorkflowDefinitions Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_AllWorkflowDefinitions.htm" />
+          <HelpTOCNode Title="AuthenticatedUser Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_AuthenticatedUser.htm" />
+          <HelpTOCNode Title="ConfigDatabaseServerName Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_ConfigDatabaseServerName.htm" />
+          <HelpTOCNode Title="DefaultSite Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_DefaultSite.htm" />
+          <HelpTOCNode Title="FullPath Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_FullPath.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_Id.htm" />
+          <HelpTOCNode Title="IsAuthenticatedUserFarmAdministrator Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_IsAuthenticatedUserFarmAdministrator.htm" />
+          <HelpTOCNode Title="IsWorkflowEnabled Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_IsWorkflowEnabled.htm" />
+          <HelpTOCNode Title="RootDirectory Property " Url="html/P_Corkscrew_SDK_objects_CSFarm_RootDirectory.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f556b43f-c5ce-4e35-b27d-a2fc3ce19099" Title="CSFarm Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSFarm.htm">
+          <HelpTOCNode Title="CreateSite Method " Url="html/M_Corkscrew_SDK_objects_CSFarm_CreateSite.htm" />
+          <HelpTOCNode Title="CreateUser Method " Url="html/M_Corkscrew_SDK_objects_CSFarm_CreateUser.htm" />
+          <HelpTOCNode Id="5b46f3df-ab29-4680-b910-86ec65fc0ac6" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_objects_CSFarm_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_objects_CSFarm_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_objects_CSFarm_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="55a94091-528d-4c3c-b368-0e46529f971f" Title="Open Method " Url="html/Overload_Corkscrew_SDK_objects_CSFarm_Open.htm">
+            <HelpTOCNode Title="Open Method (CSUser)" Url="html/M_Corkscrew_SDK_objects_CSFarm_Open.htm" />
+            <HelpTOCNode Title="Open Method (String, String)" Url="html/M_Corkscrew_SDK_objects_CSFarm_Open_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Resolve Method " Url="html/M_Corkscrew_SDK_objects_CSFarm_Resolve.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7d0a161a-211a-4bfd-a9a1-79805a7d4e08" Title="CSFarm Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSFarm.htm">
+          <HelpTOCNode Title="disposedValue Field" Url="html/F_Corkscrew_SDK_objects_CSFarm_disposedValue.htm" />
+          <HelpTOCNode Title="FARM_DATABASENAME Field" Url="html/F_Corkscrew_SDK_objects_CSFarm_FARM_DATABASENAME.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0753757b-3fb6-424a-b7a5-cec657b26727" Title="CSFileSystemEntry Class" Url="html/T_Corkscrew_SDK_objects_CSFileSystemEntry.htm">
+        <HelpTOCNode Id="23ed50d0-4898-4cf8-b82c-a0ed748b1244" Title="CSFileSystemEntry Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSFileSystemEntry.htm">
+          <HelpTOCNode Title="AuthenticatedUser Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_AuthenticatedUser.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_CreatedBy.htm" />
+          <HelpTOCNode Title="Farm Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_Farm.htm" />
+          <HelpTOCNode Title="Filename Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_Filename.htm" />
+          <HelpTOCNode Title="FilenameExtension Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_FilenameExtension.htm" />
+          <HelpTOCNode Title="FilenameWithExtension Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_FilenameWithExtension.htm" />
+          <HelpTOCNode Title="FullPath Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_FullPath.htm" />
+          <HelpTOCNode Title="History Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_History.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_Id.htm" />
+          <HelpTOCNode Title="IsArchive Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_IsArchive.htm" />
+          <HelpTOCNode Title="IsFolder Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_IsFolder.htm" />
+          <HelpTOCNode Title="IsHidden Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_IsHidden.htm" />
+          <HelpTOCNode Title="IsReadonly Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_IsReadonly.htm" />
+          <HelpTOCNode Title="IsRootDirectoryEntry Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_IsRootDirectoryEntry.htm" />
+          <HelpTOCNode Title="IsSystem Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_IsSystem.htm" />
+          <HelpTOCNode Title="ItemLocation Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_ItemLocation.htm" />
+          <HelpTOCNode Title="LastAccessed Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_LastAccessed.htm" />
+          <HelpTOCNode Title="LastAccessedBy Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_LastAccessedBy.htm" />
+          <HelpTOCNode Title="Modified Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_Modified.htm" />
+          <HelpTOCNode Title="ModifiedBy Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_ModifiedBy.htm" />
+          <HelpTOCNode Title="ParentDirectory Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_ParentDirectory.htm" />
+          <HelpTOCNode Title="ParentDirectoryPath Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_ParentDirectoryPath.htm" />
+          <HelpTOCNode Title="RootDirectory Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_RootDirectory.htm" />
+          <HelpTOCNode Title="Site Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntry_Site.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="58fc4e2a-a306-497a-b0f5-37a053bb8f8a" Title="CSFileSystemEntry Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSFileSystemEntry.htm">
+          <HelpTOCNode Title="CopyTo Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_CopyTo.htm" />
+          <HelpTOCNode Title="Delete Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_Delete.htm" />
+          <HelpTOCNode Id="aada1f17-3ec8-480c-8c43-25c35b097b60" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntry_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Exists Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_Exists.htm" />
+          <HelpTOCNode Title="GetChildren Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_GetChildren.htm" />
+          <HelpTOCNode Title="GetFileItemInfo Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_GetFileItemInfo.htm" />
+          <HelpTOCNode Title="GetFileNameWithExtension Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_GetFileNameWithExtension.htm" />
+          <HelpTOCNode Title="GetFolderItemInfo Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_GetFolderItemInfo.htm" />
+          <HelpTOCNode Title="GetFullPath Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_GetFullPath.htm" />
+          <HelpTOCNode Title="GetHistory Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_GetHistory.htm" />
+          <HelpTOCNode Title="GetItemInfo Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_GetItemInfo.htm" />
+          <HelpTOCNode Title="GetPermissions Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_GetPermissions.htm" />
+          <HelpTOCNode Title="IsValid Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_IsValid.htm" />
+          <HelpTOCNode Title="MoveTo Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_MoveTo.htm" />
+          <HelpTOCNode Title="Rename Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_Rename.htm" />
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntry_Save.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="44bc590d-dbaa-4278-b1db-01ce4a0bc648" Title="CSFileSystemEntry Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSFileSystemEntry.htm">
+          <HelpTOCNode Title="disposedValue Field" Url="html/F_Corkscrew_SDK_objects_CSFileSystemEntry_disposedValue.htm" />
+          <HelpTOCNode Title="ROOT_DIRECTORY_PATH Field" Url="html/F_Corkscrew_SDK_objects_CSFileSystemEntry_ROOT_DIRECTORY_PATH.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c98924b7-b2d1-4db9-8a14-4593d5fabc7a" Title="CSFileSystemEntryCollection Class" Url="html/T_Corkscrew_SDK_objects_CSFileSystemEntryCollection.htm">
+        <HelpTOCNode Id="c9ee06b6-4284-4aec-830f-e695dea8a315" Title="CSFileSystemEntryCollection Constructor " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryCollection__ctor.htm">
+          <HelpTOCNode Title="CSFileSystemEntryCollection Constructor (Boolean)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryCollection__ctor_2.htm" />
+          <HelpTOCNode Title="CSFileSystemEntryCollection Constructor (CSSite, IEnumerable(CSFileSystemEntry), Boolean)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryCollection__ctor.htm" />
+          <HelpTOCNode Title="CSFileSystemEntryCollection Constructor (CSSite, String, Boolean)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryCollection__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e271420d-4a24-4344-9cc7-07febc87afc0" Title="CSFileSystemEntryCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSFileSystemEntryCollection.htm">
+          <HelpTOCNode Title="FolderName Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryCollection_FolderName.htm" />
+          <HelpTOCNode Title="FolderSizeBytes Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryCollection_FolderSizeBytes.htm" />
+          <HelpTOCNode Title="Site Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryCollection_Site.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e1b83566-17e6-4ea6-9730-63309220ac85" Title="CSFileSystemEntryCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSFileSystemEntryCollection.htm">
+          <HelpTOCNode Id="87d09665-97ff-47f8-a2aa-c07ccfec053e" Title="Add Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryCollection_Add.htm">
+            <HelpTOCNode Title="Add Method (CSFileSystemEntry)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryCollection_Add.htm" />
+            <HelpTOCNode Title="Add Method (FilesystemEntryTypeEnum, CSFileSystemEntryDirectory, String, String)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryCollection_Add_1.htm" />
+            <HelpTOCNode Title="Add Method (FilesystemEntryTypeEnum, CSFileSystemEntryDirectory, String, String, DateTime, CSUser)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryCollection_Add_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="1b254b3f-3f54-46f0-a34a-d974caf54180" Title="Find Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryCollection_Find.htm">
+            <HelpTOCNode Title="Find Method (String)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryCollection_Find.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Remove Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryCollection_Remove.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSFileSystemEntryCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSFileSystemEntryCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="01a4371a-c49f-48bf-9029-3200ba7b1039" Title="CSFileSystemEntryDirectory Class" Url="html/T_Corkscrew_SDK_objects_CSFileSystemEntryDirectory.htm">
+        <HelpTOCNode Title="CSFileSystemEntryDirectory Constructor " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectory__ctor.htm" />
+        <HelpTOCNode Id="aac49445-aa35-4657-b52b-87ec571e8621" Title="CSFileSystemEntryDirectory Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSFileSystemEntryDirectory.htm">
+          <HelpTOCNode Title="AllWorkflows Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_AllWorkflows.htm" />
+          <HelpTOCNode Title="Directories Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_Directories.htm" />
+          <HelpTOCNode Title="Files Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_Files.htm" />
+          <HelpTOCNode Title="FolderSizeBytes Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_FolderSizeBytes.htm" />
+          <HelpTOCNode Title="Items Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_Items.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d5acacc4-3fea-4e0f-971a-3eadec29d425" Title="CSFileSystemEntryDirectory Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSFileSystemEntryDirectory.htm">
+          <HelpTOCNode Title="CreateDirectory Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_CreateDirectory.htm" />
+          <HelpTOCNode Title="CreateDirectoryTree Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_CreateDirectoryTree.htm" />
+          <HelpTOCNode Id="51ed647a-71a7-415a-be58-2a67c5252134" Title="CreateFile Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_CreateFile.htm">
+            <HelpTOCNode Title="CreateFile Method (String, String)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_CreateFile.htm" />
+            <HelpTOCNode Title="CreateFile Method (String, String, Byte[])" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_CreateFile_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Find Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_Find.htm" />
+          <HelpTOCNode Title="GetInfo Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectory_GetInfo.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSFileSystemEntryDirectory Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSFileSystemEntryDirectory.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="59871fa5-764e-4f43-a401-c29f730893c1" Title="CSFileSystemEntryDirectoryCollection Class" Url="html/T_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection.htm">
+        <HelpTOCNode Id="9c3b1c95-42e8-4049-bf50-b91220cd5829" Title="CSFileSystemEntryDirectoryCollection Constructor " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection__ctor.htm">
+          <HelpTOCNode Title="CSFileSystemEntryDirectoryCollection Constructor (Boolean)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection__ctor_1.htm" />
+          <HelpTOCNode Title="CSFileSystemEntryDirectoryCollection Constructor (CSSite, IEnumerable(CSFileSystemEntryDirectory), Boolean)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection__ctor.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSFileSystemEntryDirectoryCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection.htm" />
+        <HelpTOCNode Id="6720a3f6-842c-4352-a4ab-59ac3152a8c0" Title="CSFileSystemEntryDirectoryCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection.htm">
+          <HelpTOCNode Id="8ca57ee1-1ee4-4d11-95da-e2279a38fe40" Title="Add Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection_Add.htm">
+            <HelpTOCNode Title="Add Method (CSFileSystemEntryDirectory)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection_Add.htm" />
+            <HelpTOCNode Title="Add Method (CSFileSystemEntryDirectory, String, String)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection_Add_1.htm" />
+            <HelpTOCNode Title="Add Method (CSFileSystemEntryDirectory, String, String, DateTime, CSUser)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection_Add_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CreateFromBaseCollection Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection_CreateFromBaseCollection.htm" />
+          <HelpTOCNode Id="56cdfc47-2ce5-4a4a-96d3-f95cf70903ce" Title="Find Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection_Find.htm">
+            <HelpTOCNode Title="Find Method (String)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection_Find.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="b1b9636d-34ce-4af2-aa35-d5ea4101f574" Title="Remove Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection_Remove.htm">
+            <HelpTOCNode Title="Remove Method (CSFileSystemEntryDirectory)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection_Remove.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSFileSystemEntryDirectoryCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSFileSystemEntryDirectoryCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="48c69c08-d7ff-48e9-9fb3-3e124292139e" Title="CSFileSystemEntryFile Class" Url="html/T_Corkscrew_SDK_objects_CSFileSystemEntryFile.htm">
+        <HelpTOCNode Title="CSFileSystemEntryFile Constructor " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFile__ctor.htm" />
+        <HelpTOCNode Id="84634279-6f92-4e00-8643-50096613a3e6" Title="CSFileSystemEntryFile Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSFileSystemEntryFile.htm">
+          <HelpTOCNode Title="MimeType Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryFile_MimeType.htm" />
+          <HelpTOCNode Title="Size Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryFile_Size.htm" />
+          <HelpTOCNode Title="SizeHuman Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemEntryFile_SizeHuman.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="af6904e5-e851-43bf-a393-db676dc50ce5" Title="CSFileSystemEntryFile Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSFileSystemEntryFile.htm">
+          <HelpTOCNode Title="Close Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFile_Close.htm" />
+          <HelpTOCNode Id="67e24b79-9734-42e8-a2cd-b464400d2b63" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryFile_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFile_Dispose.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Flush Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFile_Flush.htm" />
+          <HelpTOCNode Title="GetInfo Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFile_GetInfo.htm" />
+          <HelpTOCNode Title="GetStream Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFile_GetStream.htm" />
+          <HelpTOCNode Title="Open Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFile_Open.htm" />
+          <HelpTOCNode Title="Read Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFile_Read.htm" />
+          <HelpTOCNode Title="Write Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFile_Write.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSFileSystemEntryFile Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSFileSystemEntryFile.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="46d9856f-2ab9-43b8-a03d-9b4009be69a6" Title="CSFileSystemEntryFileCollection Class" Url="html/T_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection.htm">
+        <HelpTOCNode Id="119a411c-a9f2-4072-8610-1e6a5b83244b" Title="CSFileSystemEntryFileCollection Constructor " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection__ctor.htm">
+          <HelpTOCNode Title="CSFileSystemEntryFileCollection Constructor (Boolean)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection__ctor_1.htm" />
+          <HelpTOCNode Title="CSFileSystemEntryFileCollection Constructor (CSSite, List(CSFileSystemEntryFile), Boolean)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection__ctor.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSFileSystemEntryFileCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection.htm" />
+        <HelpTOCNode Id="b6e8cdea-265f-4743-9a75-a359a0328307" Title="CSFileSystemEntryFileCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection.htm">
+          <HelpTOCNode Id="da14bcbf-01d3-4793-8375-8b137a808f3f" Title="Add Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection_Add.htm">
+            <HelpTOCNode Title="Add Method (CSFileSystemEntryFile)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection_Add_2.htm" />
+            <HelpTOCNode Title="Add Method (CSFileSystemEntryDirectory, String, String)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection_Add.htm" />
+            <HelpTOCNode Title="Add Method (CSFileSystemEntryDirectory, String, String, DateTime, CSUser)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection_Add_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CreateFromBaseCollection Method " Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection_CreateFromBaseCollection.htm" />
+          <HelpTOCNode Id="69f559a9-a186-4dde-9fb7-fbbe16915467" Title="Find Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection_Find.htm">
+            <HelpTOCNode Title="Find Method (String)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection_Find.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="df6029bd-2c58-47db-9864-1e36af750790" Title="Remove Method " Url="html/Overload_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection_Remove.htm">
+            <HelpTOCNode Title="Remove Method (CSFileSystemEntryFile)" Url="html/M_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection_Remove.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSFileSystemEntryFileCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSFileSystemEntryFileCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="98187d02-4af8-4db8-84e7-b1f7cb4cae8d" Title="CSFileSystemHistoryRecord Class" Url="html/T_Corkscrew_SDK_objects_CSFileSystemHistoryRecord.htm">
+        <HelpTOCNode Title="CSFileSystemHistoryRecord Constructor " Url="html/M_Corkscrew_SDK_objects_CSFileSystemHistoryRecord__ctor.htm" />
+        <HelpTOCNode Id="4512e963-1c7f-433d-8b48-4234ae8001d1" Title="CSFileSystemHistoryRecord Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSFileSystemHistoryRecord.htm">
+          <HelpTOCNode Title="ChangedBy Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_ChangedBy.htm" />
+          <HelpTOCNode Title="ChangeTimestamp Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_ChangeTimestamp.htm" />
+          <HelpTOCNode Title="ChangeType Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_ChangeType.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_CreatedBy.htm" />
+          <HelpTOCNode Title="Filename Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_Filename.htm" />
+          <HelpTOCNode Title="FilenameExtension Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_FilenameExtension.htm" />
+          <HelpTOCNode Title="FilenameWithExtension Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_FilenameWithExtension.htm" />
+          <HelpTOCNode Title="FileSystemEntry Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_FileSystemEntry.htm" />
+          <HelpTOCNode Title="FullPath Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_FullPath.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_Id.htm" />
+          <HelpTOCNode Title="IsArchive Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_IsArchive.htm" />
+          <HelpTOCNode Title="IsFolder Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_IsFolder.htm" />
+          <HelpTOCNode Title="IsHidden Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_IsHidden.htm" />
+          <HelpTOCNode Title="IsReadonly Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_IsReadonly.htm" />
+          <HelpTOCNode Title="IsSystem Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_IsSystem.htm" />
+          <HelpTOCNode Title="LastAccessed Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_LastAccessed.htm" />
+          <HelpTOCNode Title="LastAccessedBy Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_LastAccessedBy.htm" />
+          <HelpTOCNode Title="Modified Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_Modified.htm" />
+          <HelpTOCNode Title="ModifiedBy Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_ModifiedBy.htm" />
+          <HelpTOCNode Title="ParentDirectoryPath Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_ParentDirectoryPath.htm" />
+          <HelpTOCNode Title="PreviousData Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_PreviousData.htm" />
+          <HelpTOCNode Title="PreviousDataSize Property " Url="html/P_Corkscrew_SDK_objects_CSFileSystemHistoryRecord_PreviousDataSize.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSFileSystemHistoryRecord Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSFileSystemHistoryRecord.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="599c9162-1934-4f20-b64c-fc69e5da6ec5" Title="CSKeyValuePair Class" Url="html/T_Corkscrew_SDK_objects_CSKeyValuePair.htm">
+        <HelpTOCNode Id="31ff34b3-b3e1-43a9-bdd2-15661d16adff" Title="CSKeyValuePair Constructor " Url="html/Overload_Corkscrew_SDK_objects_CSKeyValuePair__ctor.htm">
+          <HelpTOCNode Title="CSKeyValuePair Constructor " Url="html/M_Corkscrew_SDK_objects_CSKeyValuePair__ctor.htm" />
+          <HelpTOCNode Title="CSKeyValuePair Constructor (String, String)" Url="html/M_Corkscrew_SDK_objects_CSKeyValuePair__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9d4a9a9d-f24f-4566-9e65-03fa27d560fb" Title="CSKeyValuePair Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSKeyValuePair.htm">
+          <HelpTOCNode Title="Key Property " Url="html/P_Corkscrew_SDK_objects_CSKeyValuePair_Key.htm" />
+          <HelpTOCNode Title="Value Property " Url="html/P_Corkscrew_SDK_objects_CSKeyValuePair_Value.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b61b8a91-5855-47d8-a638-442a641728fb" Title="CSKeyValuePair Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSKeyValuePair.htm">
+          <HelpTOCNode Title="ToString Method " Url="html/M_Corkscrew_SDK_objects_CSKeyValuePair_ToString.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c6b7f61e-97bd-4373-b435-f8f6e594bae1" Title="CSMailItem Class" Url="html/T_Corkscrew_SDK_objects_CSMailItem.htm">
+        <HelpTOCNode Id="f65ed3ff-2efa-4cb7-9a66-f654d34b9cf3" Title="CSMailItem Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSMailItem.htm">
+          <HelpTOCNode Title="ContentHtml Property " Url="html/P_Corkscrew_SDK_objects_CSMailItem_ContentHtml.htm" />
+          <HelpTOCNode Title="From Property " Url="html/P_Corkscrew_SDK_objects_CSMailItem_From.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_CSMailItem_Id.htm" />
+          <HelpTOCNode Title="InternalCopyTo Property " Url="html/P_Corkscrew_SDK_objects_CSMailItem_InternalCopyTo.htm" />
+          <HelpTOCNode Title="Recipient Property " Url="html/P_Corkscrew_SDK_objects_CSMailItem_Recipient.htm" />
+          <HelpTOCNode Title="Subject Property " Url="html/P_Corkscrew_SDK_objects_CSMailItem_Subject.htm" />
+          <HelpTOCNode Title="WasSent Property " Url="html/P_Corkscrew_SDK_objects_CSMailItem_WasSent.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="76c6e87a-b869-45d8-afb2-f4ad570c5c01" Title="CSMailItem Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSMailItem.htm">
+          <HelpTOCNode Title="GetById Method " Url="html/M_Corkscrew_SDK_objects_CSMailItem_GetById.htm" />
+          <HelpTOCNode Title="GetUnsentMail Method " Url="html/M_Corkscrew_SDK_objects_CSMailItem_GetUnsentMail.htm" />
+          <HelpTOCNode Title="QueueMail Method " Url="html/M_Corkscrew_SDK_objects_CSMailItem_QueueMail.htm" />
+          <HelpTOCNode Title="Send Method " Url="html/M_Corkscrew_SDK_objects_CSMailItem_Send.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8875ed8b-d38f-4ddd-af3f-eb59f581539c" Title="CSMIMEType Class" Url="html/T_Corkscrew_SDK_objects_CSMIMEType.htm">
+        <HelpTOCNode Id="da737d66-7618-4009-84f2-aec8646e285b" Title="CSMIMEType Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSMIMEType.htm">
+          <HelpTOCNode Title="FileExtension Property " Url="html/P_Corkscrew_SDK_objects_CSMIMEType_FileExtension.htm" />
+          <HelpTOCNode Title="KnownMimeType Property " Url="html/P_Corkscrew_SDK_objects_CSMIMEType_KnownMimeType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f55cde2d-d368-4c29-abeb-2a1719ccedef" Title="CSMIMEType Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSMIMEType.htm">
+          <HelpTOCNode Title="Delete Method " Url="html/M_Corkscrew_SDK_objects_CSMIMEType_Delete.htm" />
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_objects_CSMIMEType_Save.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="40528b9e-0dd1-4876-a052-be4b7f01da83" Title="CSMIMEType Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSMIMEType.htm">
+          <HelpTOCNode Title="DEFAULT_MIME_TYPE Field" Url="html/F_Corkscrew_SDK_objects_CSMIMEType_DEFAULT_MIME_TYPE.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="846fd74d-ee9e-41ad-990a-fd9444c2db89" Title="CSMIMETypeCollection Class" Url="html/T_Corkscrew_SDK_objects_CSMIMETypeCollection.htm">
+        <HelpTOCNode Id="9cdd79dd-026a-42a6-a82a-052c3f114d73" Title="CSMIMETypeCollection Constructor " Url="html/Overload_Corkscrew_SDK_objects_CSMIMETypeCollection__ctor.htm">
+          <HelpTOCNode Title="CSMIMETypeCollection Constructor (CSFarm)" Url="html/M_Corkscrew_SDK_objects_CSMIMETypeCollection__ctor.htm" />
+          <HelpTOCNode Title="CSMIMETypeCollection Constructor (CSFarm, String)" Url="html/M_Corkscrew_SDK_objects_CSMIMETypeCollection__ctor_2.htm" />
+          <HelpTOCNode Title="CSMIMETypeCollection Constructor (CSFarm, List(CSMIMEType), Boolean)" Url="html/M_Corkscrew_SDK_objects_CSMIMETypeCollection__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSMIMETypeCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSMIMETypeCollection.htm" />
+        <HelpTOCNode Id="62e5b6c0-770a-45ff-93c0-d3495b19eafc" Title="CSMIMETypeCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSMIMETypeCollection.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Corkscrew_SDK_objects_CSMIMETypeCollection_Add.htm" />
+          <HelpTOCNode Id="5337555a-7758-47c7-8384-d66d977a174e" Title="Find Method " Url="html/Overload_Corkscrew_SDK_objects_CSMIMETypeCollection_Find.htm">
+            <HelpTOCNode Title="Find Method (String)" Url="html/M_Corkscrew_SDK_objects_CSMIMETypeCollection_Find.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="dff066bb-7357-4b86-9024-3430c205038f" Title="Remove Method " Url="html/Overload_Corkscrew_SDK_objects_CSMIMETypeCollection_Remove.htm">
+            <HelpTOCNode Title="Remove Method (String)" Url="html/M_Corkscrew_SDK_objects_CSMIMETypeCollection_Remove_1.htm" />
+            <HelpTOCNode Title="Remove Method (CSMIMEType)" Url="html/M_Corkscrew_SDK_objects_CSMIMETypeCollection_Remove.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSMIMETypeCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSMIMETypeCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="be5459e1-4f0c-44ed-8c4d-6f73336169fb" Title="CSPath Class" Url="html/T_Corkscrew_SDK_objects_CSPath.htm">
+        <HelpTOCNode Title="CSPath Constructor " Url="html/M_Corkscrew_SDK_objects_CSPath__ctor.htm" />
+        <HelpTOCNode Id="1984fe09-ba8b-4371-a26f-897c59d71576" Title="CSPath Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSPath.htm">
+          <HelpTOCNode Title="AltDirectorySeparatorChar Property " Url="html/P_Corkscrew_SDK_objects_CSPath_AltDirectorySeparatorChar.htm" />
+          <HelpTOCNode Title="CmsPathPrefix Property " Url="html/P_Corkscrew_SDK_objects_CSPath_CmsPathPrefix.htm" />
+          <HelpTOCNode Title="DirectorySeparatorChar Property " Url="html/P_Corkscrew_SDK_objects_CSPath_DirectorySeparatorChar.htm" />
+          <HelpTOCNode Title="InvalidFilenameCharacters Property " Url="html/P_Corkscrew_SDK_objects_CSPath_InvalidFilenameCharacters.htm" />
+          <HelpTOCNode Title="InvalidTrailingCharacters Property " Url="html/P_Corkscrew_SDK_objects_CSPath_InvalidTrailingCharacters.htm" />
+          <HelpTOCNode Title="PathSeparator Property " Url="html/P_Corkscrew_SDK_objects_CSPath_PathSeparator.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0144ab6d-2aa2-4320-9b11-a0fdc5c88900" Title="CSPath Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSPath.htm">
+          <HelpTOCNode Title="Combine Method " Url="html/M_Corkscrew_SDK_objects_CSPath_Combine.htm" />
+          <HelpTOCNode Title="GetDirectoryName Method " Url="html/M_Corkscrew_SDK_objects_CSPath_GetDirectoryName.htm" />
+          <HelpTOCNode Title="GetFullPath Method " Url="html/M_Corkscrew_SDK_objects_CSPath_GetFullPath.htm" />
+          <HelpTOCNode Title="GetPathInfo Method " Url="html/M_Corkscrew_SDK_objects_CSPath_GetPathInfo.htm" />
+          <HelpTOCNode Title="IsPathRooted Method " Url="html/M_Corkscrew_SDK_objects_CSPath_IsPathRooted.htm" />
+          <HelpTOCNode Title="IsValidUri Method " Url="html/M_Corkscrew_SDK_objects_CSPath_IsValidUri.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a1eb1bc9-5f89-4a9d-b283-f0ac559f97c0" Title="CSSite Class" Url="html/T_Corkscrew_SDK_objects_CSSite.htm">
+        <HelpTOCNode Id="ace104b1-0bbe-4d41-a053-262dfe27c13f" Title="CSSite Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSSite.htm">
+          <HelpTOCNode Title="AllConfiguration Property " Url="html/P_Corkscrew_SDK_objects_CSSite_AllConfiguration.htm" />
+          <HelpTOCNode Title="AllContentTypes Property " Url="html/P_Corkscrew_SDK_objects_CSSite_AllContentTypes.htm" />
+          <HelpTOCNode Title="AllSiteAdministrators Property " Url="html/P_Corkscrew_SDK_objects_CSSite_AllSiteAdministrators.htm" />
+          <HelpTOCNode Title="AllUsers Property " Url="html/P_Corkscrew_SDK_objects_CSSite_AllUsers.htm" />
+          <HelpTOCNode Title="AllWorkflowAssociations Property " Url="html/P_Corkscrew_SDK_objects_CSSite_AllWorkflowAssociations.htm" />
+          <HelpTOCNode Title="AuthenticatedUser Property " Url="html/P_Corkscrew_SDK_objects_CSSite_AuthenticatedUser.htm" />
+          <HelpTOCNode Title="Columns Property " Url="html/P_Corkscrew_SDK_objects_CSSite_Columns.htm" />
+          <HelpTOCNode Title="ContentDatabaseName Property " Url="html/P_Corkscrew_SDK_objects_CSSite_ContentDatabaseName.htm" />
+          <HelpTOCNode Title="ContentDatabaseServerName Property " Url="html/P_Corkscrew_SDK_objects_CSSite_ContentDatabaseServerName.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_objects_CSSite_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_objects_CSSite_CreatedBy.htm" />
+          <HelpTOCNode Title="Description Property " Url="html/P_Corkscrew_SDK_objects_CSSite_Description.htm" />
+          <HelpTOCNode Title="DNSNames Property " Url="html/P_Corkscrew_SDK_objects_CSSite_DNSNames.htm" />
+          <HelpTOCNode Title="Farm Property " Url="html/P_Corkscrew_SDK_objects_CSSite_Farm.htm" />
+          <HelpTOCNode Title="FullPath Property " Url="html/P_Corkscrew_SDK_objects_CSSite_FullPath.htm" />
+          <HelpTOCNode Title="History Property " Url="html/P_Corkscrew_SDK_objects_CSSite_History.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_CSSite_Id.htm" />
+          <HelpTOCNode Title="IsAuthenticatedUserFarmAdministrator Property " Url="html/P_Corkscrew_SDK_objects_CSSite_IsAuthenticatedUserFarmAdministrator.htm" />
+          <HelpTOCNode Title="IsAuthenticatedUserSiteAdministrator Property " Url="html/P_Corkscrew_SDK_objects_CSSite_IsAuthenticatedUserSiteAdministrator.htm" />
+          <HelpTOCNode Title="IsConfigSite Property " Url="html/P_Corkscrew_SDK_objects_CSSite_IsConfigSite.htm" />
+          <HelpTOCNode Title="IsSiteOtherThanConfigSite Property " Url="html/P_Corkscrew_SDK_objects_CSSite_IsSiteOtherThanConfigSite.htm" />
+          <HelpTOCNode Title="Modified Property " Url="html/P_Corkscrew_SDK_objects_CSSite_Modified.htm" />
+          <HelpTOCNode Title="ModifiedBy Property " Url="html/P_Corkscrew_SDK_objects_CSSite_ModifiedBy.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Corkscrew_SDK_objects_CSSite_Name.htm" />
+          <HelpTOCNode Title="QuotaBytes Property " Url="html/P_Corkscrew_SDK_objects_CSSite_QuotaBytes.htm" />
+          <HelpTOCNode Title="RootFolder Property " Url="html/P_Corkscrew_SDK_objects_CSSite_RootFolder.htm" />
+          <HelpTOCNode Title="Tables Property " Url="html/P_Corkscrew_SDK_objects_CSSite_Tables.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d8222442-0b16-4bcc-a85e-64ff22e873a9" Title="CSSite Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSSite.htm">
+          <HelpTOCNode Id="e03070b2-f2ba-4d5c-9912-d04cb560a236" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_objects_CSSite_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_objects_CSSite_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_objects_CSSite_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="e3c94433-3cdd-4d5e-a7b3-6e8073ca8e7f" Title="Exists Method " Url="html/Overload_Corkscrew_SDK_objects_CSSite_Exists.htm">
+            <HelpTOCNode Title="Exists Method (Guid)" Url="html/M_Corkscrew_SDK_objects_CSSite_Exists.htm" />
+            <HelpTOCNode Title="Exists Method (String)" Url="html/M_Corkscrew_SDK_objects_CSSite_Exists_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="222f0190-8353-4472-a028-6b1abb6c46d4" Title="GetDirectory Method " Url="html/Overload_Corkscrew_SDK_objects_CSSite_GetDirectory.htm">
+            <HelpTOCNode Title="GetDirectory Method (Guid)" Url="html/M_Corkscrew_SDK_objects_CSSite_GetDirectory.htm" />
+            <HelpTOCNode Title="GetDirectory Method (String)" Url="html/M_Corkscrew_SDK_objects_CSSite_GetDirectory_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="2d7d8df0-ed7d-444d-aed7-e9691b8d4ef9" Title="GetFile Method " Url="html/Overload_Corkscrew_SDK_objects_CSSite_GetFile.htm">
+            <HelpTOCNode Title="GetFile Method (Guid)" Url="html/M_Corkscrew_SDK_objects_CSSite_GetFile.htm" />
+            <HelpTOCNode Title="GetFile Method (String)" Url="html/M_Corkscrew_SDK_objects_CSSite_GetFile_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="3126e3ad-3615-4dd1-bb54-899fd73849ce" Title="GetFileSystemItem Method " Url="html/Overload_Corkscrew_SDK_objects_CSSite_GetFileSystemItem.htm">
+            <HelpTOCNode Title="GetFileSystemItem Method (Guid)" Url="html/M_Corkscrew_SDK_objects_CSSite_GetFileSystemItem.htm" />
+            <HelpTOCNode Title="GetFileSystemItem Method (String)" Url="html/M_Corkscrew_SDK_objects_CSSite_GetFileSystemItem_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetHistory Method " Url="html/M_Corkscrew_SDK_objects_CSSite_GetHistory.htm" />
+          <HelpTOCNode Title="IsValidSite Method " Url="html/M_Corkscrew_SDK_objects_CSSite_IsValidSite.htm" />
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_objects_CSSite_Save.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5fd56427-58d0-4d98-8a10-b100bb8c5d62" Title="CSSite Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSSite.htm">
+          <HelpTOCNode Title="disposedValue Field" Url="html/F_Corkscrew_SDK_objects_CSSite_disposedValue.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="92a37876-59d3-4d71-8d67-e3bf66102fab" Title="CSSiteCollection Class" Url="html/T_Corkscrew_SDK_objects_CSSiteCollection.htm">
+        <HelpTOCNode Id="b4171cbc-4c06-45e1-a540-3cfaface788b" Title="CSSiteCollection Constructor " Url="html/Overload_Corkscrew_SDK_objects_CSSiteCollection__ctor.htm">
+          <HelpTOCNode Title="CSSiteCollection Constructor (CSFarm, Boolean)" Url="html/M_Corkscrew_SDK_objects_CSSiteCollection__ctor.htm" />
+          <HelpTOCNode Title="CSSiteCollection Constructor (CSFarm, IEnumerable(CSSite), Boolean)" Url="html/M_Corkscrew_SDK_objects_CSSiteCollection__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSSiteCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSSiteCollection.htm" />
+        <HelpTOCNode Id="35b92069-1db7-4cb0-bf9e-ab90f54265f0" Title="CSSiteCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSSiteCollection.htm">
+          <HelpTOCNode Id="c658b424-c3eb-4d3a-9d60-8bed33a38953" Title="Add Method " Url="html/Overload_Corkscrew_SDK_objects_CSSiteCollection_Add.htm">
+            <HelpTOCNode Title="Add Method (CSSite)" Url="html/M_Corkscrew_SDK_objects_CSSiteCollection_Add.htm" />
+            <HelpTOCNode Title="Add Method (String, CSUser, String, String, Int64)" Url="html/M_Corkscrew_SDK_objects_CSSiteCollection_Add_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="361918a5-9cf2-47a8-9585-dd8004c9c41c" Title="Find Method " Url="html/Overload_Corkscrew_SDK_objects_CSSiteCollection_Find.htm">
+            <HelpTOCNode Title="Find Method (Guid)" Url="html/M_Corkscrew_SDK_objects_CSSiteCollection_Find.htm" />
+            <HelpTOCNode Title="Find Method (String)" Url="html/M_Corkscrew_SDK_objects_CSSiteCollection_Find_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="FindByDnsName Method " Url="html/M_Corkscrew_SDK_objects_CSSiteCollection_FindByDnsName.htm" />
+          <HelpTOCNode Id="ca562d97-9164-4793-931b-7d5d931d2aad" Title="Remove Method " Url="html/Overload_Corkscrew_SDK_objects_CSSiteCollection_Remove.htm">
+            <HelpTOCNode Title="Remove Method (Guid)" Url="html/M_Corkscrew_SDK_objects_CSSiteCollection_Remove_1.htm" />
+            <HelpTOCNode Title="Remove Method (CSSite)" Url="html/M_Corkscrew_SDK_objects_CSSiteCollection_Remove.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSSiteCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSSiteCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b31750f8-349e-40ef-be54-3f0faa6797c9" Title="CSSiteDNSNamesCollection Class" Url="html/T_Corkscrew_SDK_objects_CSSiteDNSNamesCollection.htm">
+        <HelpTOCNode Title="CSSiteDNSNamesCollection Constructor " Url="html/M_Corkscrew_SDK_objects_CSSiteDNSNamesCollection__ctor.htm" />
+        <HelpTOCNode Title="CSSiteDNSNamesCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSSiteDNSNamesCollection.htm" />
+        <HelpTOCNode Id="da83a97a-729d-4276-8855-78ee550323b5" Title="CSSiteDNSNamesCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSSiteDNSNamesCollection.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Corkscrew_SDK_objects_CSSiteDNSNamesCollection_Add.htm" />
+          <HelpTOCNode Title="Remove Method " Url="html/M_Corkscrew_SDK_objects_CSSiteDNSNamesCollection_Remove.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_Corkscrew_SDK_objects_CSSiteDNSNamesCollection_ToString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSSiteDNSNamesCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSSiteDNSNamesCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="12bdabc5-b3e0-4c65-8db1-d1e91cf9ce71" Title="CSSiteHistoryRecord Class" Url="html/T_Corkscrew_SDK_objects_CSSiteHistoryRecord.htm">
+        <HelpTOCNode Title="CSSiteHistoryRecord Constructor " Url="html/M_Corkscrew_SDK_objects_CSSiteHistoryRecord__ctor.htm" />
+        <HelpTOCNode Id="0e02df45-5adf-45cf-bc90-216438203a43" Title="CSSiteHistoryRecord Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSSiteHistoryRecord.htm">
+          <HelpTOCNode Title="ChangedBy Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_ChangedBy.htm" />
+          <HelpTOCNode Title="ChangeTimestamp Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_ChangeTimestamp.htm" />
+          <HelpTOCNode Title="ChangeType Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_ChangeType.htm" />
+          <HelpTOCNode Title="ContentDatabaseName Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_ContentDatabaseName.htm" />
+          <HelpTOCNode Title="ContentDatabaseServerName Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_ContentDatabaseServerName.htm" />
+          <HelpTOCNode Title="Description Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_Description.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_Id.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_Name.htm" />
+          <HelpTOCNode Title="PreviousModified Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_PreviousModified.htm" />
+          <HelpTOCNode Title="PreviousModifiedBy Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_PreviousModifiedBy.htm" />
+          <HelpTOCNode Title="QuotaBytes Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_QuotaBytes.htm" />
+          <HelpTOCNode Title="Site Property " Url="html/P_Corkscrew_SDK_objects_CSSiteHistoryRecord_Site.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSSiteHistoryRecord Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSSiteHistoryRecord.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4289aa37-69b6-4244-a7cb-3803f6c69967" Title="CSTable Class" Url="html/T_Corkscrew_SDK_objects_CSTable.htm">
+        <HelpTOCNode Title="CSTable Constructor " Url="html/M_Corkscrew_SDK_objects_CSTable__ctor.htm" />
+        <HelpTOCNode Id="af4ca642-f255-4654-a634-81e3e9990c2c" Title="CSTable Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSTable.htm">
+          <HelpTOCNode Title="Columns Property " Url="html/P_Corkscrew_SDK_objects_CSTable_Columns.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_objects_CSTable_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_objects_CSTable_CreatedBy.htm" />
+          <HelpTOCNode Title="Description Property " Url="html/P_Corkscrew_SDK_objects_CSTable_Description.htm" />
+          <HelpTOCNode Title="FriendlyName Property " Url="html/P_Corkscrew_SDK_objects_CSTable_FriendlyName.htm" />
+          <HelpTOCNode Title="FullPath Property " Url="html/P_Corkscrew_SDK_objects_CSTable_FullPath.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_CSTable_Id.htm" />
+          <HelpTOCNode Title="InternalName Property " Url="html/P_Corkscrew_SDK_objects_CSTable_InternalName.htm" />
+          <HelpTOCNode Title="Modified Property " Url="html/P_Corkscrew_SDK_objects_CSTable_Modified.htm" />
+          <HelpTOCNode Title="ModifiedBy Property " Url="html/P_Corkscrew_SDK_objects_CSTable_ModifiedBy.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Corkscrew_SDK_objects_CSTable_Name.htm" />
+          <HelpTOCNode Title="Rows Property " Url="html/P_Corkscrew_SDK_objects_CSTable_Rows.htm" />
+          <HelpTOCNode Title="Site Property " Url="html/P_Corkscrew_SDK_objects_CSTable_Site.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8e264eb0-312e-41f0-95e4-8d8127f19c17" Title="CSTable Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSTable.htm">
+          <HelpTOCNode Id="dbed6cea-d7a8-47bd-86e3-8471b96475cd" Title="CopyTo Method " Url="html/Overload_Corkscrew_SDK_objects_CSTable_CopyTo.htm">
+            <HelpTOCNode Title="CopyTo Method (CSSite)" Url="html/M_Corkscrew_SDK_objects_CSTable_CopyTo.htm" />
+            <HelpTOCNode Title="CopyTo Method (CSTable)" Url="html/M_Corkscrew_SDK_objects_CSTable_CopyTo_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Drop Method " Url="html/M_Corkscrew_SDK_objects_CSTable_Drop.htm" />
+          <HelpTOCNode Title="RefreshColumns Method " Url="html/M_Corkscrew_SDK_objects_CSTable_RefreshColumns.htm" />
+          <HelpTOCNode Title="RefreshRows Method " Url="html/M_Corkscrew_SDK_objects_CSTable_RefreshRows.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f6094fca-a919-425e-ba1b-b783d8443a8d" Title="CSTableCollection Class" Url="html/T_Corkscrew_SDK_objects_CSTableCollection.htm">
+        <HelpTOCNode Title="CSTableCollection Constructor " Url="html/M_Corkscrew_SDK_objects_CSTableCollection__ctor.htm" />
+        <HelpTOCNode Id="cb471b8a-9656-414c-a916-83e8aec0b13e" Title="CSTableCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSTableCollection.htm">
+          <HelpTOCNode Id="226dbefe-fd38-4b75-9e53-a0383a5f5796" Title="Item Property " Url="html/Overload_Corkscrew_SDK_objects_CSTableCollection_Item.htm">
+            <HelpTOCNode Title="Item Property (Guid)" Url="html/P_Corkscrew_SDK_objects_CSTableCollection_Item.htm" />
+            <HelpTOCNode Title="Item Property (String)" Url="html/P_Corkscrew_SDK_objects_CSTableCollection_Item_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="a52e0431-7030-4132-9512-23e31e01aec1" Title="CSTableCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSTableCollection.htm">
+          <HelpTOCNode Id="7ebd55a0-e2b0-4675-8202-87e3bfa8e5da" Title="Add Method " Url="html/Overload_Corkscrew_SDK_objects_CSTableCollection_Add.htm">
+            <HelpTOCNode Title="Add Method (CSTable)" Url="html/M_Corkscrew_SDK_objects_CSTableCollection_Add.htm" />
+            <HelpTOCNode Title="Add Method (String, String, String)" Url="html/M_Corkscrew_SDK_objects_CSTableCollection_Add_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="4ab840c2-954d-469c-9acc-4dd82aac092a" Title="Remove Method " Url="html/Overload_Corkscrew_SDK_objects_CSTableCollection_Remove.htm">
+            <HelpTOCNode Title="Remove Method (Guid)" Url="html/M_Corkscrew_SDK_objects_CSTableCollection_Remove_1.htm" />
+            <HelpTOCNode Title="Remove Method (String)" Url="html/M_Corkscrew_SDK_objects_CSTableCollection_Remove_2.htm" />
+            <HelpTOCNode Title="Remove Method (CSTable)" Url="html/M_Corkscrew_SDK_objects_CSTableCollection_Remove.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSTableCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSTableCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0366c0f8-c769-4cea-9293-a4dc827a46fb" Title="CSTableColumn Class" Url="html/T_Corkscrew_SDK_objects_CSTableColumn.htm">
+        <HelpTOCNode Id="7fd98caf-a174-44d2-92c3-0998b9003cc7" Title="CSTableColumn Constructor " Url="html/Overload_Corkscrew_SDK_objects_CSTableColumn__ctor.htm">
+          <HelpTOCNode Title="CSTableColumn Constructor (CSTable, CSTableColumnDefinition, String)" Url="html/M_Corkscrew_SDK_objects_CSTableColumn__ctor.htm" />
+          <HelpTOCNode Title="CSTableColumn Constructor (CSTable, String, String, CSTableColumnDataTypeEnum, Boolean)" Url="html/M_Corkscrew_SDK_objects_CSTableColumn__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2cbbfb33-7531-4727-92aa-e977c67db56f" Title="CSTableColumn Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSTableColumn.htm">
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumn_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumn_CreatedBy.htm" />
+          <HelpTOCNode Title="LocalName Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumn_LocalName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="86825b26-127c-4276-9800-801404d36da4" Title="CSTableColumn Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSTableColumn.htm">
+          <HelpTOCNode Title="Drop Method " Url="html/M_Corkscrew_SDK_objects_CSTableColumn_Drop.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="0a4855b9-c3d4-4f7e-894a-9fb6bdd12442" Title="CSTableColumnCollection Class" Url="html/T_Corkscrew_SDK_objects_CSTableColumnCollection.htm">
+        <HelpTOCNode Title="CSTableColumnCollection Constructor " Url="html/M_Corkscrew_SDK_objects_CSTableColumnCollection__ctor.htm" />
+        <HelpTOCNode Id="98015465-4dc1-48bb-b49e-41330c671c8e" Title="CSTableColumnCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSTableColumnCollection.htm">
+          <HelpTOCNode Id="43fc485a-beeb-4c51-be2f-55dcb820264a" Title="Item Property " Url="html/Overload_Corkscrew_SDK_objects_CSTableColumnCollection_Item.htm">
+            <HelpTOCNode Title="Item Property (String)" Url="html/P_Corkscrew_SDK_objects_CSTableColumnCollection_Item.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="adeb0438-32bc-4b3f-917f-f5421d923a11" Title="CSTableColumnCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSTableColumnCollection.htm">
+          <HelpTOCNode Id="9eb2df9e-4e15-4a11-8989-88a757d022aa" Title="Add Method " Url="html/Overload_Corkscrew_SDK_objects_CSTableColumnCollection_Add.htm">
+            <HelpTOCNode Title="Add Method (CSTableColumn)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnCollection_Add.htm" />
+            <HelpTOCNode Title="Add Method (CSTableColumnDefinition, String)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnCollection_Add_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="OnColumnAdded Method " Url="html/M_Corkscrew_SDK_objects_CSTableColumnCollection_OnColumnAdded.htm" />
+          <HelpTOCNode Title="OnColumnRemoved Method " Url="html/M_Corkscrew_SDK_objects_CSTableColumnCollection_OnColumnRemoved.htm" />
+          <HelpTOCNode Id="f63f06c9-a13a-4827-9b9d-fbb9508bee17" Title="Remove Method " Url="html/Overload_Corkscrew_SDK_objects_CSTableColumnCollection_Remove.htm">
+            <HelpTOCNode Title="Remove Method (String)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnCollection_Remove_1.htm" />
+            <HelpTOCNode Title="Remove Method (CSTableColumn)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnCollection_Remove.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="22393381-e1bc-4872-a5d9-befad1e8712d" Title="CSTableColumnCollection Events" Url="html/Events_T_Corkscrew_SDK_objects_CSTableColumnCollection.htm">
+          <HelpTOCNode Title="ColumnAdded Event" Url="html/E_Corkscrew_SDK_objects_CSTableColumnCollection_ColumnAdded.htm" />
+          <HelpTOCNode Title="ColumnRemoved Event" Url="html/E_Corkscrew_SDK_objects_CSTableColumnCollection_ColumnRemoved.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSTableColumnCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSTableColumnCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8feaa7cd-4a84-4062-880e-1a413c16abe5" Title="CSTableColumnCollectionChangedEventArgs Class" Url="html/T_Corkscrew_SDK_objects_CSTableColumnCollectionChangedEventArgs.htm">
+        <HelpTOCNode Id="70e69c56-7ed6-4875-8aad-36442e5ad387" Title="CSTableColumnCollectionChangedEventArgs Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSTableColumnCollectionChangedEventArgs.htm">
+          <HelpTOCNode Title="Column Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumnCollectionChangedEventArgs_Column.htm" />
+          <HelpTOCNode Title="Reason Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumnCollectionChangedEventArgs_Reason.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSTableColumnCollectionChangedEventArgs Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSTableColumnCollectionChangedEventArgs.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CSTableColumnDataTypeEnum Enumeration" Url="html/T_Corkscrew_SDK_objects_CSTableColumnDataTypeEnum.htm" />
+      <HelpTOCNode Id="3469350a-8d66-4085-9fa9-3b72bd30248e" Title="CSTableColumnDefinition Class" Url="html/T_Corkscrew_SDK_objects_CSTableColumnDefinition.htm">
+        <HelpTOCNode Id="bfaa656b-61c8-431d-aa8b-58fe2ed46271" Title="CSTableColumnDefinition Constructor " Url="html/Overload_Corkscrew_SDK_objects_CSTableColumnDefinition__ctor.htm">
+          <HelpTOCNode Title="CSTableColumnDefinition Constructor (CSSite, String, CSTableColumnDataTypeEnum, Boolean)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinition__ctor.htm" />
+          <HelpTOCNode Title="CSTableColumnDefinition Constructor (CSSite, String, Int32, Boolean)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinition__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6e6da334-53ba-4e29-83b2-f0c22605fd1d" Title="CSTableColumnDefinition Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSTableColumnDefinition.htm">
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumnDefinition_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumnDefinition_CreatedBy.htm" />
+          <HelpTOCNode Title="DataType Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumnDefinition_DataType.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumnDefinition_Id.htm" />
+          <HelpTOCNode Title="MaximumLength Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumnDefinition_MaximumLength.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumnDefinition_Name.htm" />
+          <HelpTOCNode Title="Nullable Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumnDefinition_Nullable.htm" />
+          <HelpTOCNode Title="Site Property " Url="html/P_Corkscrew_SDK_objects_CSTableColumnDefinition_Site.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cd0cc1e7-8fb3-445c-a638-2541a1756d4c" Title="CSTableColumnDefinition Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSTableColumnDefinition.htm">
+          <HelpTOCNode Title="CopyTo Method " Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinition_CopyTo.htm" />
+          <HelpTOCNode Title="Drop Method " Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinition_Drop.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="442f19a5-16fe-402c-aba9-bcd23d633722" Title="CSTableColumnDefinitionCollection Class" Url="html/T_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection.htm">
+        <HelpTOCNode Title="CSTableColumnDefinitionCollection Constructor " Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection__ctor.htm" />
+        <HelpTOCNode Id="0e2ca9aa-7b20-4abf-b2ac-a19e9f2d8895" Title="CSTableColumnDefinitionCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection.htm">
+          <HelpTOCNode Id="19971c58-a788-449b-a16a-d3b8c6927a39" Title="Item Property " Url="html/Overload_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Item.htm">
+            <HelpTOCNode Title="Item Property (Guid)" Url="html/P_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Item.htm" />
+            <HelpTOCNode Title="Item Property (String)" Url="html/P_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Item_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="1e5cd018-d770-4604-9cc1-43c885b048fc" Title="CSTableColumnDefinitionCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection.htm">
+          <HelpTOCNode Id="17546517-0e67-479f-afdd-31a928bcc9d9" Title="Add Method " Url="html/Overload_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Add.htm">
+            <HelpTOCNode Title="Add Method (CSTableColumnDefinition)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Add.htm" />
+            <HelpTOCNode Title="Add Method (String, CSTableColumnDataTypeEnum, Boolean)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Add_1.htm" />
+            <HelpTOCNode Title="Add Method (String, Int32, Boolean)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Add_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="d46e6021-c511-491d-9499-39b5a7d69b88" Title="Remove Method " Url="html/Overload_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Remove.htm">
+            <HelpTOCNode Title="Remove Method (Guid)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Remove_1.htm" />
+            <HelpTOCNode Title="Remove Method (String)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Remove_2.htm" />
+            <HelpTOCNode Title="Remove Method (CSTableColumnDefinition)" Url="html/M_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection_Remove.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSTableColumnDefinitionCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSTableColumnDefinitionCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CSTableItemStateEnum Enumeration" Url="html/T_Corkscrew_SDK_objects_CSTableItemStateEnum.htm" />
+      <HelpTOCNode Id="5f85686c-cc6b-4b09-aefb-a9c4978e80ea" Title="CSTableRow Class" Url="html/T_Corkscrew_SDK_objects_CSTableRow.htm">
+        <HelpTOCNode Id="358c7d41-88a0-4835-b65b-f62b20908682" Title="CSTableRow Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSTableRow.htm">
+          <HelpTOCNode Title="Columns Property " Url="html/P_Corkscrew_SDK_objects_CSTableRow_Columns.htm" />
+          <HelpTOCNode Title="FullPath Property " Url="html/P_Corkscrew_SDK_objects_CSTableRow_FullPath.htm" />
+          <HelpTOCNode Title="HasError Property " Url="html/P_Corkscrew_SDK_objects_CSTableRow_HasError.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_CSTableRow_Id.htm" />
+          <HelpTOCNode Id="2dedc481-dea8-407d-ad71-5cf1b5e688b0" Title="Item Property " Url="html/Overload_Corkscrew_SDK_objects_CSTableRow_Item.htm">
+            <HelpTOCNode Title="Item Property (String)" Url="html/P_Corkscrew_SDK_objects_CSTableRow_Item_1.htm" />
+            <HelpTOCNode Title="Item Property (CSTableColumn)" Url="html/P_Corkscrew_SDK_objects_CSTableRow_Item.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="RowError Property " Url="html/P_Corkscrew_SDK_objects_CSTableRow_RowError.htm" />
+          <HelpTOCNode Title="RowState Property " Url="html/P_Corkscrew_SDK_objects_CSTableRow_RowState.htm" />
+          <HelpTOCNode Title="Table Property " Url="html/P_Corkscrew_SDK_objects_CSTableRow_Table.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fbc334e8-0b03-4bdd-b3bd-bbe7e2586509" Title="CSTableRow Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSTableRow.htm">
+          <HelpTOCNode Title="CommitChanges Method " Url="html/M_Corkscrew_SDK_objects_CSTableRow_CommitChanges.htm" />
+          <HelpTOCNode Title="Delete Method " Url="html/M_Corkscrew_SDK_objects_CSTableRow_Delete.htm" />
+          <HelpTOCNode Title="ExportRow Method " Url="html/M_Corkscrew_SDK_objects_CSTableRow_ExportRow.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a8a76b15-a339-48b3-97e3-241dee644946" Title="CSTableRowCollection Class" Url="html/T_Corkscrew_SDK_objects_CSTableRowCollection.htm">
+        <HelpTOCNode Title="CSTableRowCollection Constructor " Url="html/M_Corkscrew_SDK_objects_CSTableRowCollection__ctor.htm" />
+        <HelpTOCNode Title="CSTableRowCollection Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSTableRowCollection.htm" />
+        <HelpTOCNode Id="39626f7c-3a80-446d-9da4-cee6c9ce239b" Title="CSTableRowCollection Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSTableRowCollection.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Corkscrew_SDK_objects_CSTableRowCollection_Add.htm" />
+          <HelpTOCNode Title="AddRange Method " Url="html/M_Corkscrew_SDK_objects_CSTableRowCollection_AddRange.htm" />
+          <HelpTOCNode Title="Clear Method " Url="html/M_Corkscrew_SDK_objects_CSTableRowCollection_Clear.htm" />
+          <HelpTOCNode Title="NewRow Method " Url="html/M_Corkscrew_SDK_objects_CSTableRowCollection_NewRow.htm" />
+          <HelpTOCNode Title="Remove Method " Url="html/M_Corkscrew_SDK_objects_CSTableRowCollection_Remove.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSTableRowCollection Fields" Url="html/Fields_T_Corkscrew_SDK_objects_CSTableRowCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6babd355-90cf-41a9-9b2b-58654e346088" Title="CSTabularDataColumnDataTypeConverter Class" Url="html/T_Corkscrew_SDK_objects_CSTabularDataColumnDataTypeConverter.htm">
+        <HelpTOCNode Id="e66e1978-6530-49e8-b852-25eeaa031cea" Title="CSTabularDataColumnDataTypeConverter Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSTabularDataColumnDataTypeConverter.htm">
+          <HelpTOCNode Title="GetCSTypeName Method " Url="html/M_Corkscrew_SDK_objects_CSTabularDataColumnDataTypeConverter_GetCSTypeName.htm" />
+          <HelpTOCNode Title="GetDatabaseTypeName Method " Url="html/M_Corkscrew_SDK_objects_CSTabularDataColumnDataTypeConverter_GetDatabaseTypeName.htm" />
+          <HelpTOCNode Id="da26d275-fcc8-4de6-9ed9-d04695742707" Title="Is Method " Url="html/Overload_Corkscrew_SDK_objects_CSTabularDataColumnDataTypeConverter_Is.htm">
+            <HelpTOCNode Title="Is Method (String, CSTableColumnDataTypeEnum)" Url="html/M_Corkscrew_SDK_objects_CSTabularDataColumnDataTypeConverter_Is_1.htm" />
+            <HelpTOCNode Title="Is Method (String, String)" Url="html/M_Corkscrew_SDK_objects_CSTabularDataColumnDataTypeConverter_Is_2.htm" />
+            <HelpTOCNode Title="Is Method (CSTableColumnDataTypeEnum, CSTableColumnDataTypeEnum)" Url="html/M_Corkscrew_SDK_objects_CSTabularDataColumnDataTypeConverter_Is.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8e34914e-6f19-43d3-a4f4-fb1368b7bba7" Title="CSWorkingContext Class" Url="html/T_Corkscrew_SDK_objects_CSWorkingContext.htm">
+        <HelpTOCNode Title="CSWorkingContext Constructor " Url="html/M_Corkscrew_SDK_objects_CSWorkingContext__ctor.htm" />
+        <HelpTOCNode Id="87f8e7f7-4a76-4d50-b447-0fb449deb774" Title="CSWorkingContext Properties" Url="html/Properties_T_Corkscrew_SDK_objects_CSWorkingContext.htm">
+          <HelpTOCNode Title="AuthorizationCredential Property " Url="html/P_Corkscrew_SDK_objects_CSWorkingContext_AuthorizationCredential.htm" />
+          <HelpTOCNode Title="Farm Property " Url="html/P_Corkscrew_SDK_objects_CSWorkingContext_Farm.htm" />
+          <HelpTOCNode Title="FileSystemEntry Property " Url="html/P_Corkscrew_SDK_objects_CSWorkingContext_FileSystemEntry.htm" />
+          <HelpTOCNode Title="IsFarmContext Property " Url="html/P_Corkscrew_SDK_objects_CSWorkingContext_IsFarmContext.htm" />
+          <HelpTOCNode Title="IsFilesystemEntryContext Property " Url="html/P_Corkscrew_SDK_objects_CSWorkingContext_IsFilesystemEntryContext.htm" />
+          <HelpTOCNode Title="IsSiteContext Property " Url="html/P_Corkscrew_SDK_objects_CSWorkingContext_IsSiteContext.htm" />
+          <HelpTOCNode Title="OperationId Property " Url="html/P_Corkscrew_SDK_objects_CSWorkingContext_OperationId.htm" />
+          <HelpTOCNode Title="OperationStartTimestamp Property " Url="html/P_Corkscrew_SDK_objects_CSWorkingContext_OperationStartTimestamp.htm" />
+          <HelpTOCNode Title="Site Property " Url="html/P_Corkscrew_SDK_objects_CSWorkingContext_Site.htm" />
+          <HelpTOCNode Title="TimeElapsed Property " Url="html/P_Corkscrew_SDK_objects_CSWorkingContext_TimeElapsed.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSWorkingContext Methods" Url="html/Methods_T_Corkscrew_SDK_objects_CSWorkingContext.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FilesystemEntryTypeEnum Enumeration" Url="html/T_Corkscrew_SDK_objects_FilesystemEntryTypeEnum.htm" />
+      <HelpTOCNode Id="abe7eec5-a39c-4caf-a272-fe23b6dbb42a" Title="IWorkflowAssociable Interface" Url="html/T_Corkscrew_SDK_objects_IWorkflowAssociable.htm">
+        <HelpTOCNode Id="dd3c5dbd-23df-4081-ae14-b739b7756728" Title="IWorkflowAssociable Properties" Url="html/Properties_T_Corkscrew_SDK_objects_IWorkflowAssociable.htm">
+          <HelpTOCNode Title="FullPath Property " Url="html/P_Corkscrew_SDK_objects_IWorkflowAssociable_FullPath.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_IWorkflowAssociable_Id.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c31c91d9-08a9-46cb-b945-e2a3109846be" Title="IWorkflowInstantiable Interface" Url="html/T_Corkscrew_SDK_objects_IWorkflowInstantiable.htm">
+        <HelpTOCNode Id="0141a53d-7c60-48b1-bc31-918477200ec3" Title="IWorkflowInstantiable Properties" Url="html/Properties_T_Corkscrew_SDK_objects_IWorkflowInstantiable.htm">
+          <HelpTOCNode Title="FullPath Property " Url="html/P_Corkscrew_SDK_objects_IWorkflowInstantiable_FullPath.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_objects_IWorkflowInstantiable_Id.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="adb09f12-2b1c-49eb-8691-f072c11c27cd" Title="PATH_INFO Class" Url="html/T_Corkscrew_SDK_objects_PATH_INFO.htm">
+        <HelpTOCNode Title="PATH_INFO Constructor " Url="html/M_Corkscrew_SDK_objects_PATH_INFO__ctor.htm" />
+        <HelpTOCNode Id="d9b7bebb-ebad-4a92-8c1d-53d86725d055" Title="PATH_INFO Properties" Url="html/Properties_T_Corkscrew_SDK_objects_PATH_INFO.htm">
+          <HelpTOCNode Title="FullPath Property " Url="html/P_Corkscrew_SDK_objects_PATH_INFO_FullPath.htm" />
+          <HelpTOCNode Title="IsValid Property " Url="html/P_Corkscrew_SDK_objects_PATH_INFO_IsValid.htm" />
+          <HelpTOCNode Title="ResourceURI Property " Url="html/P_Corkscrew_SDK_objects_PATH_INFO_ResourceURI.htm" />
+          <HelpTOCNode Title="ResourceUriScope Property " Url="html/P_Corkscrew_SDK_objects_PATH_INFO_ResourceUriScope.htm" />
+          <HelpTOCNode Title="SiteId Property " Url="html/P_Corkscrew_SDK_objects_PATH_INFO_SiteId.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="PATH_INFO Methods" Url="html/Methods_T_Corkscrew_SDK_objects_PATH_INFO.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e8405a01-138b-4ef0-8924-d6f1c9fe0591" Title="Corkscrew.SDK.providers.database" Url="html/N_Corkscrew_SDK_providers_database.htm">
+      <HelpTOCNode Id="86dce6c9-edc5-475a-8a80-23dd148e843b" Title="CSDatabaseProviderFactory Class" Url="html/T_Corkscrew_SDK_providers_database_CSDatabaseProviderFactory.htm">
+        <HelpTOCNode Id="3b79e251-ab07-41c8-926d-fda0ed4bc724" Title="CSDatabaseProviderFactory Methods" Url="html/Methods_T_Corkscrew_SDK_providers_database_CSDatabaseProviderFactory.htm">
+          <HelpTOCNode Title="Discover Method " Url="html/M_Corkscrew_SDK_providers_database_CSDatabaseProviderFactory_Discover.htm" />
+          <HelpTOCNode Title="GetPreferredProviderPrimaryDatabaseName Method " Url="html/M_Corkscrew_SDK_providers_database_CSDatabaseProviderFactory_GetPreferredProviderPrimaryDatabaseName.htm" />
+          <HelpTOCNode Title="GetProvider Method " Url="html/M_Corkscrew_SDK_providers_database_CSDatabaseProviderFactory_GetProvider.htm" />
+          <HelpTOCNode Title="GetProviderByConnectionString Method " Url="html/M_Corkscrew_SDK_providers_database_CSDatabaseProviderFactory_GetProviderByConnectionString.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="58b45273-c92e-4687-b039-301e75107586" Title="CSMySqlProvider Class" Url="html/T_Corkscrew_SDK_providers_database_CSMySqlProvider.htm">
+        <HelpTOCNode Id="2e951453-f973-42b6-bf29-9b12fce79423" Title="CSMySqlProvider Constructor " Url="html/Overload_Corkscrew_SDK_providers_database_CSMySqlProvider__ctor.htm">
+          <HelpTOCNode Title="CSMySqlProvider Constructor " Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider__ctor.htm" />
+          <HelpTOCNode Title="CSMySqlProvider Constructor (String)" Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8d246a5c-8837-483e-bb26-4dad7b46db0d" Title="CSMySqlProvider Properties" Url="html/Properties_T_Corkscrew_SDK_providers_database_CSMySqlProvider.htm">
+          <HelpTOCNode Title="Connection Property " Url="html/P_Corkscrew_SDK_providers_database_CSMySqlProvider_Connection.htm" />
+          <HelpTOCNode Title="HasError Property " Url="html/P_Corkscrew_SDK_providers_database_CSMySqlProvider_HasError.htm" />
+          <HelpTOCNode Title="PrimaryDatabaseName Property " Url="html/P_Corkscrew_SDK_providers_database_CSMySqlProvider_PrimaryDatabaseName.htm" />
+          <HelpTOCNode Title="ProviderName Property " Url="html/P_Corkscrew_SDK_providers_database_CSMySqlProvider_ProviderName.htm" />
+          <HelpTOCNode Title="QuoteEndChar Property " Url="html/P_Corkscrew_SDK_providers_database_CSMySqlProvider_QuoteEndChar.htm" />
+          <HelpTOCNode Title="QuoteStartChar Property " Url="html/P_Corkscrew_SDK_providers_database_CSMySqlProvider_QuoteStartChar.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9ea1662b-d1eb-48fb-b612-d81c72d596f8" Title="CSMySqlProvider Methods" Url="html/Methods_T_Corkscrew_SDK_providers_database_CSMySqlProvider.htm">
+          <HelpTOCNode Id="ca9233c6-e5e7-480b-aa7b-207c2c6d3182" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_providers_database_CSMySqlProvider_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ExecuteNonQueryStatement Method " Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider_ExecuteNonQueryStatement.htm" />
+          <HelpTOCNode Title="ExecuteSelectStatement Method " Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider_ExecuteSelectStatement.htm" />
+          <HelpTOCNode Title="ExecuteStoredProcedure Method " Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider_ExecuteStoredProcedure.htm" />
+          <HelpTOCNode Title="GetAllDatabases Method " Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider_GetAllDatabases.htm" />
+          <HelpTOCNode Title="GetBinaryContent Method " Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider_GetBinaryContent.htm" />
+          <HelpTOCNode Title="GetSingleValue Method " Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider_GetSingleValue.htm" />
+          <HelpTOCNode Title="TableExists Method " Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider_TableExists.htm" />
+          <HelpTOCNode Title="TryConnect Method " Url="html/M_Corkscrew_SDK_providers_database_CSMySqlProvider_TryConnect.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e9449752-79ea-4566-a8a4-7f033c9e901c" Title="CSSqlServerProvider Class" Url="html/T_Corkscrew_SDK_providers_database_CSSqlServerProvider.htm">
+        <HelpTOCNode Id="334fd87f-a4ca-4c4b-aa2d-cd4cfc089baf" Title="CSSqlServerProvider Constructor " Url="html/Overload_Corkscrew_SDK_providers_database_CSSqlServerProvider__ctor.htm">
+          <HelpTOCNode Title="CSSqlServerProvider Constructor " Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider__ctor.htm" />
+          <HelpTOCNode Title="CSSqlServerProvider Constructor (String)" Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7c33016f-87b3-4896-86d5-29eb72a75dfd" Title="CSSqlServerProvider Properties" Url="html/Properties_T_Corkscrew_SDK_providers_database_CSSqlServerProvider.htm">
+          <HelpTOCNode Title="Connection Property " Url="html/P_Corkscrew_SDK_providers_database_CSSqlServerProvider_Connection.htm" />
+          <HelpTOCNode Title="HasError Property " Url="html/P_Corkscrew_SDK_providers_database_CSSqlServerProvider_HasError.htm" />
+          <HelpTOCNode Title="PrimaryDatabaseName Property " Url="html/P_Corkscrew_SDK_providers_database_CSSqlServerProvider_PrimaryDatabaseName.htm" />
+          <HelpTOCNode Title="ProviderName Property " Url="html/P_Corkscrew_SDK_providers_database_CSSqlServerProvider_ProviderName.htm" />
+          <HelpTOCNode Title="QuoteEndChar Property " Url="html/P_Corkscrew_SDK_providers_database_CSSqlServerProvider_QuoteEndChar.htm" />
+          <HelpTOCNode Title="QuoteStartChar Property " Url="html/P_Corkscrew_SDK_providers_database_CSSqlServerProvider_QuoteStartChar.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e33e17bc-b095-4fab-ab4a-672966dc9f86" Title="CSSqlServerProvider Methods" Url="html/Methods_T_Corkscrew_SDK_providers_database_CSSqlServerProvider.htm">
+          <HelpTOCNode Id="2d9be8f8-5467-46c3-929c-b8c178d7affb" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_providers_database_CSSqlServerProvider_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ExecuteNonQueryStatement Method " Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider_ExecuteNonQueryStatement.htm" />
+          <HelpTOCNode Title="ExecuteSelectStatement Method " Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider_ExecuteSelectStatement.htm" />
+          <HelpTOCNode Title="ExecuteStoredProcedure Method " Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider_ExecuteStoredProcedure.htm" />
+          <HelpTOCNode Title="GetAllDatabases Method " Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider_GetAllDatabases.htm" />
+          <HelpTOCNode Title="GetBinaryContent Method " Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider_GetBinaryContent.htm" />
+          <HelpTOCNode Title="GetSingleValue Method " Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider_GetSingleValue.htm" />
+          <HelpTOCNode Title="TableExists Method " Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider_TableExists.htm" />
+          <HelpTOCNode Title="TryConnect Method " Url="html/M_Corkscrew_SDK_providers_database_CSSqlServerProvider_TryConnect.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b0723617-a10b-4514-998e-f32d5f7499f9" Title="DatabaseActionResult Structure" Url="html/T_Corkscrew_SDK_providers_database_DatabaseActionResult.htm">
+        <HelpTOCNode Title="DatabaseActionResult Methods" Url="html/Methods_T_Corkscrew_SDK_providers_database_DatabaseActionResult.htm" />
+        <HelpTOCNode Id="60eb9518-f65b-4ac4-ad8c-749397d98cae" Title="DatabaseActionResult Fields" Url="html/Fields_T_Corkscrew_SDK_providers_database_DatabaseActionResult.htm">
+          <HelpTOCNode Title="Error Field" Url="html/F_Corkscrew_SDK_providers_database_DatabaseActionResult_Error.htm" />
+          <HelpTOCNode Title="ErrorMessage Field" Url="html/F_Corkscrew_SDK_providers_database_DatabaseActionResult_ErrorMessage.htm" />
+          <HelpTOCNode Title="ModuleName Field" Url="html/F_Corkscrew_SDK_providers_database_DatabaseActionResult_ModuleName.htm" />
+          <HelpTOCNode Title="OutParameters Field" Url="html/F_Corkscrew_SDK_providers_database_DatabaseActionResult_OutParameters.htm" />
+          <HelpTOCNode Title="ResultDataSet Field" Url="html/F_Corkscrew_SDK_providers_database_DatabaseActionResult_ResultDataSet.htm" />
+          <HelpTOCNode Title="ReturnValue Field" Url="html/F_Corkscrew_SDK_providers_database_DatabaseActionResult_ReturnValue.htm" />
+          <HelpTOCNode Title="RichException Field" Url="html/F_Corkscrew_SDK_providers_database_DatabaseActionResult_RichException.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="5e9ef099-6c94-4843-9dab-ec8925e77fd7" Title="ICSDatabaseProvider Interface" Url="html/T_Corkscrew_SDK_providers_database_ICSDatabaseProvider.htm">
+        <HelpTOCNode Id="cc28d7b1-2345-48f2-82c5-45f14b6633c6" Title="ICSDatabaseProvider Properties" Url="html/Properties_T_Corkscrew_SDK_providers_database_ICSDatabaseProvider.htm">
+          <HelpTOCNode Title="Connection Property " Url="html/P_Corkscrew_SDK_providers_database_ICSDatabaseProvider_Connection.htm" />
+          <HelpTOCNode Title="HasError Property " Url="html/P_Corkscrew_SDK_providers_database_ICSDatabaseProvider_HasError.htm" />
+          <HelpTOCNode Title="PrimaryDatabaseName Property " Url="html/P_Corkscrew_SDK_providers_database_ICSDatabaseProvider_PrimaryDatabaseName.htm" />
+          <HelpTOCNode Title="ProviderName Property " Url="html/P_Corkscrew_SDK_providers_database_ICSDatabaseProvider_ProviderName.htm" />
+          <HelpTOCNode Title="QuoteEndChar Property " Url="html/P_Corkscrew_SDK_providers_database_ICSDatabaseProvider_QuoteEndChar.htm" />
+          <HelpTOCNode Title="QuoteStartChar Property " Url="html/P_Corkscrew_SDK_providers_database_ICSDatabaseProvider_QuoteStartChar.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d91b8c3a-2455-4fd6-9323-16420872ccde" Title="ICSDatabaseProvider Methods" Url="html/Methods_T_Corkscrew_SDK_providers_database_ICSDatabaseProvider.htm">
+          <HelpTOCNode Title="ExecuteNonQueryStatement Method " Url="html/M_Corkscrew_SDK_providers_database_ICSDatabaseProvider_ExecuteNonQueryStatement.htm" />
+          <HelpTOCNode Title="ExecuteSelectStatement Method " Url="html/M_Corkscrew_SDK_providers_database_ICSDatabaseProvider_ExecuteSelectStatement.htm" />
+          <HelpTOCNode Title="ExecuteStoredProcedure Method " Url="html/M_Corkscrew_SDK_providers_database_ICSDatabaseProvider_ExecuteStoredProcedure.htm" />
+          <HelpTOCNode Title="GetAllDatabases Method " Url="html/M_Corkscrew_SDK_providers_database_ICSDatabaseProvider_GetAllDatabases.htm" />
+          <HelpTOCNode Title="GetBinaryContent Method " Url="html/M_Corkscrew_SDK_providers_database_ICSDatabaseProvider_GetBinaryContent.htm" />
+          <HelpTOCNode Title="GetSingleValue Method " Url="html/M_Corkscrew_SDK_providers_database_ICSDatabaseProvider_GetSingleValue.htm" />
+          <HelpTOCNode Title="TableExists Method " Url="html/M_Corkscrew_SDK_providers_database_ICSDatabaseProvider_TableExists.htm" />
+          <HelpTOCNode Title="TryConnect Method " Url="html/M_Corkscrew_SDK_providers_database_ICSDatabaseProvider_TryConnect.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f7c1dc7c-c54a-4d25-b3f4-770d84fef76b" Title="Corkscrew.SDK.providers.filesystem" Url="html/N_Corkscrew_SDK_providers_filesystem.htm">
+      <HelpTOCNode Id="6e8d6a6c-a1bf-4274-87da-0c74cace1376" Title="CSDefaultPageProvider Class" Url="html/T_Corkscrew_SDK_providers_filesystem_CSDefaultPageProvider.htm">
+        <HelpTOCNode Title="CSDefaultPageProvider Constructor " Url="html/M_Corkscrew_SDK_providers_filesystem_CSDefaultPageProvider__ctor.htm" />
+        <HelpTOCNode Id="92c506de-cdc7-4d4b-8fa8-8203ad643c2a" Title="CSDefaultPageProvider Methods" Url="html/Methods_T_Corkscrew_SDK_providers_filesystem_CSDefaultPageProvider.htm">
+          <HelpTOCNode Title="GetDefaultPageForPath Method " Url="html/M_Corkscrew_SDK_providers_filesystem_CSDefaultPageProvider_GetDefaultPageForPath.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a0d707ea-d82a-46d5-a396-f72aaa37b73d" Title="CSFileSystemProvider Class" Url="html/T_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider.htm">
+        <HelpTOCNode Title="CSFileSystemProvider Constructor " Url="html/M_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider__ctor.htm" />
+        <HelpTOCNode Id="4e1ec6a5-db6b-4819-914b-6945dbac3c04" Title="CSFileSystemProvider Properties" Url="html/Properties_T_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider.htm">
+          <HelpTOCNode Title="FileSystemEntry Property " Url="html/P_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider_FileSystemEntry.htm" />
+          <HelpTOCNode Title="IsRegistered Property " Url="html/P_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider_IsRegistered.htm" />
+          <HelpTOCNode Title="IsValidCorkscrewItem Property " Url="html/P_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider_IsValidCorkscrewItem.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1214f1e5-8864-4e7d-a7f5-6b34a37f5341" Title="CSFileSystemProvider Methods" Url="html/Methods_T_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider.htm">
+          <HelpTOCNode Title="DirectoryExists Method " Url="html/M_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider_DirectoryExists.htm" />
+          <HelpTOCNode Title="FileExists Method " Url="html/M_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider_FileExists.htm" />
+          <HelpTOCNode Title="GetCacheDependency Method " Url="html/M_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider_GetCacheDependency.htm" />
+          <HelpTOCNode Title="GetDirectory Method " Url="html/M_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider_GetDirectory.htm" />
+          <HelpTOCNode Title="GetFile Method " Url="html/M_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider_GetFile.htm" />
+          <HelpTOCNode Title="GetFileHash Method " Url="html/M_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider_GetFileHash.htm" />
+          <HelpTOCNode Title="RegisterWithHostingEnvironment Method " Url="html/M_Corkscrew_SDK_providers_filesystem_CSFileSystemProvider_RegisterWithHostingEnvironment.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="89efb510-d8d7-4db2-9da3-f45a6399e618" Title="CSVirtualDirectory Class" Url="html/T_Corkscrew_SDK_providers_filesystem_CSVirtualDirectory.htm">
+        <HelpTOCNode Title="CSVirtualDirectory Constructor " Url="html/M_Corkscrew_SDK_providers_filesystem_CSVirtualDirectory__ctor.htm" />
+        <HelpTOCNode Id="76691e24-3eeb-4116-88e1-781ad40ffa0b" Title="CSVirtualDirectory Properties" Url="html/Properties_T_Corkscrew_SDK_providers_filesystem_CSVirtualDirectory.htm">
+          <HelpTOCNode Title="Children Property " Url="html/P_Corkscrew_SDK_providers_filesystem_CSVirtualDirectory_Children.htm" />
+          <HelpTOCNode Title="Directories Property " Url="html/P_Corkscrew_SDK_providers_filesystem_CSVirtualDirectory_Directories.htm" />
+          <HelpTOCNode Title="Directory Property " Url="html/P_Corkscrew_SDK_providers_filesystem_CSVirtualDirectory_Directory.htm" />
+          <HelpTOCNode Title="Files Property " Url="html/P_Corkscrew_SDK_providers_filesystem_CSVirtualDirectory_Files.htm" />
+          <HelpTOCNode Title="VirtualFilesystemProvider Property " Url="html/P_Corkscrew_SDK_providers_filesystem_CSVirtualDirectory_VirtualFilesystemProvider.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSVirtualDirectory Methods" Url="html/Methods_T_Corkscrew_SDK_providers_filesystem_CSVirtualDirectory.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f1e0a938-c4b9-416d-a1fb-8103f6f77929" Title="CSVirtualFile Class" Url="html/T_Corkscrew_SDK_providers_filesystem_CSVirtualFile.htm">
+        <HelpTOCNode Title="CSVirtualFile Constructor " Url="html/M_Corkscrew_SDK_providers_filesystem_CSVirtualFile__ctor.htm" />
+        <HelpTOCNode Id="a36c2151-d71f-44fc-a2c5-c1edfc4dd4ea" Title="CSVirtualFile Properties" Url="html/Properties_T_Corkscrew_SDK_providers_filesystem_CSVirtualFile.htm">
+          <HelpTOCNode Title="CorkscrewFile Property " Url="html/P_Corkscrew_SDK_providers_filesystem_CSVirtualFile_CorkscrewFile.htm" />
+          <HelpTOCNode Title="VirtualFilesystemProvider Property " Url="html/P_Corkscrew_SDK_providers_filesystem_CSVirtualFile_VirtualFilesystemProvider.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="00e2c21c-fed3-49a5-87c6-4ec6c0192990" Title="CSVirtualFile Methods" Url="html/Methods_T_Corkscrew_SDK_providers_filesystem_CSVirtualFile.htm">
+          <HelpTOCNode Title="Open Method " Url="html/M_Corkscrew_SDK_providers_filesystem_CSVirtualFile_Open.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="eae72ba4-c31b-4296-a4ad-20ff9a0490ba" Title="Corkscrew.SDK.providers.httpmodules" Url="html/N_Corkscrew_SDK_providers_httpmodules.htm">
+      <HelpTOCNode Id="3bc44404-dd23-4d2f-95ec-37fb5eb92302" Title="CorkscrewHttpResponseModule Class" Url="html/T_Corkscrew_SDK_providers_httpmodules_CorkscrewHttpResponseModule.htm">
+        <HelpTOCNode Title="CorkscrewHttpResponseModule Constructor " Url="html/M_Corkscrew_SDK_providers_httpmodules_CorkscrewHttpResponseModule__ctor.htm" />
+        <HelpTOCNode Id="6707a0a3-6b5f-48c7-8337-7855f3c66ed6" Title="CorkscrewHttpResponseModule Methods" Url="html/Methods_T_Corkscrew_SDK_providers_httpmodules_CorkscrewHttpResponseModule.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_providers_httpmodules_CorkscrewHttpResponseModule_Dispose.htm" />
+          <HelpTOCNode Title="Init Method " Url="html/M_Corkscrew_SDK_providers_httpmodules_CorkscrewHttpResponseModule_Init.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="232b0142-21aa-4909-8020-403fe184f504" Title="CorkscrewMapRequestHandlerModule Class" Url="html/T_Corkscrew_SDK_providers_httpmodules_CorkscrewMapRequestHandlerModule.htm">
+        <HelpTOCNode Title="CorkscrewMapRequestHandlerModule Constructor " Url="html/M_Corkscrew_SDK_providers_httpmodules_CorkscrewMapRequestHandlerModule__ctor.htm" />
+        <HelpTOCNode Id="e3e58fc9-0710-4636-b188-9db332c36be3" Title="CorkscrewMapRequestHandlerModule Methods" Url="html/Methods_T_Corkscrew_SDK_providers_httpmodules_CorkscrewMapRequestHandlerModule.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_providers_httpmodules_CorkscrewMapRequestHandlerModule_Dispose.htm" />
+          <HelpTOCNode Title="Init Method " Url="html/M_Corkscrew_SDK_providers_httpmodules_CorkscrewMapRequestHandlerModule_Init.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="61a66b63-bfb5-443c-8e9e-05d3c5ead5aa" Title="Corkscrew.SDK.security" Url="html/N_Corkscrew_SDK_security.htm">
+      <HelpTOCNode Id="c75558d1-e34a-4f0a-9617-eee699c1e9ed" Title="CSPermission Class" Url="html/T_Corkscrew_SDK_security_CSPermission.htm">
+        <HelpTOCNode Id="9303ac18-1221-4fbb-ba01-1445b482fb52" Title="CSPermission Properties" Url="html/Properties_T_Corkscrew_SDK_security_CSPermission.htm">
+          <HelpTOCNode Title="CanContribute Property " Url="html/P_Corkscrew_SDK_security_CSPermission_CanContribute.htm" />
+          <HelpTOCNode Title="CanFullControl Property " Url="html/P_Corkscrew_SDK_security_CSPermission_CanFullControl.htm" />
+          <HelpTOCNode Title="CanRead Property " Url="html/P_Corkscrew_SDK_security_CSPermission_CanRead.htm" />
+          <HelpTOCNode Title="HasAny Property " Url="html/P_Corkscrew_SDK_security_CSPermission_HasAny.htm" />
+          <HelpTOCNode Title="IsFarmAdministrator Property " Url="html/P_Corkscrew_SDK_security_CSPermission_IsFarmAdministrator.htm" />
+          <HelpTOCNode Title="IsGroupAcl Property " Url="html/P_Corkscrew_SDK_security_CSPermission_IsGroupAcl.htm" />
+          <HelpTOCNode Title="IsHierarchicalAccess Property " Url="html/P_Corkscrew_SDK_security_CSPermission_IsHierarchicalAccess.htm" />
+          <HelpTOCNode Title="IsSiteAdministrator Property " Url="html/P_Corkscrew_SDK_security_CSPermission_IsSiteAdministrator.htm" />
+          <HelpTOCNode Title="ResourceUri Property " Url="html/P_Corkscrew_SDK_security_CSPermission_ResourceUri.htm" />
+          <HelpTOCNode Title="SecurityPrincipal Property " Url="html/P_Corkscrew_SDK_security_CSPermission_SecurityPrincipal.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="55d377f8-bfeb-43e2-acca-e427cad9c05a" Title="CSPermission Methods" Url="html/Methods_T_Corkscrew_SDK_security_CSPermission.htm">
+          <HelpTOCNode Title="Delete Method " Url="html/M_Corkscrew_SDK_security_CSPermission_Delete.htm" />
+          <HelpTOCNode Title="GetAdministrators Method " Url="html/M_Corkscrew_SDK_security_CSPermission_GetAdministrators.htm" />
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_security_CSPermission_Save.htm" />
+          <HelpTOCNode Id="94166cde-60fc-4ead-9c41-9927047a10ec" Title="TestAccess Method " Url="html/Overload_Corkscrew_SDK_security_CSPermission_TestAccess.htm">
+            <HelpTOCNode Title="TestAccess Method (String, CSSecurityPrincipal)" Url="html/M_Corkscrew_SDK_security_CSPermission_TestAccess_1.htm" />
+            <HelpTOCNode Title="TestAccess Method (CSSite, CSFileSystemEntry, CSSecurityPrincipal)" Url="html/M_Corkscrew_SDK_security_CSPermission_TestAccess.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="aadcf670-6823-49be-8ad6-ec9d9d282aa2" Title="CSPermissionCollection Class" Url="html/T_Corkscrew_SDK_security_CSPermissionCollection.htm">
+        <HelpTOCNode Id="e0c7ea55-1e92-4447-a54c-62b4a02d2b5b" Title="CSPermissionCollection Constructor " Url="html/Overload_Corkscrew_SDK_security_CSPermissionCollection__ctor.htm">
+          <HelpTOCNode Title="CSPermissionCollection Constructor (IEnumerable(CSPermission), Boolean)" Url="html/M_Corkscrew_SDK_security_CSPermissionCollection__ctor_1.htm" />
+          <HelpTOCNode Title="CSPermissionCollection Constructor (CSSite, CSFileSystemEntry, CSSecurityPrincipal)" Url="html/M_Corkscrew_SDK_security_CSPermissionCollection__ctor.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSPermissionCollection Properties" Url="html/Properties_T_Corkscrew_SDK_security_CSPermissionCollection.htm" />
+        <HelpTOCNode Title="CSPermissionCollection Methods" Url="html/Methods_T_Corkscrew_SDK_security_CSPermissionCollection.htm" />
+        <HelpTOCNode Title="CSPermissionCollection Fields" Url="html/Fields_T_Corkscrew_SDK_security_CSPermissionCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8fe32812-92dd-4e16-aef9-8a4c3ccf1ef3" Title="CSSecurityPrincipal Class" Url="html/T_Corkscrew_SDK_security_CSSecurityPrincipal.htm">
+        <HelpTOCNode Title="CSSecurityPrincipal Constructor " Url="html/M_Corkscrew_SDK_security_CSSecurityPrincipal__ctor.htm" />
+        <HelpTOCNode Id="ae9309d9-1d73-42ee-a196-e976a04a896d" Title="CSSecurityPrincipal Properties" Url="html/Properties_T_Corkscrew_SDK_security_CSSecurityPrincipal.htm">
+          <HelpTOCNode Title="DisplayName Property " Url="html/P_Corkscrew_SDK_security_CSSecurityPrincipal_DisplayName.htm" />
+          <HelpTOCNode Title="EmailAddress Property " Url="html/P_Corkscrew_SDK_security_CSSecurityPrincipal_EmailAddress.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_security_CSSecurityPrincipal_Id.htm" />
+          <HelpTOCNode Title="IsGroup Property " Url="html/P_Corkscrew_SDK_security_CSSecurityPrincipal_IsGroup.htm" />
+          <HelpTOCNode Title="LongformDisplayName Property " Url="html/P_Corkscrew_SDK_security_CSSecurityPrincipal_LongformDisplayName.htm" />
+          <HelpTOCNode Title="Username Property " Url="html/P_Corkscrew_SDK_security_CSSecurityPrincipal_Username.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSSecurityPrincipal Methods" Url="html/Methods_T_Corkscrew_SDK_security_CSSecurityPrincipal.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a612c347-2886-4b51-b873-3bb2058e3bdc" Title="CSSecurityPrincipalCollection Class" Url="html/T_Corkscrew_SDK_security_CSSecurityPrincipalCollection.htm">
+        <HelpTOCNode Id="c33aacbf-7ebc-4fa4-8f78-1d715a8fd855" Title="CSSecurityPrincipalCollection Properties" Url="html/Properties_T_Corkscrew_SDK_security_CSSecurityPrincipalCollection.htm">
+          <HelpTOCNode Id="5adde0b6-52ab-47bc-8265-ef0006040de1" Title="Item Property " Url="html/Overload_Corkscrew_SDK_security_CSSecurityPrincipalCollection_Item.htm">
+            <HelpTOCNode Title="Item Property (Guid)" Url="html/P_Corkscrew_SDK_security_CSSecurityPrincipalCollection_Item.htm" />
+            <HelpTOCNode Title="Item Property (String)" Url="html/P_Corkscrew_SDK_security_CSSecurityPrincipalCollection_Item_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="1be9a6af-d33c-41ab-923b-88be7ff28dcf" Title="CSSecurityPrincipalCollection Methods" Url="html/Methods_T_Corkscrew_SDK_security_CSSecurityPrincipalCollection.htm">
+          <HelpTOCNode Id="b6c76322-dbdb-413f-84a3-c91ed8344ef3" Title="Find Method " Url="html/Overload_Corkscrew_SDK_security_CSSecurityPrincipalCollection_Find.htm">
+            <HelpTOCNode Title="Find Method (Guid)" Url="html/M_Corkscrew_SDK_security_CSSecurityPrincipalCollection_Find.htm" />
+            <HelpTOCNode Title="Find Method (String)" Url="html/M_Corkscrew_SDK_security_CSSecurityPrincipalCollection_Find_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSSecurityPrincipalCollection Fields" Url="html/Fields_T_Corkscrew_SDK_security_CSSecurityPrincipalCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5068aaa6-ed75-46fb-a53a-7c63122c14be" Title="CSUser Class" Url="html/T_Corkscrew_SDK_security_CSUser.htm">
+        <HelpTOCNode Title="CSUser Constructor " Url="html/M_Corkscrew_SDK_security_CSUser__ctor.htm" />
+        <HelpTOCNode Id="725f6517-edea-43fa-a15d-909461539fb3" Title="CSUser Properties" Url="html/Properties_T_Corkscrew_SDK_security_CSUser.htm">
+          <HelpTOCNode Title="Memberships Property " Url="html/P_Corkscrew_SDK_security_CSUser_Memberships.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="344e6a48-fb32-42c4-9c3b-1dbdd631d993" Title="CSUser Methods" Url="html/Methods_T_Corkscrew_SDK_security_CSUser.htm">
+          <HelpTOCNode Title="APILogin Method " Url="html/M_Corkscrew_SDK_security_CSUser_APILogin.htm" />
+          <HelpTOCNode Id="38ecd4c7-26c7-4479-9655-3ad88f837e80" Title="ChangePassword Method " Url="html/Overload_Corkscrew_SDK_security_CSUser_ChangePassword.htm">
+            <HelpTOCNode Title="ChangePassword Method " Url="html/M_Corkscrew_SDK_security_CSUser_ChangePassword.htm" />
+            <HelpTOCNode Title="ChangePassword Method (String)" Url="html/M_Corkscrew_SDK_security_CSUser_ChangePassword_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CreateAnonymousUser Method " Url="html/M_Corkscrew_SDK_security_CSUser_CreateAnonymousUser.htm" />
+          <HelpTOCNode Title="CreateSystemUser Method " Url="html/M_Corkscrew_SDK_security_CSUser_CreateSystemUser.htm" />
+          <HelpTOCNode Title="CreateUser Method " Url="html/M_Corkscrew_SDK_security_CSUser_CreateUser.htm" />
+          <HelpTOCNode Title="Delete Method " Url="html/M_Corkscrew_SDK_security_CSUser_Delete.htm" />
+          <HelpTOCNode Title="GenerateNewPassword Method " Url="html/M_Corkscrew_SDK_security_CSUser_GenerateNewPassword.htm" />
+          <HelpTOCNode Title="GetById Method " Url="html/M_Corkscrew_SDK_security_CSUser_GetById.htm" />
+          <HelpTOCNode Title="GetByUsername Method " Url="html/M_Corkscrew_SDK_security_CSUser_GetByUsername.htm" />
+          <HelpTOCNode Title="IsAnonymousUser Method " Url="html/M_Corkscrew_SDK_security_CSUser_IsAnonymousUser.htm" />
+          <HelpTOCNode Title="IsCurrentPassword Method " Url="html/M_Corkscrew_SDK_security_CSUser_IsCurrentPassword.htm" />
+          <HelpTOCNode Title="IsNonOobeValidUser Method " Url="html/M_Corkscrew_SDK_security_CSUser_IsNonOobeValidUser.htm" />
+          <HelpTOCNode Title="IsOobeUser Method " Url="html/M_Corkscrew_SDK_security_CSUser_IsOobeUser.htm" />
+          <HelpTOCNode Title="IsSystemUser Method " Url="html/M_Corkscrew_SDK_security_CSUser_IsSystemUser.htm" />
+          <HelpTOCNode Title="Join Method " Url="html/M_Corkscrew_SDK_security_CSUser_Join.htm" />
+          <HelpTOCNode Title="Leave Method " Url="html/M_Corkscrew_SDK_security_CSUser_Leave.htm" />
+          <HelpTOCNode Id="01bbc77c-488b-4ac0-be06-39a88a39be02" Title="Login Method " Url="html/Overload_Corkscrew_SDK_security_CSUser_Login.htm">
+            <HelpTOCNode Title="Login Method " Url="html/M_Corkscrew_SDK_security_CSUser_Login.htm" />
+            <HelpTOCNode Title="Login Method (String, String)" Url="html/M_Corkscrew_SDK_security_CSUser_Login_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_security_CSUser_Save.htm" />
+          <HelpTOCNode Title="UserExists Method " Url="html/M_Corkscrew_SDK_security_CSUser_UserExists.htm" />
+          <HelpTOCNode Title="Validate Method " Url="html/M_Corkscrew_SDK_security_CSUser_Validate.htm" />
+          <HelpTOCNode Title="VerifyAPILogin Method " Url="html/M_Corkscrew_SDK_security_CSUser_VerifyAPILogin.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3ebf9c33-3799-4331-a50c-7ec0bba6c69d" Title="CSUser Fields" Url="html/Fields_T_Corkscrew_SDK_security_CSUser.htm">
+          <HelpTOCNode Title="ANONYMOUS_USER_GUID Field" Url="html/F_Corkscrew_SDK_security_CSUser_ANONYMOUS_USER_GUID.htm" />
+          <HelpTOCNode Title="CORKSCREW_SYSTEM_USER_GUID Field" Url="html/F_Corkscrew_SDK_security_CSUser_CORKSCREW_SYSTEM_USER_GUID.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f8ab0b70-7510-42fa-8c63-03405e66f0b4" Title="CSUserCollection Class" Url="html/T_Corkscrew_SDK_security_CSUserCollection.htm">
+        <HelpTOCNode Title="CSUserCollection Constructor " Url="html/M_Corkscrew_SDK_security_CSUserCollection__ctor.htm" />
+        <HelpTOCNode Title="CSUserCollection Properties" Url="html/Properties_T_Corkscrew_SDK_security_CSUserCollection.htm" />
+        <HelpTOCNode Id="e5283dc3-2a68-4659-9cdd-f0c905b95f7b" Title="CSUserCollection Methods" Url="html/Methods_T_Corkscrew_SDK_security_CSUserCollection.htm">
+          <HelpTOCNode Id="b56f0418-6a9c-461a-bb72-b7fff3adfdfe" Title="Add Method " Url="html/Overload_Corkscrew_SDK_security_CSUserCollection_Add.htm">
+            <HelpTOCNode Title="Add Method (CSUser)" Url="html/M_Corkscrew_SDK_security_CSUserCollection_Add.htm" />
+            <HelpTOCNode Title="Add Method (String, String, String, String)" Url="html/M_Corkscrew_SDK_security_CSUserCollection_Add_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="8fc62dc5-dd1a-4f38-bd64-c1550765ce22" Title="Find Method " Url="html/Overload_Corkscrew_SDK_security_CSUserCollection_Find.htm">
+            <HelpTOCNode Title="Find Method (Guid)" Url="html/M_Corkscrew_SDK_security_CSUserCollection_Find.htm" />
+            <HelpTOCNode Title="Find Method (String)" Url="html/M_Corkscrew_SDK_security_CSUserCollection_Find_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetAllUsers Method " Url="html/M_Corkscrew_SDK_security_CSUserCollection_GetAllUsers.htm" />
+          <HelpTOCNode Title="GetFarmAdministrators Method " Url="html/M_Corkscrew_SDK_security_CSUserCollection_GetFarmAdministrators.htm" />
+          <HelpTOCNode Title="GetSiteAdministrators Method " Url="html/M_Corkscrew_SDK_security_CSUserCollection_GetSiteAdministrators.htm" />
+          <HelpTOCNode Id="7d20f220-c566-4299-b41a-65bbf2a39a77" Title="Remove Method " Url="html/Overload_Corkscrew_SDK_security_CSUserCollection_Remove.htm">
+            <HelpTOCNode Title="Remove Method (Guid)" Url="html/M_Corkscrew_SDK_security_CSUserCollection_Remove_1.htm" />
+            <HelpTOCNode Title="Remove Method (CSUser)" Url="html/M_Corkscrew_SDK_security_CSUserCollection_Remove.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSUserCollection Fields" Url="html/Fields_T_Corkscrew_SDK_security_CSUserCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4020be17-22a6-47bd-9e44-bde892b5f8f7" Title="CSUserGroup Class" Url="html/T_Corkscrew_SDK_security_CSUserGroup.htm">
+        <HelpTOCNode Title="CSUserGroup Constructor " Url="html/M_Corkscrew_SDK_security_CSUserGroup__ctor.htm" />
+        <HelpTOCNode Id="0ae4c151-e512-4490-be57-5de97057893a" Title="CSUserGroup Properties" Url="html/Properties_T_Corkscrew_SDK_security_CSUserGroup.htm">
+          <HelpTOCNode Title="Members Property " Url="html/P_Corkscrew_SDK_security_CSUserGroup_Members.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="92bbf89b-6967-4c89-840e-f699baee53d0" Title="CSUserGroup Methods" Url="html/Methods_T_Corkscrew_SDK_security_CSUserGroup.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Corkscrew_SDK_security_CSUserGroup_Add.htm" />
+          <HelpTOCNode Title="CreateUserGroup Method " Url="html/M_Corkscrew_SDK_security_CSUserGroup_CreateUserGroup.htm" />
+          <HelpTOCNode Title="Delete Method " Url="html/M_Corkscrew_SDK_security_CSUserGroup_Delete.htm" />
+          <HelpTOCNode Title="Exists Method " Url="html/M_Corkscrew_SDK_security_CSUserGroup_Exists.htm" />
+          <HelpTOCNode Title="GetById Method " Url="html/M_Corkscrew_SDK_security_CSUserGroup_GetById.htm" />
+          <HelpTOCNode Title="GetByName Method " Url="html/M_Corkscrew_SDK_security_CSUserGroup_GetByName.htm" />
+          <HelpTOCNode Title="GetNonMembers Method " Url="html/M_Corkscrew_SDK_security_CSUserGroup_GetNonMembers.htm" />
+          <HelpTOCNode Title="Remove Method " Url="html/M_Corkscrew_SDK_security_CSUserGroup_Remove.htm" />
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_security_CSUserGroup_Save.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1261ffec-98c7-458f-8c77-a1b3814c5b43" Title="CSUserGroupCollection Class" Url="html/T_Corkscrew_SDK_security_CSUserGroupCollection.htm">
+        <HelpTOCNode Title="CSUserGroupCollection Constructor " Url="html/M_Corkscrew_SDK_security_CSUserGroupCollection__ctor.htm" />
+        <HelpTOCNode Title="CSUserGroupCollection Properties" Url="html/Properties_T_Corkscrew_SDK_security_CSUserGroupCollection.htm" />
+        <HelpTOCNode Id="fc6ec3da-f32b-43fb-b019-df1cc9abc0cb" Title="CSUserGroupCollection Methods" Url="html/Methods_T_Corkscrew_SDK_security_CSUserGroupCollection.htm">
+          <HelpTOCNode Id="12dd16fa-f1ba-498f-b481-207d8460a9b2" Title="Add Method " Url="html/Overload_Corkscrew_SDK_security_CSUserGroupCollection_Add.htm">
+            <HelpTOCNode Title="Add Method (CSUserGroup)" Url="html/M_Corkscrew_SDK_security_CSUserGroupCollection_Add.htm" />
+            <HelpTOCNode Title="Add Method (String, String, String)" Url="html/M_Corkscrew_SDK_security_CSUserGroupCollection_Add_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="b9918be2-c1ec-40a5-b7ba-c4e7261b48f2" Title="Find Method " Url="html/Overload_Corkscrew_SDK_security_CSUserGroupCollection_Find.htm">
+            <HelpTOCNode Title="Find Method (Guid)" Url="html/M_Corkscrew_SDK_security_CSUserGroupCollection_Find.htm" />
+            <HelpTOCNode Title="Find Method (String)" Url="html/M_Corkscrew_SDK_security_CSUserGroupCollection_Find_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetAllUserGroups Method " Url="html/M_Corkscrew_SDK_security_CSUserGroupCollection_GetAllUserGroups.htm" />
+          <HelpTOCNode Id="0459dd6f-fc25-44b2-9c11-98b16dd8126a" Title="Remove Method " Url="html/Overload_Corkscrew_SDK_security_CSUserGroupCollection_Remove.htm">
+            <HelpTOCNode Title="Remove Method (Guid)" Url="html/M_Corkscrew_SDK_security_CSUserGroupCollection_Remove_1.htm" />
+            <HelpTOCNode Title="Remove Method (CSUserGroup)" Url="html/M_Corkscrew_SDK_security_CSUserGroupCollection_Remove.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSUserGroupCollection Fields" Url="html/Fields_T_Corkscrew_SDK_security_CSUserGroupCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ccc70a01-1e35-476d-9244-800864ab2d19" Title="CSWebIdentity Class" Url="html/T_Corkscrew_SDK_security_CSWebIdentity.htm">
+        <HelpTOCNode Title="CSWebIdentity Constructor " Url="html/M_Corkscrew_SDK_security_CSWebIdentity__ctor.htm" />
+        <HelpTOCNode Id="60cdac07-0446-4cba-a8e7-6395d0e7a650" Title="CSWebIdentity Properties" Url="html/Properties_T_Corkscrew_SDK_security_CSWebIdentity.htm">
+          <HelpTOCNode Title="AuthenticationType Property " Url="html/P_Corkscrew_SDK_security_CSWebIdentity_AuthenticationType.htm" />
+          <HelpTOCNode Title="IsAuthenticated Property " Url="html/P_Corkscrew_SDK_security_CSWebIdentity_IsAuthenticated.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Corkscrew_SDK_security_CSWebIdentity_Name.htm" />
+          <HelpTOCNode Title="User Property " Url="html/P_Corkscrew_SDK_security_CSWebIdentity_User.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSWebIdentity Methods" Url="html/Methods_T_Corkscrew_SDK_security_CSWebIdentity.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="de90157e-780e-45ac-a1db-07f243caf43d" Title="CSWebPrincipal Class" Url="html/T_Corkscrew_SDK_security_CSWebPrincipal.htm">
+        <HelpTOCNode Title="CSWebPrincipal Constructor " Url="html/M_Corkscrew_SDK_security_CSWebPrincipal__ctor.htm" />
+        <HelpTOCNode Id="7088f264-7b65-423e-92e5-51e9330ce83a" Title="CSWebPrincipal Properties" Url="html/Properties_T_Corkscrew_SDK_security_CSWebPrincipal.htm">
+          <HelpTOCNode Title="CSIdentity Property " Url="html/P_Corkscrew_SDK_security_CSWebPrincipal_CSIdentity.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_security_CSWebPrincipal_Id.htm" />
+          <HelpTOCNode Title="Identity Property " Url="html/P_Corkscrew_SDK_security_CSWebPrincipal_Identity.htm" />
+          <HelpTOCNode Title="IsValid Property " Url="html/P_Corkscrew_SDK_security_CSWebPrincipal_IsValid.htm" />
+          <HelpTOCNode Title="User Property " Url="html/P_Corkscrew_SDK_security_CSWebPrincipal_User.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5645cef7-6770-43ca-b444-4ea5299a3d6a" Title="CSWebPrincipal Methods" Url="html/Methods_T_Corkscrew_SDK_security_CSWebPrincipal.htm">
+          <HelpTOCNode Title="GetByUserId Method " Url="html/M_Corkscrew_SDK_security_CSWebPrincipal_GetByUserId.htm" />
+          <HelpTOCNode Title="IsInRole Method " Url="html/M_Corkscrew_SDK_security_CSWebPrincipal_IsInRole.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ee069f31-3d26-407f-84e2-f349d263baf5" Title="Corkscrew.SDK.tools" Url="html/N_Corkscrew_SDK_tools.htm">
+      <HelpTOCNode Id="5676b83f-6c1b-4f4b-a5d2-400af42f1572" Title="CSZipFiles Class" Url="html/T_Corkscrew_SDK_tools_CSZipFiles.htm">
+        <HelpTOCNode Id="2a063a0c-1663-440a-b128-0550957e9c58" Title="CSZipFiles Methods" Url="html/Methods_T_Corkscrew_SDK_tools_CSZipFiles.htm">
+          <HelpTOCNode Title="CreateArchive Method " Url="html/M_Corkscrew_SDK_tools_CSZipFiles_CreateArchive.htm" />
+          <HelpTOCNode Title="ExtractArchive Method " Url="html/M_Corkscrew_SDK_tools_CSZipFiles_ExtractArchive.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8720c18f-ed80-4ba4-bcd4-24634a79e5fc" Title="ExcelImportExport Class" Url="html/T_Corkscrew_SDK_tools_ExcelImportExport.htm">
+        <HelpTOCNode Title="ExcelImportExport Constructor " Url="html/M_Corkscrew_SDK_tools_ExcelImportExport__ctor.htm" />
+        <HelpTOCNode Id="056f5459-0a8c-4375-b4c5-9d9e6e772717" Title="ExcelImportExport Methods" Url="html/Methods_T_Corkscrew_SDK_tools_ExcelImportExport.htm">
+          <HelpTOCNode Title="ExportToExcel Method " Url="html/M_Corkscrew_SDK_tools_ExcelImportExport_ExportToExcel.htm" />
+          <HelpTOCNode Title="ImportFromExcel Method " Url="html/M_Corkscrew_SDK_tools_ExcelImportExport_ImportFromExcel.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9e83ae1b-9ad7-46ef-8386-3c2ed8e2d912" Title="Utility Class" Url="html/T_Corkscrew_SDK_tools_Utility.htm">
+        <HelpTOCNode Id="ecd75602-733a-4062-8431-4c8bd1278588" Title="Utility Methods" Url="html/Methods_T_Corkscrew_SDK_tools_Utility.htm">
+          <HelpTOCNode Title="Base64Decode Method " Url="html/M_Corkscrew_SDK_tools_Utility_Base64Decode.htm" />
+          <HelpTOCNode Title="Base64Encode Method " Url="html/M_Corkscrew_SDK_tools_Utility_Base64Encode.htm" />
+          <HelpTOCNode Title="CleanupDatabaseColumnNameForHeading Method " Url="html/M_Corkscrew_SDK_tools_Utility_CleanupDatabaseColumnNameForHeading.htm" />
+          <HelpTOCNode Title="ContainsNoCase Method " Url="html/M_Corkscrew_SDK_tools_Utility_ContainsNoCase.htm" />
+          <HelpTOCNode Title="ConvertToUTF8String Method " Url="html/M_Corkscrew_SDK_tools_Utility_ConvertToUTF8String.htm" />
+          <HelpTOCNode Title="GetAbsoluteLocalAddress Method " Url="html/M_Corkscrew_SDK_tools_Utility_GetAbsoluteLocalAddress.htm" />
+          <HelpTOCNode Title="GetAbsoluteLocalAddressParent Method " Url="html/M_Corkscrew_SDK_tools_Utility_GetAbsoluteLocalAddressParent.htm" />
+          <HelpTOCNode Title="GetAbsoluteUrl Method " Url="html/M_Corkscrew_SDK_tools_Utility_GetAbsoluteUrl.htm" />
+          <HelpTOCNode Title="GetSha256Hash Method " Url="html/M_Corkscrew_SDK_tools_Utility_GetSha256Hash.htm" />
+          <HelpTOCNode Title="IsSha256HashOf Method " Url="html/M_Corkscrew_SDK_tools_Utility_IsSha256HashOf.htm" />
+          <HelpTOCNode Title="IsValidDnsHostname Method " Url="html/M_Corkscrew_SDK_tools_Utility_IsValidDnsHostname.htm" />
+          <HelpTOCNode Title="RemoveExtraSlashes Method " Url="html/M_Corkscrew_SDK_tools_Utility_RemoveExtraSlashes.htm" />
+          <HelpTOCNode Title="RemoveNonAlphanumericCharacters Method " Url="html/M_Corkscrew_SDK_tools_Utility_RemoveNonAlphanumericCharacters.htm" />
+          <HelpTOCNode Title="SafeConvertToBool Method " Url="html/M_Corkscrew_SDK_tools_Utility_SafeConvertToBool.htm" />
+          <HelpTOCNode Title="SafeConvertToDateTime Method " Url="html/M_Corkscrew_SDK_tools_Utility_SafeConvertToDateTime.htm" />
+          <HelpTOCNode Title="SafeConvertToGuid Method " Url="html/M_Corkscrew_SDK_tools_Utility_SafeConvertToGuid.htm" />
+          <HelpTOCNode Title="SafeConvertToInt Method " Url="html/M_Corkscrew_SDK_tools_Utility_SafeConvertToInt.htm" />
+          <HelpTOCNode Title="SafeConvertToLong Method " Url="html/M_Corkscrew_SDK_tools_Utility_SafeConvertToLong.htm" />
+          <HelpTOCNode Id="5d560605-f211-4225-878a-751ab51cfa2c" Title="SafeString Method " Url="html/Overload_Corkscrew_SDK_tools_Utility_SafeString.htm">
+            <HelpTOCNode Title="SafeString Method (Object, String, String, String, String, String)" Url="html/M_Corkscrew_SDK_tools_Utility_SafeString.htm" />
+            <HelpTOCNode Title="SafeString Method (String, Int32, Boolean, Boolean, String, String, String, String, String, String)" Url="html/M_Corkscrew_SDK_tools_Utility_SafeString_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SizeHuman Method " Url="html/M_Corkscrew_SDK_tools_Utility_SizeHuman.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="df707bb4-1664-4b32-affa-9db6afdb45a4" Title="Corkscrew.SDK.workflow" Url="html/N_Corkscrew_SDK_workflow.htm">
+      <HelpTOCNode Id="90480f36-adfb-4e9d-87d9-e26fc3ad59ac" Title="CSApprovalWorkflow Class" Url="html/T_Corkscrew_SDK_workflow_CSApprovalWorkflow.htm">
+        <HelpTOCNode Title="CSApprovalWorkflow Constructor " Url="html/M_Corkscrew_SDK_workflow_CSApprovalWorkflow__ctor.htm" />
+        <HelpTOCNode Title="CSApprovalWorkflow Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSApprovalWorkflow.htm" />
+        <HelpTOCNode Id="2ff58d38-256d-4d81-a89c-e598a0ae39fb" Title="CSApprovalWorkflow Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSApprovalWorkflow.htm">
+          <HelpTOCNode Title="OnContinued Method " Url="html/M_Corkscrew_SDK_workflow_CSApprovalWorkflow_OnContinued.htm" />
+          <HelpTOCNode Title="OnError Method " Url="html/M_Corkscrew_SDK_workflow_CSApprovalWorkflow_OnError.htm" />
+          <HelpTOCNode Title="OnStarted Method " Url="html/M_Corkscrew_SDK_workflow_CSApprovalWorkflow_OnStarted.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="89990628-0cc9-4649-8454-f83351ba0baa" Title="CSCompilerValidationError Class" Url="html/T_Corkscrew_SDK_workflow_CSCompilerValidationError.htm">
+        <HelpTOCNode Title="CSCompilerValidationError Constructor " Url="html/M_Corkscrew_SDK_workflow_CSCompilerValidationError__ctor.htm" />
+        <HelpTOCNode Id="10fd675a-7fbb-49b0-8408-4d7db0a6b3a2" Title="CSCompilerValidationError Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSCompilerValidationError.htm">
+          <HelpTOCNode Title="ErrorCode Property " Url="html/P_Corkscrew_SDK_workflow_CSCompilerValidationError_ErrorCode.htm" />
+          <HelpTOCNode Title="IsWarning Property " Url="html/P_Corkscrew_SDK_workflow_CSCompilerValidationError_IsWarning.htm" />
+          <HelpTOCNode Title="Message Property " Url="html/P_Corkscrew_SDK_workflow_CSCompilerValidationError_Message.htm" />
+          <HelpTOCNode Title="OperationName Property " Url="html/P_Corkscrew_SDK_workflow_CSCompilerValidationError_OperationName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSCompilerValidationError Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSCompilerValidationError.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9a515e31-73f4-4415-9bce-b43a2d484886" Title="CSSignatureItem Class" Url="html/T_Corkscrew_SDK_workflow_CSSignatureItem.htm">
+        <HelpTOCNode Id="57cfbf4d-1414-4ccd-abef-e3f28c7f667e" Title="CSSignatureItem Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSSignatureItem.htm">
+          <HelpTOCNode Title="Comment Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_Comment.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_CreatedBy.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_Id.htm" />
+          <HelpTOCNode Title="IsMandatoryMember Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_IsMandatoryMember.htm" />
+          <HelpTOCNode Title="Modified Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_Modified.htm" />
+          <HelpTOCNode Title="ModifiedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_ModifiedBy.htm" />
+          <HelpTOCNode Title="RespondedOn Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_RespondedOn.htm" />
+          <HelpTOCNode Title="Respondent Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_Respondent.htm" />
+          <HelpTOCNode Title="ResponsesIsFinalDecision Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_ResponsesIsFinalDecision.htm" />
+          <HelpTOCNode Title="State Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_State.htm" />
+          <HelpTOCNode Title="UseResponseAsTieBreaker Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_UseResponseAsTieBreaker.htm" />
+          <HelpTOCNode Title="VoteValue Property " Url="html/P_Corkscrew_SDK_workflow_CSSignatureItem_VoteValue.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSSignatureItem Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSSignatureItem.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2244c591-8b28-4663-9605-33448928a734" Title="CSSignaturePanel Class" Url="html/T_Corkscrew_SDK_workflow_CSSignaturePanel.htm">
+        <HelpTOCNode Id="fa3a2565-e141-471f-99ec-b544f4fe701b" Title="CSSignaturePanel Constructor " Url="html/Overload_Corkscrew_SDK_workflow_CSSignaturePanel__ctor.htm">
+          <HelpTOCNode Title="CSSignaturePanel Constructor (SignaturePanelTypeEnum, CSUser)" Url="html/M_Corkscrew_SDK_workflow_CSSignaturePanel__ctor.htm" />
+          <HelpTOCNode Title="CSSignaturePanel Constructor (SignaturePanelTypeEnum, CSUser, DateTime)" Url="html/M_Corkscrew_SDK_workflow_CSSignaturePanel__ctor_1.htm" />
+          <HelpTOCNode Title="CSSignaturePanel Constructor (SignaturePanelTypeEnum, CSUser, TimeSpan)" Url="html/M_Corkscrew_SDK_workflow_CSSignaturePanel__ctor_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ec428b74-c7b8-47bf-8d60-01a88756a27a" Title="CSSignaturePanel Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSSignaturePanel.htm">
+          <HelpTOCNode Title="Approvals Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_Approvals.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_CreatedBy.htm" />
+          <HelpTOCNode Title="Deadline Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_Deadline.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_Id.htm" />
+          <HelpTOCNode Title="IsDeadlineExpired Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_IsDeadlineExpired.htm" />
+          <HelpTOCNode Title="IsTimelimited Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_IsTimelimited.htm" />
+          <HelpTOCNode Title="Members Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_Members.htm" />
+          <HelpTOCNode Title="Modified Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_Modified.htm" />
+          <HelpTOCNode Title="ModifiedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_ModifiedBy.htm" />
+          <HelpTOCNode Title="PanelType Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_PanelType.htm" />
+          <HelpTOCNode Title="Progress Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_Progress.htm" />
+          <HelpTOCNode Title="Rejections Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_Rejections.htm" />
+          <HelpTOCNode Title="State Property " Url="html/P_Corkscrew_SDK_workflow_CSSignaturePanel_State.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6419b437-c446-44c5-b430-d3ad92bfb28b" Title="CSSignaturePanel Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSSignaturePanel.htm">
+          <HelpTOCNode Title="AddPanelMember Method " Url="html/M_Corkscrew_SDK_workflow_CSSignaturePanel_AddPanelMember.htm" />
+          <HelpTOCNode Title="Get Method " Url="html/M_Corkscrew_SDK_workflow_CSSignaturePanel_Get.htm" />
+          <HelpTOCNode Title="RegisterResponse Method " Url="html/M_Corkscrew_SDK_workflow_CSSignaturePanel_RegisterResponse.htm" />
+          <HelpTOCNode Title="RemovePanelMember Method " Url="html/M_Corkscrew_SDK_workflow_CSSignaturePanel_RemovePanelMember.htm" />
+          <HelpTOCNode Title="Start Method " Url="html/M_Corkscrew_SDK_workflow_CSSignaturePanel_Start.htm" />
+          <HelpTOCNode Title="Terminate Method " Url="html/M_Corkscrew_SDK_workflow_CSSignaturePanel_Terminate.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="82481b82-d674-4cdf-9c4e-1bcefe8395da" Title="CSSignaturePanel Events" Url="html/Events_T_Corkscrew_SDK_workflow_CSSignaturePanel.htm">
+          <HelpTOCNode Title="Completed Event" Url="html/E_Corkscrew_SDK_workflow_CSSignaturePanel_Completed.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="f05a086c-bf96-4164-940f-f540fd7f75d8" Title="CSWorkflow Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflow.htm">
+        <HelpTOCNode Title="CSWorkflow Constructor " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow__ctor.htm" />
+        <HelpTOCNode Id="b9f1a9e0-2f30-4b6c-b97e-dd1351646c6f" Title="CSWorkflow Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflow.htm">
+          <HelpTOCNode Title="Context Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflow_Context.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c2ebb112-a373-4d09-b392-11557ca9900e" Title="CSWorkflow Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflow.htm">
+          <HelpTOCNode Title="Abort Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_Abort.htm" />
+          <HelpTOCNode Title="BuildTraceString Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_BuildTraceString.htm" />
+          <HelpTOCNode Title="Complete Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_Complete.htm" />
+          <HelpTOCNode Id="196dd3ae-6ee7-44b6-9864-e029e931523e" Title="MarkErrored Method " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflow_MarkErrored.htm">
+            <HelpTOCNode Title="MarkErrored Method (Exception)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_MarkErrored.htm" />
+            <HelpTOCNode Title="MarkErrored Method (String)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_MarkErrored_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="OnCompleted Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_OnCompleted.htm" />
+          <HelpTOCNode Title="OnContinued Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_OnContinued.htm" />
+          <HelpTOCNode Title="OnError Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_OnError.htm" />
+          <HelpTOCNode Title="OnPaused Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_OnPaused.htm" />
+          <HelpTOCNode Title="OnStarted Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_OnStarted.htm" />
+          <HelpTOCNode Title="Pause Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_Pause.htm" />
+          <HelpTOCNode Title="WriteTrace Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflow_WriteTrace.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d71ffed-9710-44ef-84e3-6c3bd8923efe" Title="CSWorkflowAssociation Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowAssociation.htm">
+        <HelpTOCNode Id="9f90a4c9-5991-4069-ae2c-3841e3ff7ae8" Title="CSWorkflowAssociation Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowAssociation.htm">
+          <HelpTOCNode Title="AllInstances Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_AllInstances.htm" />
+          <HelpTOCNode Title="AllowManualStart Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_AllowManualStart.htm" />
+          <HelpTOCNode Title="AllowProcessingBubbledTriggers Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_AllowProcessingBubbledTriggers.htm" />
+          <HelpTOCNode Title="AllRunnableInstances Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_AllRunnableInstances.htm" />
+          <HelpTOCNode Title="AssociatedEntity Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_AssociatedEntity.htm" />
+          <HelpTOCNode Title="CanUserModifyWorkflowAssociation Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_CanUserModifyWorkflowAssociation.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_CreatedBy.htm" />
+          <HelpTOCNode Title="CustomAssociationInformation Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_CustomAssociationInformation.htm" />
+          <HelpTOCNode Title="Farm Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_Farm.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_Id.htm" />
+          <HelpTOCNode Title="IsEnabled Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_IsEnabled.htm" />
+          <HelpTOCNode Title="Modified Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_Modified.htm" />
+          <HelpTOCNode Title="ModifiedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_ModifiedBy.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_Name.htm" />
+          <HelpTOCNode Title="Site Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_Site.htm" />
+          <HelpTOCNode Title="StartOnCreate Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_StartOnCreate.htm" />
+          <HelpTOCNode Title="StartOnModify Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_StartOnModify.htm" />
+          <HelpTOCNode Title="WorkflowDefinition Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_WorkflowDefinition.htm" />
+          <HelpTOCNode Title="WorkflowScope Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowAssociation_WorkflowScope.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="bc02a146-cf27-4991-ad80-6748e1b2aa0f" Title="CSWorkflowAssociation Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowAssociation.htm">
+          <HelpTOCNode Title="CreateDirectoryAssociation Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_CreateDirectoryAssociation.htm" />
+          <HelpTOCNode Title="CreateFarmAssociation Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_CreateFarmAssociation.htm" />
+          <HelpTOCNode Title="CreateSiteAssociation Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_CreateSiteAssociation.htm" />
+          <HelpTOCNode Title="Delete Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_Delete.htm" />
+          <HelpTOCNode Title="Disable Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_Disable.htm" />
+          <HelpTOCNode Id="55e63c2b-2441-4ad2-a0c4-da4c3974f6c6" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowAssociation_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Enable Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_Enable.htm" />
+          <HelpTOCNode Title="GetHistory Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_GetHistory.htm" />
+          <HelpTOCNode Title="IsEventSubscribed Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_IsEventSubscribed.htm" />
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_Save.htm" />
+          <HelpTOCNode Title="SubscribeWorkflowEvent Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_SubscribeWorkflowEvent.htm" />
+          <HelpTOCNode Title="UnsubscribeWorkflowEvent Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociation_UnsubscribeWorkflowEvent.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4dd48ac5-73c5-4061-b68f-a276fb7fa7b5" Title="CSWorkflowAssociationCollection Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection.htm">
+        <HelpTOCNode Id="3e307c42-227d-49ec-b2c9-19e863757b2a" Title="CSWorkflowAssociationCollection Constructor " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection__ctor.htm">
+          <HelpTOCNode Title="CSWorkflowAssociationCollection Constructor (CSFarm, Boolean)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection__ctor.htm" />
+          <HelpTOCNode Title="CSWorkflowAssociationCollection Constructor (CSFileSystemEntryDirectory, Boolean)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection__ctor_1.htm" />
+          <HelpTOCNode Title="CSWorkflowAssociationCollection Constructor (CSSite, Boolean)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection__ctor_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSWorkflowAssociationCollection Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection.htm" />
+        <HelpTOCNode Id="76cc02b9-a8a9-4e5a-b592-a00ae42c8c23" Title="CSWorkflowAssociationCollection Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection_Add.htm" />
+          <HelpTOCNode Id="df2e3b90-bb5d-4797-9dae-ea5334c75a20" Title="Find Method " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection_Find.htm">
+            <HelpTOCNode Title="Find Method (Guid)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection_Find.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="FindByAssociatedEntityId Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection_FindByAssociatedEntityId.htm" />
+          <HelpTOCNode Title="FindByDefinition Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection_FindByDefinition.htm" />
+          <HelpTOCNode Title="Remove Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection_Remove.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSWorkflowAssociationCollection Fields" Url="html/Fields_T_Corkscrew_SDK_workflow_CSWorkflowAssociationCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d12d1b96-04ed-499c-9f4d-664ee4d6e726" Title="CSWorkflowDefinition Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowDefinition.htm">
+        <HelpTOCNode Id="9aa9c784-a26e-4dc3-bb06-7163db4dbd67" Title="CSWorkflowDefinition Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowDefinition.htm">
+          <HelpTOCNode Title="AllInstances Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_AllInstances.htm" />
+          <HelpTOCNode Title="AllowManualStart Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_AllowManualStart.htm" />
+          <HelpTOCNode Title="AllowProcessingBubbledTriggers Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_AllowProcessingBubbledTriggers.htm" />
+          <HelpTOCNode Title="AllRunnableInstances Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_AllRunnableInstances.htm" />
+          <HelpTOCNode Title="Associations Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_Associations.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_CreatedBy.htm" />
+          <HelpTOCNode Title="DefaultAssociationData Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_DefaultAssociationData.htm" />
+          <HelpTOCNode Title="Description Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_Description.htm" />
+          <HelpTOCNode Title="Farm Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_Farm.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_Id.htm" />
+          <HelpTOCNode Title="IsEnabled Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_IsEnabled.htm" />
+          <HelpTOCNode Title="Modified Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_Modified.htm" />
+          <HelpTOCNode Title="ModifiedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_ModifiedBy.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_Name.htm" />
+          <HelpTOCNode Title="StartOnCreate Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_StartOnCreate.htm" />
+          <HelpTOCNode Title="StartOnModify Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinition_StartOnModify.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ae9aef0e-f16e-49c4-81b0-08d711480781" Title="CSWorkflowDefinition Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowDefinition.htm">
+          <HelpTOCNode Title="CreateDirectoryAssociation Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_CreateDirectoryAssociation.htm" />
+          <HelpTOCNode Title="CreateFarmAssociation Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_CreateFarmAssociation.htm" />
+          <HelpTOCNode Title="CreateManifest Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_CreateManifest.htm" />
+          <HelpTOCNode Title="CreateSiteAssociation Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_CreateSiteAssociation.htm" />
+          <HelpTOCNode Title="Delete Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_Delete.htm" />
+          <HelpTOCNode Title="DeleteAllAssociations Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_DeleteAllAssociations.htm" />
+          <HelpTOCNode Title="DeregisterTrigger Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_DeregisterTrigger.htm" />
+          <HelpTOCNode Title="Disable Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_Disable.htm" />
+          <HelpTOCNode Id="0ca8370d-c0ef-494c-81c3-2d0db30ca7bf" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowDefinition_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Enable Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_Enable.htm" />
+          <HelpTOCNode Id="11a31465-50eb-4436-95cd-5b6956522e02" Title="Get Method " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowDefinition_Get.htm">
+            <HelpTOCNode Title="Get Method (CSFarm, Guid)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_Get.htm" />
+            <HelpTOCNode Title="Get Method (CSFarm, String)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_Get_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetManifest Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_GetManifest.htm" />
+          <HelpTOCNode Title="HasEventsForScope Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_HasEventsForScope.htm" />
+          <HelpTOCNode Title="IsTriggerRegistered Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_IsTriggerRegistered.htm" />
+          <HelpTOCNode Title="RegisterTrigger Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_RegisterTrigger.htm" />
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_Save.htm" />
+          <HelpTOCNode Title="ValidateDefinition Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinition_ValidateDefinition.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4fffea2e-87d9-4b0f-8935-f06ea7c7c339" Title="CSWorkflowDefinitionCollection Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection.htm">
+        <HelpTOCNode Id="174d9add-628b-46ac-a58b-b52801dc96fa" Title="CSWorkflowDefinitionCollection Constructor " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection__ctor.htm">
+          <HelpTOCNode Title="CSWorkflowDefinitionCollection Constructor (IEnumerable(CSWorkflowDefinition))" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection__ctor_1.htm" />
+          <HelpTOCNode Title="CSWorkflowDefinitionCollection Constructor (CSFarm, Boolean)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection__ctor.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="109dfdaa-cd30-4a9c-be9c-0cb01cdf4bff" Title="CSWorkflowDefinitionCollection Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection.htm">
+          <HelpTOCNode Title="Farm Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection_Farm.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7652c91e-f43b-431e-a172-c99571542c84" Title="CSWorkflowDefinitionCollection Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection.htm">
+          <HelpTOCNode Title="Add Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection_Add.htm" />
+          <HelpTOCNode Id="1ddc43c4-d511-49e1-b020-02da50b38a0c" Title="Find Method " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection_Find.htm">
+            <HelpTOCNode Title="Find Method (Guid)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection_Find.htm" />
+            <HelpTOCNode Title="Find Method (String)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection_Find_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSWorkflowDefinitionCollection Fields" Url="html/Fields_T_Corkscrew_SDK_workflow_CSWorkflowDefinitionCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="09a6ecec-8b22-4d6c-a3e9-ffe223dd370b" Title="CSWorkflowEventArgs Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowEventArgs.htm">
+        <HelpTOCNode Title="CSWorkflowEventArgs Constructor " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowEventArgs__ctor.htm" />
+        <HelpTOCNode Id="11ee92a1-cd2b-40d2-b530-d63f780a8e87" Title="CSWorkflowEventArgs Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowEventArgs.htm">
+          <HelpTOCNode Title="Context Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowEventArgs_Context.htm" />
+          <HelpTOCNode Title="IsException Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowEventArgs_IsException.htm" />
+          <HelpTOCNode Title="Terminate Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowEventArgs_Terminate.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSWorkflowEventArgs Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowEventArgs.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CSWorkflowEventCompletionTypesEnum Enumeration" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowEventCompletionTypesEnum.htm" />
+      <HelpTOCNode Title="CSWorkflowEventTypesEnum Enumeration" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowEventTypesEnum.htm" />
+      <HelpTOCNode Id="ec699681-a692-448d-994e-e88101f99b9d" Title="CSWorkflowHistory Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowHistory.htm">
+        <HelpTOCNode Id="a4b2a4ea-5eca-4867-b4ea-f57c1f476a03" Title="CSWorkflowHistory Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowHistory.htm">
+          <HelpTOCNode Title="Association Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_Association.htm" />
+          <HelpTOCNode Title="AssociationData Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_AssociationData.htm" />
+          <HelpTOCNode Title="CompletedReason Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_CompletedReason.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_CreatedBy.htm" />
+          <HelpTOCNode Title="ErrorMessage Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_ErrorMessage.htm" />
+          <HelpTOCNode Title="Event Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_Event.htm" />
+          <HelpTOCNode Title="Farm Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_Farm.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_Id.htm" />
+          <HelpTOCNode Title="Instance Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_Instance.htm" />
+          <HelpTOCNode Title="InstantiatedEntity Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_InstantiatedEntity.htm" />
+          <HelpTOCNode Title="Site Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_Site.htm" />
+          <HelpTOCNode Title="State Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowHistory_State.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSWorkflowHistory Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowHistory.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="872a5cce-ec6e-4771-a65f-679eb6f07242" Title="CSWorkflowHistoryChain Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowHistoryChain.htm">
+        <HelpTOCNode Id="8cbea684-7a72-49bf-a5d9-6f6b790aa2b5" Title="CSWorkflowHistoryChain Constructor " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowHistoryChain__ctor.htm">
+          <HelpTOCNode Title="CSWorkflowHistoryChain Constructor " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowHistoryChain__ctor.htm" />
+          <HelpTOCNode Title="CSWorkflowHistoryChain Constructor (SerializationInfo, StreamingContext)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowHistoryChain__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSWorkflowHistoryChain Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowHistoryChain.htm" />
+        <HelpTOCNode Title="CSWorkflowHistoryChain Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowHistoryChain.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dfa4941e-a8d5-4dca-ac38-6a754dcd1450" Title="CSWorkflowInstance Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowInstance.htm">
+        <HelpTOCNode Id="8de75565-835a-40a2-a529-4892ba10488d" Title="CSWorkflowInstance Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowInstance.htm">
+          <HelpTOCNode Title="Association Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_Association.htm" />
+          <HelpTOCNode Title="CanChangeState Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_CanChangeState.htm" />
+          <HelpTOCNode Title="CompletedReason Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_CompletedReason.htm" />
+          <HelpTOCNode Title="CurrentState Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_CurrentState.htm" />
+          <HelpTOCNode Title="ErrorMessage Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_ErrorMessage.htm" />
+          <HelpTOCNode Title="Events Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_Events.htm" />
+          <HelpTOCNode Title="Farm Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_Farm.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_Id.htm" />
+          <HelpTOCNode Title="InstanceInformation Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_InstanceInformation.htm" />
+          <HelpTOCNode Title="InstantiableEntity Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_InstantiableEntity.htm" />
+          <HelpTOCNode Title="IsLoadedInRuntime Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_IsLoadedInRuntime.htm" />
+          <HelpTOCNode Title="LastException Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_LastException.htm" />
+          <HelpTOCNode Title="RunInstanceCorrelationId Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_RunInstanceCorrelationId.htm" />
+          <HelpTOCNode Title="Site Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_Site.htm" />
+          <HelpTOCNode Title="TraceWriter Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowInstance_TraceWriter.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="42fbb2c2-4d24-4176-9cfd-e607bbbeef4e" Title="CSWorkflowInstance Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowInstance.htm">
+          <HelpTOCNode Title="Abort Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_Abort.htm" />
+          <HelpTOCNode Title="Complete Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_Complete.htm" />
+          <HelpTOCNode Title="Continue Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_Continue.htm" />
+          <HelpTOCNode Title="CopyItem Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_CopyItem.htm" />
+          <HelpTOCNode Id="763cbb3f-495a-4f92-9d65-3853191dbaa6" Title="Dispose Method " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowInstance_Dispose.htm">
+            <HelpTOCNode Title="Dispose Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_Dispose.htm" />
+            <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_Dispose_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="GetHistory Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_GetHistory.htm" />
+          <HelpTOCNode Id="d825b33e-8670-48b6-8959-24cb4c92c1d8" Title="MarkErrored Method " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowInstance_MarkErrored.htm">
+            <HelpTOCNode Title="MarkErrored Method (Exception)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_MarkErrored.htm" />
+            <HelpTOCNode Title="MarkErrored Method (String)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_MarkErrored_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Pause Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_Pause.htm" />
+          <HelpTOCNode Title="RefreshLatestState Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_RefreshLatestState.htm" />
+          <HelpTOCNode Title="Start Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_Start.htm" />
+          <HelpTOCNode Title="WriteTrace Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstance_WriteTrace.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="acb6b7b3-16e9-4b98-99c8-5d37a4a9e0dd" Title="CSWorkflowInstance Events" Url="html/Events_T_Corkscrew_SDK_workflow_CSWorkflowInstance.htm">
+          <HelpTOCNode Title="WorkflowCompleted Event" Url="html/E_Corkscrew_SDK_workflow_CSWorkflowInstance_WorkflowCompleted.htm" />
+          <HelpTOCNode Title="WorkflowContinued Event" Url="html/E_Corkscrew_SDK_workflow_CSWorkflowInstance_WorkflowContinued.htm" />
+          <HelpTOCNode Title="WorkflowErrored Event" Url="html/E_Corkscrew_SDK_workflow_CSWorkflowInstance_WorkflowErrored.htm" />
+          <HelpTOCNode Title="WorkflowPaused Event" Url="html/E_Corkscrew_SDK_workflow_CSWorkflowInstance_WorkflowPaused.htm" />
+          <HelpTOCNode Title="WorkflowStarted Event" Url="html/E_Corkscrew_SDK_workflow_CSWorkflowInstance_WorkflowStarted.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3c8387ac-e438-451a-99f5-f57cfb0f2589" Title="CSWorkflowInstance Fields" Url="html/Fields_T_Corkscrew_SDK_workflow_CSWorkflowInstance.htm">
+          <HelpTOCNode Title="EVENTHANDLER_RUNTIME_LIMIT_MILLISECONDS Field" Url="html/F_Corkscrew_SDK_workflow_CSWorkflowInstance_EVENTHANDLER_RUNTIME_LIMIT_MILLISECONDS.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="38b98c6f-af63-4c29-9ed6-ddd9fbdfa9ce" Title="CSWorkflowInstanceCollection Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowInstanceCollection.htm">
+        <HelpTOCNode Title="CSWorkflowInstanceCollection Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowInstanceCollection.htm" />
+        <HelpTOCNode Id="bf5aa00c-2e82-4922-a9b2-b54825739476" Title="CSWorkflowInstanceCollection Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowInstanceCollection.htm">
+          <HelpTOCNode Id="c6ef50ff-f2f0-4e71-a35f-94cf8ba02985" Title="GetAllRunnable Method " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowInstanceCollection_GetAllRunnable.htm">
+            <HelpTOCNode Title="GetAllRunnable Method (CSFarm)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstanceCollection_GetAllRunnable.htm" />
+            <HelpTOCNode Title="GetAllRunnable Method (CSSite)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstanceCollection_GetAllRunnable_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="819e3ac3-bc2f-4bca-bf7c-a27a53fec1c3" Title="GetInstances Method " Url="html/Overload_Corkscrew_SDK_workflow_CSWorkflowInstanceCollection_GetInstances.htm">
+            <HelpTOCNode Title="GetInstances Method (CSWorkflowAssociation, Boolean)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstanceCollection_GetInstances.htm" />
+            <HelpTOCNode Title="GetInstances Method (CSWorkflowDefinition, Boolean)" Url="html/M_Corkscrew_SDK_workflow_CSWorkflowInstanceCollection_GetInstances_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="CSWorkflowInstanceCollection Fields" Url="html/Fields_T_Corkscrew_SDK_workflow_CSWorkflowInstanceCollection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5ffa18d0-2204-4940-8a15-fde91d25591a" Title="CSWorkflowManifest Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowManifest.htm">
+        <HelpTOCNode Id="26e04f69-a3ed-4235-aaed-b30cf3677651" Title="CSWorkflowManifest Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowManifest.htm">
+          <HelpTOCNode Title="AlwaysCompile Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_AlwaysCompile.htm" />
+          <HelpTOCNode Title="BuildAssemblyCompany Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_BuildAssemblyCompany.htm" />
+          <HelpTOCNode Title="BuildAssemblyCopyright Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_BuildAssemblyCopyright.htm" />
+          <HelpTOCNode Title="BuildAssemblyDescription Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_BuildAssemblyDescription.htm" />
+          <HelpTOCNode Title="BuildAssemblyFileVersion Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_BuildAssemblyFileVersion.htm" />
+          <HelpTOCNode Title="BuildAssemblyProduct Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_BuildAssemblyProduct.htm" />
+          <HelpTOCNode Title="BuildAssemblyTitle Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_BuildAssemblyTitle.htm" />
+          <HelpTOCNode Title="BuildAssemblyTrademark Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_BuildAssemblyTrademark.htm" />
+          <HelpTOCNode Title="BuildAssemblyVersion Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_BuildAssemblyVersion.htm" />
+          <HelpTOCNode Title="CacheCompileResults Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_CacheCompileResults.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_CreatedBy.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_Id.htm" />
+          <HelpTOCNode Title="LastCompiled Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_LastCompiled.htm" />
+          <HelpTOCNode Title="Modified Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_Modified.htm" />
+          <HelpTOCNode Title="ModifiedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_ModifiedBy.htm" />
+          <HelpTOCNode Title="OutputAssemblyName Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_OutputAssemblyName.htm" />
+          <HelpTOCNode Title="WorkflowClassName Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_WorkflowClassName.htm" />
+          <HelpTOCNode Title="WorkflowDefinition Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_WorkflowDefinition.htm" />
+          <HelpTOCNode Title="WorkflowEngine Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifest_WorkflowEngine.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8528ab33-9f72-4c58-8db6-f2b868e2d2bd" Title="CSWorkflowManifest Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowManifest.htm">
+          <HelpTOCNode Title="AddItem Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifest_AddItem.htm" />
+          <HelpTOCNode Title="CreateManifest Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifest_CreateManifest.htm" />
+          <HelpTOCNode Title="Delete Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifest_Delete.htm" />
+          <HelpTOCNode Title="GetItems Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifest_GetItems.htm" />
+          <HelpTOCNode Title="RemoveItem Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifest_RemoveItem.htm" />
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifest_Save.htm" />
+          <HelpTOCNode Title="UpdateCompileResults Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifest_UpdateCompileResults.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d2f97915-2af5-4135-8abf-2758a932527e" Title="CSWorkflowManifestItem Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowManifestItem.htm">
+        <HelpTOCNode Id="dd51fdea-b05b-468a-b908-f9af49bfd1eb" Title="CSWorkflowManifestItem Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowManifestItem.htm">
+          <HelpTOCNode Title="BuildtimeRelativeFolder Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_BuildtimeRelativeFolder.htm" />
+          <HelpTOCNode Title="Created Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_Created.htm" />
+          <HelpTOCNode Title="CreatedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_CreatedBy.htm" />
+          <HelpTOCNode Title="FileContent Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_FileContent.htm" />
+          <HelpTOCNode Title="FileContentSize Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_FileContentSize.htm" />
+          <HelpTOCNode Title="Filename Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_Filename.htm" />
+          <HelpTOCNode Title="FilenameExtension Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_FilenameExtension.htm" />
+          <HelpTOCNode Title="FilenameWithExtension Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_FilenameWithExtension.htm" />
+          <HelpTOCNode Title="Id Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_Id.htm" />
+          <HelpTOCNode Title="IsCompilerInput Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_IsCompilerInput.htm" />
+          <HelpTOCNode Title="IsRuntimeComponent Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_IsRuntimeComponent.htm" />
+          <HelpTOCNode Title="ItemType Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_ItemType.htm" />
+          <HelpTOCNode Title="Modified Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_Modified.htm" />
+          <HelpTOCNode Title="ModifiedBy Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_ModifiedBy.htm" />
+          <HelpTOCNode Title="MustCompile Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_MustCompile.htm" />
+          <HelpTOCNode Title="RequiredForExecution Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_RequiredForExecution.htm" />
+          <HelpTOCNode Title="RuntimeRelativeFolder Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_RuntimeRelativeFolder.htm" />
+          <HelpTOCNode Title="WorkflowDefinition Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_WorkflowDefinition.htm" />
+          <HelpTOCNode Title="WorkflowManifest Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowManifestItem_WorkflowManifest.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="43c6b055-c530-4304-9699-057c45f6c99c" Title="CSWorkflowManifestItem Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowManifestItem.htm">
+          <HelpTOCNode Title="CreateManifestItem Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifestItem_CreateManifestItem.htm" />
+          <HelpTOCNode Title="GetFullPathForCompiler Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifestItem_GetFullPathForCompiler.htm" />
+          <HelpTOCNode Title="GetFullPathForRuntime Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifestItem_GetFullPathForRuntime.htm" />
+          <HelpTOCNode Title="Save Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifestItem_Save.htm" />
+          <HelpTOCNode Title="WriteToDiskForCompiler Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifestItem_WriteToDiskForCompiler.htm" />
+          <HelpTOCNode Title="WriteToDiskForRuntime Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowManifestItem_WriteToDiskForRuntime.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6cb80d73-46ed-4e93-9058-d68fa615e525" Title="CSWorkflowRuntimeContext Class" Url="html/T_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext.htm">
+        <HelpTOCNode Id="d35e0650-a9aa-432b-a9c2-8c38cefb71e1" Title="CSWorkflowRuntimeContext Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext.htm">
+          <HelpTOCNode Title="Association Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext_Association.htm" />
+          <HelpTOCNode Title="AssociationId Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext_AssociationId.htm" />
+          <HelpTOCNode Title="CorrelationId Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext_CorrelationId.htm" />
+          <HelpTOCNode Title="Credential Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext_Credential.htm" />
+          <HelpTOCNode Title="Definition Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext_Definition.htm" />
+          <HelpTOCNode Title="Instance Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext_Instance.htm" />
+          <HelpTOCNode Title="State Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext_State.htm" />
+          <HelpTOCNode Title="WorkflowId Property " Url="html/P_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext_WorkflowId.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e0c02da8-6ec0-4e9e-8ebe-69ee23303694" Title="CSWorkflowRuntimeContext Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext.htm">
+          <HelpTOCNode Title="CreateContext Method " Url="html/M_Corkscrew_SDK_workflow_CSWorkflowRuntimeContext_CreateContext.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ace38f66-2d05-4523-bf08-7473eeefdd06" Title="ExampleWorkflowSiteCreated Class" Url="html/T_Corkscrew_SDK_workflow_ExampleWorkflowSiteCreated.htm">
+        <HelpTOCNode Title="ExampleWorkflowSiteCreated Constructor " Url="html/M_Corkscrew_SDK_workflow_ExampleWorkflowSiteCreated__ctor.htm" />
+        <HelpTOCNode Title="ExampleWorkflowSiteCreated Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_ExampleWorkflowSiteCreated.htm" />
+        <HelpTOCNode Id="7f6d5223-d501-4a09-a93d-3e89291f37aa" Title="ExampleWorkflowSiteCreated Methods" Url="html/Methods_T_Corkscrew_SDK_workflow_ExampleWorkflowSiteCreated.htm">
+          <HelpTOCNode Title="OnError Method " Url="html/M_Corkscrew_SDK_workflow_ExampleWorkflowSiteCreated_OnError.htm" />
+          <HelpTOCNode Title="OnStarted Method " Url="html/M_Corkscrew_SDK_workflow_ExampleWorkflowSiteCreated_OnStarted.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="112efea6-3102-43b1-9d38-3db13a30712d" Title="ICSWorkflow Interface" Url="html/T_Corkscrew_SDK_workflow_ICSWorkflow.htm">
+        <HelpTOCNode Id="ad4fc7ab-11f8-4855-9485-fd847784057f" Title="ICSWorkflow Properties" Url="html/Properties_T_Corkscrew_SDK_workflow_ICSWorkflow.htm">
+          <HelpTOCNode Title="Context Property " Url="html/P_Corkscrew_SDK_workflow_ICSWorkflow_Context.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="SignatureItemStateEnum Enumeration" Url="html/T_Corkscrew_SDK_workflow_SignatureItemStateEnum.htm" />
+      <HelpTOCNode Title="SignaturePanelCompleted Delegate" Url="html/T_Corkscrew_SDK_workflow_SignaturePanelCompleted.htm" />
+      <HelpTOCNode Title="SignaturePanelStateEnum Enumeration" Url="html/T_Corkscrew_SDK_workflow_SignaturePanelStateEnum.htm" />
+      <HelpTOCNode Title="SignaturePanelTypeEnum Enumeration" Url="html/T_Corkscrew_SDK_workflow_SignaturePanelTypeEnum.htm" />
+      <HelpTOCNode Title="WorkflowEngineEnum Enumeration" Url="html/T_Corkscrew_SDK_workflow_WorkflowEngineEnum.htm" />
+      <HelpTOCNode Title="WorkflowEventHandler Delegate" Url="html/T_Corkscrew_SDK_workflow_WorkflowEventHandler.htm" />
+      <HelpTOCNode Title="WorkflowManifestItemTypeEnum Enumeration" Url="html/T_Corkscrew_SDK_workflow_WorkflowManifestItemTypeEnum.htm" />
+      <HelpTOCNode Title="WorkflowTriggerEventNamesEnum Enumeration" Url="html/T_Corkscrew_SDK_workflow_WorkflowTriggerEventNamesEnum.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Component Name="ProvisionWebsite" InstallFailureIsFatal="false" CabFileName="ProvisionWebsite" InstallFolderName="ProvisionWebsite">
+  <description>
+    This is a Windows app that helps you provision an IIS website with its content served via Corkscrew. The tool will provision the website in IIS, 
+    create a site in Corkscrew and, configure the web application folder with one click. It uses .NET Framework 4.6 technology. The app will require 
+    connectivity to your Corkscrew_ConfigDB database to function. This app must be installed on the system where you wish to provision the website.
+  </description>
+  <Depependencies />
+  <Installers>
+    <Installer type="Filesystem">
+      <parameters source="$(InstallSource)\ProvisionWebsite" overwrite="true" />
+    </Installer>
+    <Installer type="ConnectionString">
+      <parameters configFile="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Tools.ProvisionWebsite.exe.config" />
+    </Installer>
+    <Installer type="ProgramShortcuts">
+      <parameters targetFilePath="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Tools.ProvisionWebsite.exe" 
+                  placeIn="Desktop" 
+                  icon="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Tools.ProvisionWebsite.exe" 
+                  workingDirectory="$(InstallTargetRoot)\$(ComponentDestination)" 
+                  title="Corkscrew Provision Website Tool" 
+                  description="This is a Windows app that helps you provision IIS website with content served via Corkscrew." />
+    </Installer>
+    <Installer type="Registry">
+      <Actions>
+        <Action type="Install" hive="LocalMachine" parentKey="SOFTWARE\Aquarius Operating Systems\CMS\InstalledComponents" keyPath="ProvisionWebsite" keyType="ValueName" value="1" />
+      </Actions>
+    </Installer>
+  </Installers>
+</Component>

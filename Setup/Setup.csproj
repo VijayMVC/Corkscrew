@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{957C0314-9224-45C2-B696-82983EE66C7B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CMS.Setup</RootNamespace>
+    <AssemblyName>Setup</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CMS.Setup.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>corkscrew_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Corkscrew.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Administration, Version=7.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ExternalSDK\IISWebAdministration\Microsoft.Web.Administration.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Selectors" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Installers\ComponentInstaller.cs" />
+    <Compile Include="Installers\ComponentInstallerCollection.cs" />
+    <Compile Include="Installers\ConnectionStringInstaller.cs" />
+    <Compile Include="Installers\Constants.cs" />
+    <Compile Include="Installers\DatabaseInstaller.cs" />
+    <Compile Include="Installers\DatabaseSettings.cs" />
+    <Compile Include="Installers\FilesystemInstaller.cs" />
+    <Compile Include="Installers\IISInstaller.cs" />
+    <Compile Include="Installers\IISSettings.cs" />
+    <Compile Include="Installers\IProgressableInstaller.cs" />
+    <Compile Include="Installers\NewFarmInstaller.cs" />
+    <Compile Include="Installers\OperationManifest.cs" />
+    <Compile Include="Installers\ToolRunnerInstaller.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Installers\ProgramShortcutsInstaller.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Installers\RegistryInstaller.cs" />
+    <Compile Include="Installers\RegistryKeyAction.cs" />
+    <Compile Include="Screens\CertificateSelectionScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\CertificateSelectionScreen.Designer.cs">
+      <DependentUpon>CertificateSelectionScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\DatabaseConnectionScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\DatabaseConnectionScreen.Designer.cs">
+      <DependentUpon>DatabaseConnectionScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\FinishScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\FinishScreen.Designer.cs">
+      <DependentUpon>FinishScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\IISConnectionScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\IISConnectionScreen.Designer.cs">
+      <DependentUpon>IISConnectionScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\InstallWizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\InstallWizardForm.Designer.cs">
+      <DependentUpon>InstallWizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\ProgressScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\ProgressScreen.Designer.cs">
+      <DependentUpon>ProgressScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\ScreenTemplate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\ScreenTemplate.Designer.cs">
+      <DependentUpon>ScreenTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\SelectComponentsScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\SelectComponentsScreen.Designer.cs">
+      <DependentUpon>SelectComponentsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\SelectInstallFolderScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\SelectInstallFolderScreen.Designer.cs">
+      <DependentUpon>SelectInstallFolderScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\WelcomeScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\WelcomeScreen.Designer.cs">
+      <DependentUpon>WelcomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelfExtractor.cs" />
+    <Compile Include="Installers\WindowsInstaller.cs" />
+    <Compile Include="Installers\WindowsInstallerCollection.cs" />
+    <Compile Include="Installers\WindowsServiceInstaller.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Screens\CertificateSelectionScreen.resx">
+      <DependentUpon>CertificateSelectionScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\DatabaseConnectionScreen.resx">
+      <DependentUpon>DatabaseConnectionScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\FinishScreen.resx">
+      <DependentUpon>FinishScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\IISConnectionScreen.resx">
+      <DependentUpon>IISConnectionScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\InstallWizardForm.resx">
+      <DependentUpon>InstallWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\ProgressScreen.resx">
+      <DependentUpon>ProgressScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\ScreenTemplate.resx">
+      <DependentUpon>ScreenTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\SelectComponentsScreen.resx">
+      <DependentUpon>SelectComponentsScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\SelectInstallFolderScreen.resx">
+      <DependentUpon>SelectInstallFolderScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\WelcomeScreen.resx">
+      <DependentUpon>WelcomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Corkscrew.snk" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SDK\SDK.csproj">
+      <Project>{d2c78aff-501d-41a1-8ef1-7be33bd5f689}</Project>
+      <Name>SDK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corkscrew_logo_vertical_darkbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="corkscrew_icon.ico" />
+    <Content Include="Manifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>$(SolutionDir)..\..\ExternalSDK\SignTool.exe sign /f "$(SolutionDir)CodeSign_19021806.pfx" /p "19021806" /t http://timestamp.verisign.com/scripts/timstamp.dll  "$(TargetPath)"
+COPY /Y $(TargetPath) $(TargetDir)Setup1.exe
+DEL /Q $(TargetDir)CorkscrewSetup.exe
+$(TargetDir)Setup1.exe /package /sources:$(SolutionDir)BuildDrops /sfx:CorkscrewSetup.exe
+DEL /Q $(TargetDir)Setup1.exe
+DEL /S /Q $(TargetDir)temp
+RD /S /Q $(TargetDir)temp
+$(SolutionDir)..\..\ExternalSDK\SignTool.exe sign /f "$(SolutionDir)CodeSign_19021806.pfx" /p "19021806" /t http://timestamp.verisign.com/scripts/timstamp.dll "$(TargetDir)CorkscrewSetup.exe"
+for %25%25f in ("$(TargetDir)*Setup.exe") do $(SolutionDir)..\..\ExternalSDK\SignTool.exe sign /f "$(SolutionDir)CodeSign_19021806.pfx" /p "19021806" /t http://timestamp.verisign.com/scripts/timstamp.dll "%25%25f"
+COPY /Y $(TargetDir)*Setup.exe $(SolutionDir)BuildDrops\*Setup.exe
+DEL /Q $(SolutionDir)BuildDrops\Setup.exe
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

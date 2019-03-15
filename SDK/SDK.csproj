@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corkscrew.SDK</RootNamespace>
+    <AssemblyName>Corkscrew.SDK</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectGuid>{D2C78AFF-501D-41A1-8EF1-7BE33BD5F689}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>..\..\..\..\CSharp_FindDeadCodeRuleset.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <NoWarn>612,618</NoWarn>
+    <DocumentationFile>bin\Debug\Corkscrew.SDK.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>..\..\..\..\CSharp_FindDeadCodeRuleset.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Corkscrew.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="constants\CSConstants.cs" />
+    <Compile Include="diagnostics\CSDiagnostics.cs" />
+    <Compile Include="exceptions\CSExceptionHelper.cs" />
+    <Compile Include="exceptions\CSWorkflowException.cs" />
+    <Compile Include="exceptions\IsReadonlyException.cs" />
+    <Compile Include="objects\CSBaseCollection.cs" />
+    <Compile Include="objects\CSConfigurationCollection.cs" />
+    <Compile Include="objects\CSFileSystemHistoryRecord.cs" />
+    <Compile Include="objects\CSMailItem.cs" />
+    <Compile Include="objects\CSMIMETypeCollection.cs" />
+    <Compile Include="objects\CSDiagnosticsEntry.cs" />
+    <Compile Include="objects\CSFarm.cs" />
+    <Compile Include="objects\CSFileSystemEntryCollection.cs" />
+    <Compile Include="objects\CSFileSystemEntryDirectoryCollection.cs" />
+    <Compile Include="objects\CSFileSystemEntryFileCollection.cs" />
+    <Compile Include="objects\CSFileSystemEntryDirectory.cs" />
+    <Compile Include="objects\CSFileSystemEntry.cs" />
+    <Compile Include="objects\CSFileSystemEntryFile.cs" />
+    <Compile Include="objects\CSKeyValuePair.cs" />
+    <Compile Include="objects\CSPath.cs" />
+    <Compile Include="objects\CSSiteDNSNamesCollection.cs" />
+    <Compile Include="objects\CSSiteHistoryRecord.cs" />
+    <Compile Include="objects\CSTable.cs" />
+    <Compile Include="objects\CSTableCollection.cs" />
+    <Compile Include="objects\CSTableColumn.cs" />
+    <Compile Include="objects\CSTableColumnCollection.cs" />
+    <Compile Include="objects\CSTableColumnCollectionChangedEventArgs.cs" />
+    <Compile Include="objects\CSTableColumnDataTypeEnum.cs" />
+    <Compile Include="objects\CSTableColumnDefinition.cs" />
+    <Compile Include="objects\CSTableColumnDefinitionCollection.cs" />
+    <Compile Include="objects\CSTableRow.cs" />
+    <Compile Include="objects\CSTableRowCollection.cs" />
+    <Compile Include="objects\CSTableRowStateEnum.cs" />
+    <Compile Include="objects\IWorkflowAttachable.cs" />
+    <Compile Include="odm\OdmMailItem.cs" />
+    <Compile Include="odm\OdmSignaturePanel.cs" />
+    <Compile Include="odm\OdmTabularData.cs" />
+    <Compile Include="odm\OdmWorkflow.cs" />
+    <Compile Include="security\CSSecurityPrincipal.cs" />
+    <Compile Include="security\CSUserGroup.cs" />
+    <Compile Include="workflow\client\ExampleWorkflowSiteCreated.cs" />
+    <Compile Include="workflow\client\CSApprovalWorkflow.cs" />
+    <Compile Include="workflow\client\CSSignaturePanel.cs" />
+    <Compile Include="workflow\client\CSWorkflow.cs" />
+    <Compile Include="workflow\CSCompilerValidationError.cs" />
+    <Compile Include="workflow\CSWorkflowAssociation.cs" />
+    <Compile Include="workflow\CSWorkflowDefinition.cs" />
+    <Compile Include="workflow\CSWorkflowEventArgs.cs" />
+    <Compile Include="workflow\CSWorkflowTriggerEvents.cs" />
+    <Compile Include="workflow\CSWorkflowHistory.cs" />
+    <Compile Include="workflow\CSWorkflowInstance.cs" />
+    <Compile Include="workflow\CSWorkflowManifest.cs" />
+    <Compile Include="workflow\CSWorkflowManifestItem.cs" />
+    <Compile Include="workflow\CSWorkflowRuntimeContext.cs" />
+    <Compile Include="objects\CSWorkingContext.cs" />
+    <Compile Include="providers\filesystem\CSDefaultPageProvider.cs" />
+    <Compile Include="security\CSPermission.cs" />
+    <Compile Include="objects\CSSiteCollection.cs" />
+    <Compile Include="objects\CSVirtualFileStream.cs" />
+    <Compile Include="objects\CSMIMEType.cs" />
+    <Compile Include="odm\OdmMIMEType.cs" />
+    <Compile Include="odm\OdmDiagnostics.cs" />
+    <Compile Include="odm\OdmFileSystemDriver.cs" />
+    <Compile Include="odm\OdmPermissions.cs" />
+    <Compile Include="odm\OdmSite.cs" />
+    <Compile Include="odm\OdmUsers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="providers\database\CSDatabaseProviderFactory.cs" />
+    <Compile Include="providers\database\CSSqlServerProvider.cs" />
+    <Compile Include="providers\database\ICSDatabaseProvider.cs" />
+    <Compile Include="providers\database\SqlResult.cs" />
+    <Compile Include="providers\HttpModules\CorkscrewHttpResponseModule.cs" />
+    <Compile Include="providers\HttpModules\CorkscrewMapRequestHandlerModule.cs" />
+    <Compile Include="providers\filesystem\CSFileSystemProvider.cs" />
+    <Compile Include="providers\filesystem\CSVirtualDirectory.cs" />
+    <Compile Include="providers\filesystem\CSVirtualFile.cs" />
+    <Compile Include="security\CSPermissionCollection.cs" />
+    <Compile Include="security\CSWebIdentity.cs" />
+    <Compile Include="security\CSWebPrincipal.cs" />
+    <Compile Include="security\CSUser.cs" />
+    <Compile Include="security\CSUserCollection.cs" />
+    <Compile Include="tools\Utility.cs" />
+    <Compile Include="odm\OdmBase.cs" />
+    <Compile Include="objects\CSSite.cs" />
+    <Compile Include="workflow\client\ICSWorkflow.cs" />
+    <Compile Include="workflow\WorkflowCommon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="odm\OdmConfiguration.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Manifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Corkscrew.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+      $(SolutionDir)..\..\ExternalSDK\SignTool.exe sign /f "$(SolutionDir)CodeSign_19021806.pfx" /p "19021806" /t http://timestamp.verisign.com/scripts/timstamp.dll "$(TargetPath)"
+      XCOPY /R /E /Y /I $(TargetDir)*.* $(SolutionDir)BuildDrops\SDK 
+      COPY /Y $(ProjectDir)\Manifest.xml $(SolutionDir)BuildDrops\SDK\Manifest.xml
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
