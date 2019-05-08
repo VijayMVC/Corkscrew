@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Component Name="WorkflowService" InstallFailureIsFatal="false" CabFileName="WorkflowService" InstallFolderName="WorkflowService">
+  <description>
+    This is a Windows Service. It executes the workflows enabled and configured in Corkscrew. If this service is not installed, stopped or disabled, 
+    workflows will not execute in the Corkscrew Farm. It uses .NET Framework 4.6 technology. The app will require connectivity to your Corkscrew_ConfigDB database to function.
+  </description>
+  <Depependencies />
+  <Installers>
+    <Installer type="Filesystem">
+      <parameters source="$(InstallSource)\WorkflowService" overwrite="true" />
+    </Installer>
+    <Installer type="ConnectionString">
+      <parameters configFile="$(InstallTargetRoot)\$(ComponentDestination)\CorkscrewWorkflowService.exe.config" />
+    </Installer>
+    <Installer type="WindowsService">
+      <parameters serviceName="CorkscrewWorkflowService" executableName="$(InstallTargetRoot)\$(ComponentDestination)\CorkscrewWorkflowService.exe" />
+    </Installer>
+    <Installer type="Registry">
+      <Actions>
+        <Action type="Install" hive="LocalMachine" parentKey="SOFTWARE\Aquarius Operating Systems\CMS\InstalledComponents" keyPath="WorkflowService" keyType="ValueName" value="1" />
+      </Actions>
+    </Installer>
+  </Installers>
+</Component>

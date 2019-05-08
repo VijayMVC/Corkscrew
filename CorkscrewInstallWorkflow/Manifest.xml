@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Component Name="InstallWorkflow" InstallFailureIsFatal="false" CabFileName="CommandlineTools-InstallWorkflow" InstallFolderName="CommandlineTools\InstallWorkflow">
+  <description>
+    This is a command-line tool. This tool lets users import and export objects between Corkscrew and SharePoint. You must run this tool on a system
+    that has connectivity to both the Corkscrew Farm and your SharePoint Farm. It must be installed on a system that has at least the SharePoint Foundation
+    installed. It uses .NET Framework 4.6 technology.
+    The app will require connectivity to your Corkscrew_ConfigDB database to function.
+  </description>
+  <Depependencies />
+  <Installers>
+    <Installer type="Filesystem">
+      <parameters source="$(InstallSource)\CommandlineTools-InstallWorkflow" overwrite="true" />
+    </Installer>
+    <Installer type="ConnectionString">
+      <parameters configFile="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Tools.InstallWorkflow.exe.config" />
+    </Installer>
+    <Installer type="Registry">
+      <Actions>
+        <Action type="Install" hive="LocalMachine" parentKey="SOFTWARE\Aquarius Operating Systems\CMS\InstalledComponents" keyPath="InstallWorkflow" keyType="ValueName" value="1" />
+      </Actions>
+    </Installer>
+  </Installers>
+</Component>

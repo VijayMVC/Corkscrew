@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Component Name="Corkscrew_ConfigDB" InstallFailureIsFatal="false" CabFileName="Corkscrew_ConfigDB" InstallFolderName="">
+  <description>
+    This is the primary (and in this version, the only) database that Corkscrew users. This database will contain all the Farm configuration, 
+    site configuration, the file system and the workflows hosted in Corkscrew. You must have one of these deployed to your farm. After you 
+    have set up the database using this installation wizard, you can ask your database administrator (DBA) to setup clustering, failover, replication, 
+    Always ON and other redundancy and failure-mitigation mechanisms as per your standard operating policies.
+  </description>
+  <Depependencies />
+  <Installers>
+    <Installer type="Database">
+      <parameters source="$(InstallSource)\Corkscrew_ConfigDB" patches="" databaseName="Corkscrew_ConfigDB" skipWorkflow="" />
+    </Installer>
+    <Installer type="NewFarm">
+      <parameters adminUserName="CorkscrewAdmin" adminPassword="JuS7@C0mpl1cat3dP@ssW)rd" adminName="Corkscrew Administrator" adminEmail="CorkscreAdmin@" />
+    </Installer>
+  </Installers>
+</Component>

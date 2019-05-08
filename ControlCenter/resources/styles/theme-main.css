@@ -1,0 +1,619 @@
+﻿
+
+
+/*
+	Global
+*/
+html, body {
+	margin: 0pt;
+	padding: 0pt;
+
+	height: 100% !important;
+	width: 100% !important;
+	zoom: 1;
+
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14pt;
+	font-weight: 400 !important;
+
+	vertical-align: top;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+
+	background-color: #212121;
+}
+
+
+/* 
+	Effects
+*/
+
+/* Drop shadow on a text item */
+.dropShadowText {
+	text-shadow: 0px 6px 5px rgba(0, 0, 0, 0.42);
+}
+
+/* Drop shadow on a box (div) */
+.dropShadowBox {
+	box-shadow: rgba(0, 0, 0, 0.42) 3px 3px;
+}
+
+
+/* Top Banner */
+.topBanner {
+	height: 80px;
+	width: 100% !important;
+    position: fixed;
+    left: 0px;
+    top: 0px; 
+    right: 0px;
+    z-index: 2147483647;
+
+	padding: 10px;
+
+	background: #383838;
+	white-space: nowrap;
+}
+
+/* Top Banner Text */
+.topBannerText {
+	position: relative;
+	top: 0px;
+	left: 20px;
+
+	color: #ffffff;
+
+	font-size: 1.5em;
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 600 !important;
+	text-align: left;
+	white-space: nowrap;
+}
+
+/* Style for the "gear" icon that shows the Site Actions menu */
+.siteActionsMenu {
+	position: relative;
+	top: 10px;
+	left: 10px;
+
+	height: 50px;
+	width: 50px;
+	content: url('/resources/images/gear_dark.png');
+}
+
+	.siteActionsMenu:hover {
+		cursor: pointer;
+		content: url('/resources/images/gear_light.png');
+	}
+
+/* Drop down of the site actions menu */
+.siteActionsMenuDropdown {
+	position: relative;
+	left: 10px;
+	top: 80px;
+	width: 280px;
+	min-height: 650px;
+    max-height: 100%;
+    height: auto !important;
+	z-index: 2147483647;
+
+	background-color: rgb(49, 49, 49);
+
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+
+	box-shadow: 10px 10px 10px 0px #000000;
+}
+
+/* Menu items in the site actions menu */
+.siteactionsMenuItem {
+	position: relative;
+	top: 15px;
+	left: 10px;
+	width: 90% !important;
+	padding: 5px;
+	color: #ffffff;
+
+	font-size: 71%;
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400 !important;
+	text-align: left;
+}
+
+	.siteactionsMenuItem:hover {
+		background-color: rgb(33, 33, 33);
+		box-shadow: inset 1px 0px 13px -3px #000000;
+		cursor: pointer;
+	}
+
+/* A menu item divider */
+.menuItemDivider {
+    border-color: #212121;
+	width: 90% !important;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+/* Left-side Sidebar */
+.leftSideBarContainer {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 240px;
+	height: auto;
+}
+
+/*
+	@media (max-width: 730px) {
+		.leftSideBarContainer {
+			position: static;
+			float: left;
+			clear: both;
+			width: 100%;
+			height: auto !important;
+
+			background-color: #313131;
+		}
+	}
+*/
+
+/* Side bar menu container */
+.sideBarMenuContainer {
+	position: relative;
+	margin-top: 11px;
+	left: 10px;
+	height: auto; 
+	padding-bottom: 20px;
+	width: 230px !important;
+
+	background-color: #313131;
+
+    border-color: #212121;
+    border-width: 2px;
+    border-style: groove;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+	@media (max-width: 730px) {
+		.sideBarMenuContainer {
+			width: 92.5% !important;
+			height: auto !important;
+		}
+	}
+
+    .sideBarMenuContainer.firstItem {
+        margin-top: 0px;
+    }
+
+/* Title for sidebar */
+.sideBarMenuTitle {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100% !important;
+	border: solid 1px #212121;
+	background-size: 100% !important;
+    background-color: #212121;
+}
+
+/* Text in the title */
+.sidebarMenuTitleText {
+	color: #ffffff;
+	padding: 5px;
+
+	font-size: 0.714em;
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 600 !important;
+	text-align: left;
+}
+
+/* Menu items in the sidebar */
+.sidebarMenuItem {
+	position: relative;
+	top: 5px;
+	left: 10px;
+	width: 80% !important;
+	padding: 5px;
+	color: #ffffff;
+
+	font-size: 0.625em;
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 200 !important;
+	text-align: left;
+}
+
+	.sidebarMenuItem:hover {
+		background-color: rgb(33, 33, 33);
+		box-shadow: inset 1px 0px 13px -3px #000000;
+		cursor: pointer;
+	}
+
+
+
+/* The main content area */
+.contentArea {
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	
+	height: auto !important;
+	width: 100% !important;
+
+	background-color: #313131;
+
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+	@media (max-width: 730px) {
+		.contentArea {
+            /*
+			position: static;
+			float: left;
+			clear: left;
+
+			margin-top: 10px;*/
+            min-width: 730px !important;
+			width: 100% !important;
+		}
+	}
+
+/* Bread crumb navigation in content area */
+.contentAreaBreadCrumb {
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
+
+	color: #ffffff;
+
+	font-size: 1em;
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400 !important;
+	text-align: left;
+}
+
+	@media (max-width: 730px) {
+		.contentAreaBreadCrumb {
+			position: static;
+		}
+	}
+
+	/* Bread crumb links */
+	.contentAreaBreadCrumb a {
+		color: #ffffff;
+
+		font-size: 0.715em;
+		font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: 400 !important;
+		text-align: left;
+		text-decoration: underline;
+	}
+
+		.contentAreaBreadCrumb a:hover {
+			text-shadow: 0px 6px 5px rgba(0, 0, 0, 0.42);
+		}
+
+/* Content in the content area */
+.contentAreaContent {
+	position: relative;
+	height: auto !important;
+	width: auto !important;
+	margin: 20px;
+	padding: 15px;
+	color: #ffffff;
+
+	font-size: 0.625em;
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400 !important;
+	text-align: justify;
+	text-align-last: left;
+    vertical-align: top;
+
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+	@media (max-width: 730px) {
+		.contentAreaContent {
+			position: static;
+		}
+	}
+
+/* Hero image of the page (usually within main content area) */
+.heroImage {
+	float: left;
+	clear: both;
+	width: 100% !important;
+	text-align: center;
+	border: 0px;
+	margin-bottom: 20px;
+	border-radius: 10px 10px;
+	box-shadow: 0px 10px 10px 0px #212121;
+}
+
+	@media (max-width: 860px) {
+		.heroImage {
+			width: 100% !important;
+		}
+	}
+
+/* Expander (arrow) objects */
+.expander {
+	width: 16px !important;
+	height: 16px !important; 
+	margin-right: 5px;
+}
+
+	.expanded {
+		content: url('/resources/images/collapse.png');
+	}
+
+	.collapsed {
+		content: url('/resources/images/expand.png');
+	}
+
+.clickable {
+	cursor: pointer;
+}
+
+
+/* We do not base our basic element style on these, so if these are present, they came from user content */
+
+/* headings */
+h1, h2, h3, h4, h5 {
+	margin-top: 1px;
+	padding-top: 1px;
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #ffffff;
+	font-weight: 600 !important;
+}
+
+	h1 {
+		font-size: 1.8em;
+        line-height: 12pt;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	h4 {
+		font-size: 0.800em;
+	}
+
+	h5 {
+		font-size: 0.600em;
+	}
+
+/* input[type=text], input[type=checkbox], input[type=file], input[type=radio], textarea, select */
+input, textarea, select {
+    margin-top: 5px;
+	padding: 5px;
+	background-color: #212121;
+	color: #ffffff;
+	border: solid 1px #212121;
+
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400 !important;
+}
+
+    /* Otherwise our formatting would get royally screwed up */
+    input[type=text], input[type=file], textarea, select {
+        min-width: 150px;
+        border-radius: 7px 7px;
+    }
+
+    .inputValidationError {
+        border: solid 3px #FFFF00 !important;
+    }
+
+    .inputValidationGood {
+        border: solid 1px #212121;
+    }
+
+input[type=button], input[type=submit] {
+    padding: 15px;
+	background-color: #212121;
+	color: #ffffff;
+	border: solid 1px #212121;
+    border-radius: 7px 7px;
+
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400 !important;
+}
+
+    /* The :not([disabled]) ensures only enabled buttons get the hover effect */
+    input[type=button]:not([disabled]):hover, input[type=submit]:not([disabled]):hover {
+        padding: 14px;
+        background-color: #313131;
+        border: solid 2px #000000;
+    }
+
+.buttonStyleLink {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #313131;
+}
+
+    .buttonStyleLink:hover {
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #212121;
+        cursor: pointer;
+    }
+
+p, td, th {
+	color: #ffffff;
+
+	font-size: 1em;
+	font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400 !important;
+
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+
+	text-align: justify;
+	text-align-last: left;
+    vertical-align: top;
+
+	white-space: normal;
+
+}
+
+    th {
+        background-color: #212121;
+        padding: 10px;
+        font-size: 1.250em;
+        font-weight: 600 !important; 
+        white-space: nowrap !important;
+    }
+
+a {
+		color: #ffffff;
+
+		font-size: 100%;
+		font-family: "Merriweather", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: 400 !important;
+		text-align: left;
+        
+        /* HACK: text-decoration-color is not supported on all browsers */
+        text-decoration: none;
+        border-bottom: 1px solid yellow;
+	}
+
+		a:hover {
+		    text-shadow: 0px 6px 5px yellow;
+		}
+
+        .sidebarMenuItem a {
+            text-decoration: none;
+
+            /* HACK: remove text-decoration hack */
+            border-bottom: none;
+        }
+
+        .siteactionsMenuItem a {
+            text-decoration: none;
+
+            /* HACK: remove text-decoration hack */
+            border-bottom: none;
+        }
+
+pre {
+    background-color: #000000;
+    padding: 5px;
+    border: solid 1px #FFFF00;
+    border-radius: 7px 7px;
+    overflow: auto;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.alignclear {
+    text-align: initial;
+}
+
+.aspNetHidden {
+    display: none;
+    width: 0px;
+    height: 0px;
+}
+
+.highlighted {
+    background-color: yellow !important;
+    color: blue !important;
+    padding: 3px;
+}
+
+.singleLineNoWrap {
+    white-space: nowrap;
+}
+
+.formImageButtonIconSize {
+    height: 32px !important;
+    width: 32px !important;
+}
+
+.listTreeContainer, .listTreeContainer ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+    .listTreeContainer ul ul {
+        margin-left: 0.5em;
+    }
+
+    .listTreeContainer ul:before {
+        content: "";
+        display: block;
+        width: 0px;
+
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+
+        border-left: solid 1px #212121;
+    }
+
+    .listTreeContainer li {
+        margin: 0px;
+        padding: 0 1.5em;
+        line-height: 2em;
+        
+        position: relative;
+    }
+
+    .listTreeContainer ul li:before {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 0px;
+
+        border-top: solid 1px #212121;
+
+        margin-top: -1px;
+        
+        position: absolute;
+        left: 0px;
+        top: 1em;
+    }
+
+    .listTreeContainer ul li:last-child:before {
+        height: auto;
+        top: 1em;
+        bottom: 0;
+    }
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #ffff00;
+    border-radius: 10px;
+}

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Component Name="ControlCenter" InstallFailureIsFatal="false" CabFileName="ControlCenter" InstallFolderName="ControlCenter">
+  <description>
+    The Control Center is an ASP.NET website that allows administrator users control over their Corkscrew Farms. It provides features to centrally manage the Corkscrew 
+    system's user accounts, sites and farm-level configuration. It uses ASP.NET 4.5 technology. The website will require connectivity to your Corkscrew_ConfigDB database to function.
+  </description>
+  <Depependencies />
+  <Installers>
+    <Installer type="Filesystem">
+      <parameters source="$(InstallSource)\ControlCenter" overwrite="true" />
+    </Installer>
+    <Installer type="ConnectionString">
+      <parameters configFile="$(InstallTargetRoot)\$(ComponentDestination)\web.config" />
+    </Installer>
+    <Installer type="IIS">
+      <parameters appName="Corkscrew - Control Center" webName="Corkscrew - Web Site - Control Center" defaultPort="20171" requireSSL="false" appFolder="$(InstallTargetRoot)\$(ComponentDestination)" />
+    </Installer>
+    <Installer type="Registry">
+      <Actions>
+        <Action type="Install" hive="LocalMachine" parentKey="SOFTWARE\Aquarius Operating Systems\CMS\InstalledComponents" keyPath="ControlCenter" keyType="ValueName" value="1" />
+      </Actions>
+    </Installer>
+  </Installers>
+</Component>

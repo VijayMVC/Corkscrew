@@ -1,0 +1,9 @@
+DELIMITER ;;
+CREATE PROCEDURE `WrkflwDefnGetAll`(
+)
+BEGIN
+
+	
+        
+END ;;
+DELIMITER ;

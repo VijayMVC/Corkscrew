@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90AAA259-56EA-494E-8FD5-C4CCEB8CC5B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corkscrew.Explorer</RootNamespace>
+    <AssemblyName>Corkscrew.Explorer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>corkscrew_icon_png.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Corkscrew.Explorer.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Corkscrew.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAssociateWorkflow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssociateWorkflow.Designer.cs">
+      <DependentUpon>frmAssociateWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangeGroupMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangeGroupMembership.Designer.cs">
+      <DependentUpon>frmChangeGroupMembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConnectToFarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnectToFarm.Designer.cs">
+      <DependentUpon>frmConnectToFarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateEditManifestItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateEditManifestItem.Designer.cs">
+      <DependentUpon>frmCreateEditManifestItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateEditSite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateEditSite.Designer.cs">
+      <DependentUpon>frmCreateEditSite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateEditUserGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateEditUserGroup.Designer.cs">
+      <DependentUpon>frmCreateEditUserGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateEditUser.Designer.cs">
+      <DependentUpon>frmCreateEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCSFolderBrowserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCSFolderBrowserDialog.Designer.cs">
+      <DependentUpon>frmCSFolderBrowserDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDefineWorkflow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDefineWorkflow.Designer.cs">
+      <DependentUpon>frmDefineWorkflow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDefineWorkflowManifestItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDefineWorkflowManifestItems.Designer.cs">
+      <DependentUpon>frmDefineWorkflowManifestItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDefineWorkflowSetManifest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDefineWorkflowSetManifest.Designer.cs">
+      <DependentUpon>frmDefineWorkflowSetManifest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFarmConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFarmConfig.Designer.cs">
+      <DependentUpon>frmFarmConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportUsersFromAD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportUsersFromAD.Designer.cs">
+      <DependentUpon>frmImportUsersFromAD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmItemPermissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmItemPermissions.Designer.cs">
+      <DependentUpon>frmItemPermissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainWindow.Designer.cs">
+      <DependentUpon>frmMainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgressBar.Designer.cs">
+      <DependentUpon>frmProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProperties.Designer.cs">
+      <DependentUpon>frmProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUploadFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUploadFile.Designer.cs">
+      <DependentUpon>frmUploadFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewLog.Designer.cs">
+      <DependentUpon>frmViewLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWorkflowInstances.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWorkflowInstances.Designer.cs">
+      <DependentUpon>frmWorkflowInstances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAssociateWorkflow.resx">
+      <DependentUpon>frmAssociateWorkflow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangeGroupMembership.resx">
+      <DependentUpon>frmChangeGroupMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnectToFarm.resx">
+      <DependentUpon>frmConnectToFarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateEditManifestItem.resx">
+      <DependentUpon>frmCreateEditManifestItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateEditSite.resx">
+      <DependentUpon>frmCreateEditSite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateEditUserGroup.resx">
+      <DependentUpon>frmCreateEditUserGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateEditUser.resx">
+      <DependentUpon>frmCreateEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCSFolderBrowserDialog.resx">
+      <DependentUpon>frmCSFolderBrowserDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDefineWorkflow.resx">
+      <DependentUpon>frmDefineWorkflow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDefineWorkflowManifestItems.resx">
+      <DependentUpon>frmDefineWorkflowManifestItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDefineWorkflowSetManifest.resx">
+      <DependentUpon>frmDefineWorkflowSetManifest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFarmConfig.resx">
+      <DependentUpon>frmFarmConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportUsersFromAD.resx">
+      <DependentUpon>frmImportUsersFromAD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmItemPermissions.resx">
+      <DependentUpon>frmItemPermissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainWindow.resx">
+      <DependentUpon>frmMainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgressBar.resx">
+      <DependentUpon>frmProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProperties.resx">
+      <DependentUpon>frmProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUploadFile.resx">
+      <DependentUpon>frmUploadFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewLog.resx">
+      <DependentUpon>frmViewLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWorkflowInstances.resx">
+      <DependentUpon>frmWorkflowInstances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Corkscrew.snk" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SDK.ActiveDirectory\SDK.ActiveDirectory.csproj">
+      <Project>{fa8ee42f-31d0-4209-95b7-20f6df16433f}</Project>
+      <Name>SDK.ActiveDirectory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SDK.Zip\SDK.Zip.csproj">
+      <Project>{e1e2bfac-6318-4a5b-9db0-42211acb8880}</Project>
+      <Name>SDK.Zip</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SDK\SDK.csproj">
+      <Project>{d2c78aff-501d-41a1-8ef1-7be33bd5f689}</Project>
+      <Name>SDK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="corkscrew_icon_png.ico" />
+    <Content Include="Manifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Resources\corkscrew_logo_darkbg.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+      $(SolutionDir)..\..\ExternalSDK\SignTool.exe sign /f "$(SolutionDir)CodeSign_19021806.pfx" /p "19021806" /t http://timestamp.verisign.com/scripts/timstamp.dll "$(TargetPath)"
+      DEL /S /Q $(SolutionDir)BuildDrops\Explorer
+      XCOPY /R /E /Y /I $(TargetDir)*.* $(SolutionDir)BuildDrops\Explorer
+      COPY /Y $(ProjectDir)\Manifest.xml $(SolutionDir)BuildDrops\Explorer\Manifest.xml
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

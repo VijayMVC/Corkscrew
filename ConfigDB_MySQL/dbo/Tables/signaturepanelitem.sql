@@ -1,0 +1,22 @@
+CREATE TABLE `SignaturePanelItem` (
+  `Id` varchar(64) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `PanelId` varchar(64) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `RespondentId` varchar(64) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `IsFinalDecider` tinyint(1) NOT NULL,
+  `IsTieBreaker` tinyint(1) NOT NULL,
+  `IsMandatory` tinyint(1) NOT NULL,
+  `Response` int(11) NOT NULL,
+  `Comment` varchar(1024) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
+  `RespondedOn` datetime DEFAULT NULL,
+  `SentToResponder` tinyint(1) NOT NULL,
+  `Created` datetime NOT NULL,
+  `CreatedBy` varchar(64) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `Modified` datetime NOT NULL,
+  `ModifiedBy` varchar(64) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  PRIMARY KEY (`PanelId`,`Id`,`RespondentId`),
+  UNIQUE KEY `Id` (`Id`),
+  UNIQUE KEY `PanelId` (`PanelId`),
+  UNIQUE KEY `RespondentId` (`RespondentId`),
+  UNIQUE KEY `CreatedBy` (`CreatedBy`),
+  UNIQUE KEY `ModifiedBy` (`ModifiedBy`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;

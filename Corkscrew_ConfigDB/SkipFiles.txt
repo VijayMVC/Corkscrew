@@ -1,0 +1,9 @@
+.cs
+.dbmdl
+.xml
+.sqlproj
+.user
+.vspcc
+SkipFiles.txt
+\bin\
+\obj\

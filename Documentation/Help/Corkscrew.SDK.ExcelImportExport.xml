@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Corkscrew.SDK.ExcelImportExport</name>
+  </assembly>
+  <members>
+    <member name="T:Corkscrew.SDK.tools.ExcelImportExport">
+      <summary>
+            Performs Excel file export
+            </summary>
+    </member>
+    <member name="M:Corkscrew.SDK.tools.ExcelImportExport.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Corkscrew.SDK.tools.ExcelImportExport</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Corkscrew.SDK.tools.ExcelImportExport.ExportToExcel(System.Data.DataSet,System.String)">
+      <summary>
+            Exports the data from the given dataset to an Excel file at the given filepath.
+            </summary>
+      <param name="data">Dataset containing the data to be exported. All the tables in this dataset will be exported.</param>
+      <param name="excelFilePath">Path to the file to be created (the Excel file)</param>
+      <exception cref="T:System.Exception">General exception thrown</exception>
+    </member>
+    <member name="M:Corkscrew.SDK.tools.ExcelImportExport.ImportFromExcel(System.String,System.String)">
+      <summary>
+            Reads in data from the given excel file and sheet
+            </summary>
+      <param name="excelFilePath">Path to Excel file</param>
+      <param name="sheetName">Name of the sheet to read. If NULL, all the sheets will be processed.</param>
+      <returns>Dataset containing data from the Excel sheet</returns>
+      <exception cref="T:System.Exception">General exception thrown</exception>
+    </member>
+  </members>
+</doc>

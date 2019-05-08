@@ -1,0 +1,200 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Corkscrew.SDK.security Namespace</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="Corkscrew.SDK.security namespace" />
+    <meta name="Microsoft.Help.F1" content="Corkscrew.SDK.security" />
+    <meta name="Microsoft.Help.Id" content="N:Corkscrew.SDK.security" />
+    <meta name="Description" content="This namespace contains functionality for User and Permission (ACL) management." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="Corkscrew.SDK.security" />
+    <meta name="file" content="N_Corkscrew_SDK_security" />
+    <meta name="guid" content="N_Corkscrew_SDK_security" />
+    
+    <link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" />
+    <script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/branding-Website.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="pageHeader" id="PageHeader">Aquarius Corkscrew Content Management System SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div>
+    <div class="pageBody">
+      <div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Documentation.htm" title="Aquarius Corkscrew Content Management System SDK" tocid="roottoc">Aquarius Corkscrew Content Management System SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="R_Project_Documentation.htm" title="aquariusos.corkscrew.library" tocid="R_Project_Documentation">aquariusos.corkscrew.library</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Corkscrew_SDK_security.htm" title="Corkscrew.SDK.security" tocid="N_Corkscrew_SDK_security">Corkscrew.SDK.security</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Corkscrew_SDK_security_CSPermission.htm" title="CSPermission Class" tocid="T_Corkscrew_SDK_security_CSPermission">CSPermission Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Corkscrew_SDK_security_CSPermissionCollection.htm" title="CSPermissionCollection Class" tocid="T_Corkscrew_SDK_security_CSPermissionCollection">CSPermissionCollection Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Corkscrew_SDK_security_CSSecurityPrincipal.htm" title="CSSecurityPrincipal Class" tocid="T_Corkscrew_SDK_security_CSSecurityPrincipal">CSSecurityPrincipal Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Corkscrew_SDK_security_CSSecurityPrincipalCollection.htm" title="CSSecurityPrincipalCollection Class" tocid="T_Corkscrew_SDK_security_CSSecurityPrincipalCollection">CSSecurityPrincipalCollection Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Corkscrew_SDK_security_CSUser.htm" title="CSUser Class" tocid="T_Corkscrew_SDK_security_CSUser">CSUser Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Corkscrew_SDK_security_CSUserCollection.htm" title="CSUserCollection Class" tocid="T_Corkscrew_SDK_security_CSUserCollection">CSUserCollection Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Corkscrew_SDK_security_CSUserGroup.htm" title="CSUserGroup Class" tocid="T_Corkscrew_SDK_security_CSUserGroup">CSUserGroup Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Corkscrew_SDK_security_CSUserGroupCollection.htm" title="CSUserGroupCollection Class" tocid="T_Corkscrew_SDK_security_CSUserGroupCollection">CSUserGroupCollection Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Corkscrew_SDK_security_CSWebIdentity.htm" title="CSWebIdentity Class" tocid="T_Corkscrew_SDK_security_CSWebIdentity">CSWebIdentity Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Corkscrew_SDK_security_CSWebPrincipal.htm" title="CSWebPrincipal Class" tocid="T_Corkscrew_SDK_security_CSWebPrincipal">CSWebPrincipal Class</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent">
+        <table class="titleTable">
+          <tr>
+            <td class="titleColumn">Corkscrew.SDK.security Namespace</td>
+          </tr>
+        </table>
+        <span class="introStyle"></span>
+        <div class="summary">This namespace contains functionality for User and Permission (ACL) management.</div>
+        <div class="collapsibleAreaRegion">
+          <span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0">
+            <img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Classes</span>
+        </div>
+        <div id="ID0RBSection" class="collapsibleSection">
+          <table id="typeList" class="members">
+            <tr>
+              <th class="iconColumn">
+					 
+				</th>
+              <th>Class</th>
+              <th>Description</th>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Corkscrew_SDK_security_CSPermission.htm">CSPermission</a>
+              </td>
+              <td>
+                <div class="summary">
+            Denotes a generic ACL in the Corkscrew system. 
+            There is no "Farm" participant. Any ACL that has Site set to NULL applies at the Farm scope.
+            </div>
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Corkscrew_SDK_security_CSPermissionCollection.htm">CSPermissionCollection</a>
+              </td>
+              <td>
+                <div class="summary">
+            Collection of CSPermission ACLs
+            </div>
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Corkscrew_SDK_security_CSSecurityPrincipal.htm">CSSecurityPrincipal</a>
+              </td>
+              <td>
+                <div class="summary">
+            This class is a common representation of CSUser and CSGroup for cases where one of the either is to be used.
+            </div>
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Corkscrew_SDK_security_CSSecurityPrincipalCollection.htm">CSSecurityPrincipalCollection</a>
+              </td>
+              <td>
+                <div class="summary">
+            Collection of security principal objects
+            </div>
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Corkscrew_SDK_security_CSUser.htm">CSUser</a>
+              </td>
+              <td>
+                <div class="summary">
+            This class represents a single user account in the Corkscrew system.
+            </div>
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Corkscrew_SDK_security_CSUserCollection.htm">CSUserCollection</a>
+              </td>
+              <td>
+                <div class="summary">
+            Collection of CSUser. Allows you to manage CSUser objects 
+            transparently.
+            </div>
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Corkscrew_SDK_security_CSUserGroup.htm">CSUserGroup</a>
+              </td>
+              <td>
+                <div class="summary">
+            This class represents a group of users in the Corkscrew System
+            </div>
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Corkscrew_SDK_security_CSUserGroupCollection.htm">CSUserGroupCollection</a>
+              </td>
+              <td>
+                <div class="summary">
+            Collection of CSUserGroup. Allows you to manage CSUserGroup objects transparently.
+            </div>
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Corkscrew_SDK_security_CSWebIdentity.htm">CSWebIdentity</a>
+              </td>
+              <td>
+                <div class="summary">
+            IIdentity implementation for web-authentication module. 
+            This class is not used anywhere other than in the web-authentication module.
+            </div>
+              </td>
+            </tr>
+            <tr data="class; public">
+              <td>
+                <img src="../icons/pubclass.gif" alt="Public class" title="Public class" />
+              </td>
+              <td>
+                <a href="T_Corkscrew_SDK_security_CSWebPrincipal.htm">CSWebPrincipal</a>
+              </td>
+              <td>
+                <div class="summary">
+            Implements the IPrincipal interface over the CSUser security object
+            This class is not used anywhere other than in the web-authentication module!
+            </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div id="pageFooter" class="pageFooter">
+      <p>Copyright © 2016 Aquarius Operating Systems. All Rights Reserved.</p>
+      <div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:techsupport%40corkscrewcms.com?Subject=Aquarius Corkscrew Content Management System SDK">Give Feedback</a></div>
+      <script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div>
+  </body>
+</html>

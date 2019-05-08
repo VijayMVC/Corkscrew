@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InstallManifest>
+  <WorkflowDefinition
+      name="Archival Workflow"
+      description="This is a workflow designed to run within the Corkscrew Workflow Service. This workflow backs up any new and modified files to another Site and location."
+      defaultAssociationData=""
+      startOnCreateNewItem="true"
+      startOnModifyItem="true"
+      allowStartWorkflowManually="false">
+
+    <Events
+      allowBubbledEvents="false"
+      >
+
+      <Event name="directory_created" />
+      <Event name="directory_modified" />
+      <Event name="file_created" />
+      <Event name="file_modified" />
+      
+    </Events>
+
+    <Manifest
+      engine="CS1C" 
+      assemblyName="InstantFileBackupWorkflow.dll" 
+      className="InstantFileBackupWorkflow.ArchivalWorkflow" 
+      alwaysCompile="false" 
+      cacheCompileResults="true"
+      >
+
+      <Build 
+          name="Corkscrew Instant File Backup Workflow" 
+          description="This is a workflow designed to run within the Corkscrew Workflow Service. This workflow backs up any new and modified files to another Site and location." 
+          product="Corkscrew Instant File Backup Workflow" 
+          company="Aquarius Operating Systems, India" 
+          copyright="Copyright ©  2016, Aquarius Operating Systems, India. All rights reserved." 
+          trademark="Aquarius Operating Systems, India" 
+          version="1.0.0.0" 
+          fileversion="1.0.0.0"
+        />
+
+      <ManifestItems>
+
+        <Item 
+            name="ArchivalWorkflow.cs" 
+            type="SourceCodeFile" 
+            requiredForExecution="false" 
+            buildRelativeFolder="" 
+            runtimeRelativeFolder=""
+          />
+
+        <Item
+            name="AssemblyInfo.cs"
+            type="SourceCodeFile"
+            requiredForExecution="false"
+            buildRelativeFolder=""
+            runtimeRelativeFolder=""
+          />
+
+        <Item
+            name="InstantFileBackupWorkflow.dll"
+            type="PrimaryAssembly"
+            requiredForExecution="true"
+            buildRelativeFolder=""
+            runtimeRelativeFolder=""
+          />
+        
+      </ManifestItems>
+      
+    </Manifest>
+    
+  </WorkflowDefinition>
+</InstallManifest>

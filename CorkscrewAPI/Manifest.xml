@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Component Name="APIService" InstallFailureIsFatal="false" CabFileName="APIService" InstallFolderName="APIService">
+  <description>
+    The API Service provides a way to interact with the Corkscrew system without creating hard dependencies with the Corkscrew SDK libraries. It provides most features 
+    of the SDK via a WCF web service. The application is a WCF web service that is installed into your system's IIS web server. It uses ASP.NET 4.5 and WCF technologies. 
+    The service will require connectivity to your Corkscrew_ConfigDB database to function.
+  </description>
+  <Depependencies />
+  <Installers>
+    <Installer type="Filesystem">
+      <parameters source="$(InstallSource)\APIService" overwrite="true" />
+    </Installer>
+    <Installer type="ConnectionString">
+      <parameters configFile="$(InstallTargetRoot)\$(ComponentDestination)\web.config" />
+    </Installer>
+    <Installer type="IIS">
+      <parameters appName="Corkscrew - API Service" webName="Corkscrew - Web Site - API Service" defaultPort="20170" requireSSL="false" appFolder="$(InstallTargetRoot)\$(ComponentDestination)" />
+    </Installer>
+    <Installer type="Registry">
+      <Actions>
+        <Action type="Install" hive="LocalMachine" parentKey="SOFTWARE\Aquarius Operating Systems\CMS\InstalledComponents" keyPath="APIService" keyType="ValueName" value="1" />
+      </Actions>
+    </Installer>
+  </Installers>
+</Component>

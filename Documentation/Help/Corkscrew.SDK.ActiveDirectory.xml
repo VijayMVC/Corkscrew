@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Corkscrew.SDK.ActiveDirectory</name>
+  </assembly>
+  <members>
+    <member name="T:Corkscrew.SDK.ActiveDirectory.CSActiveDirectoryUser">
+      <summary>
+            Represents a user account that exists in the Windows Active Directory. Such an account will not have a password set 
+            and requires the authentication to happen in the Windows OS layer. Corscrew will only perform the Authorization for 
+            such users.
+            </summary>
+    </member>
+    <member name="M:Corkscrew.SDK.ActiveDirectory.CSActiveDirectoryUser.CreateUser(System.String,System.String,System.String)">
+      <summary>
+            Creates a new user in Corkscrew to match the given Active Directory user
+            </summary>
+      <param name="username">Username (login Id)</param>
+      <param name="displayName">Display name of the user</param>
+      <param name="emailAddress">Email address (UPN) of the user</param>
+      <returns>The newly created user object</returns>
+      <exception cref="T:System.ArgumentException">If the username is already in use by an existing user account</exception>
+      <exception cref="T:System.ArgumentNullException">If username, password or display name are null</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">If the username is one of the reserved usernames</exception>
+    </member>
+    <member name="T:Corkscrew.SDK.ActiveDirectory.CSActiveDirectoryUserGroup">
+      <summary>
+            Shadows an Active Directory User Group in Corkscrew. Derives from the CSUserGroup class in the SDK.Security namespace.
+            </summary>
+    </member>
+    <member name="M:Corkscrew.SDK.ActiveDirectory.CSActiveDirectoryUserGroup.CreateUserGroup(System.String,System.String,System.String)">
+      <summary>
+            Creates a new user group in Corkscrew to match the Active Directory group
+            </summary>
+      <param name="username">Username or alias of the group</param>
+      <param name="displayName">Display name of the group</param>
+      <param name="emailAddress">Email address (UPN) of the group</param>
+      <returns>The newly created user group object</returns>
+    </member>
+  </members>
+</doc>

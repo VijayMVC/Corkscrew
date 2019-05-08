@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Component Name="Drive" InstallFailureIsFatal="false" CabFileName="Drive" InstallFolderName="Drive">
+  <description>
+    This is a Windows app to synchronize a local folder on your computer's hard drive with a location in the Corkscrew system. This is similar to technologies 
+    like OneDrive, DropBox, etc that provide you cloud storage. With Corkscrew Drive, your information is secure as it is hosted by your own (or your company's) 
+    Corkscrew investment and guarantee. It uses .NET Framework 4.6 technology. The app will require connectivity to your Corkscrew_ConfigDB database to function.
+  </description>
+  <Depependencies />
+  <Installers>
+    <Installer type="Filesystem">
+      <parameters source="$(InstallSource)\Drive" overwrite="true" />
+    </Installer>
+    <Installer type="ConnectionString">
+      <parameters configFile="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Drive.exe.config" />
+    </Installer>
+    <Installer type="ProgramShortcuts">
+      <parameters targetFilePath="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Drive.exe"
+                  placeIn="Desktop"
+                  icon="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Drive.exe"
+                  workingDirectory="$(InstallTargetRoot)\$(ComponentDestination)"
+                  title="Corkscrew Drive"
+                  description="This is a Windows app to synchronize a local folder on your computer's hard drive with a location in the Corkscrew system. This is similar to technologies like OneDrive, DropBox, etc that provide you cloud storage. With Corkscrew Drive, your information is secure as it is hosted by your own (or your company's) Corkscrew investment and guarantee. It uses .NET Framework 4.6 technology. The app will require connectivity to your Corkscrew_ConfigDB database to function." />
+    </Installer>
+    <Installer type="Registry">
+      <Actions>
+        <Action type="Install" hive="LocalMachine" parentKey="SOFTWARE\Aquarius Operating Systems\CMS\InstalledComponents" keyPath="Drive" keyType="ValueName" value="1" />
+        <Action type="Install" hive="CurrentUser" parentKey="Software\Microsoft\Windows\CurrentVersion\Run" keyPath="CorkscrewDrive" keyType="ValueName" value="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Drive.exe" />
+      </Actions>
+    </Installer>
+  </Installers>
+</Component>

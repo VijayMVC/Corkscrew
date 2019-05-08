@@ -1,0 +1,22 @@
+CREATE TABLE `JournalLog` (
+  `Id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `MachineName` varchar(255) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `LogType` tinyint(3) unsigned NOT NULL,
+  `Timestamp` datetime NOT NULL,
+  `Message` varchar(1024) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `CorrelationId` varchar(64) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
+  `SiteId` varchar(64) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
+  `FileSystemEntryId` varchar(64) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
+  `UserId` varchar(64) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
+  `ModuleName` varchar(255) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
+  `StateInfo` varchar(4000) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
+  `ExceptionStack` varchar(4000) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
+  `EventClass` varchar(255) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
+  `EventType` varchar(255) CHARACTER SET latin1 COLLATE latin1_general_ci DEFAULT NULL,
+  `EventId` int(11) DEFAULT NULL,
+  PRIMARY KEY (`Id`),
+  UNIQUE KEY `CorrelationId` (`CorrelationId`),
+  UNIQUE KEY `SiteId` (`SiteId`),
+  UNIQUE KEY `FileSystemEntryId` (`FileSystemEntryId`),
+  UNIQUE KEY `UserId` (`UserId`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;

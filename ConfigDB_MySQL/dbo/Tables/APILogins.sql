@@ -1,0 +1,10 @@
+CREATE TABLE `APILogins` (
+  `Id` VARCHAR(64) NOT NULL,
+  `UserId` VARCHAR(64) NULL,
+  `RemoteAddress` VARCHAR(255) NULL,
+  `APIToken` CHAR(64) NULL,
+  `Created` DATETIME NULL,
+  PRIMARY KEY (`Id`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = latin1
+COLLATE = latin1_general_ci;

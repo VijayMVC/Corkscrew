@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Corkscrew.SDK.Zip</name>
+  </assembly>
+  <members>
+    <member name="T:Corkscrew.SDK.tools.CSZipFiles">
+      <summary>
+            Class provides functionality to interact with Zip archives, to extract data from them and to create them.
+            </summary>
+    </member>
+    <member name="M:Corkscrew.SDK.tools.CSZipFiles.CreateArchive(Corkscrew.SDK.objects.CSFileSystemEntryDirectory,System.IO.Stream)">
+      <summary>
+            Given a CSFileSystemEntryDirectory folder, will create a zip file of the entire structure from that point (recursively) and 
+            return the archive stream.
+            </summary>
+      <param name="folder">CSFileSystemEntryDirectory to start the archive at</param>
+      <param name="outputStream">The stream the archive is to be written to</param>
+      <returns>Stream pointing to the archive. This can then be used to send the file as a download to the requesting user or client.</returns>
+      <exception cref="T:System.ArgumentNullException">If folder is null</exception>
+    </member>
+    <member name="M:Corkscrew.SDK.tools.CSZipFiles.ExtractArchive(System.IO.Stream,Corkscrew.SDK.objects.CSFileSystemEntryDirectory)">
+      <summary>
+            Given an archive (file stream), extract the archive and create a directory/file structure in the backend. 
+            All file structures will be persisted before return.
+            </summary>
+      <param name="archiveFileStream">Stream pointing to the archive. This is usually from an uploaded file on our file manager.</param>
+      <param name="parentFolder">Parent folder to start restoring into (everything from the archive will parent to this folder).</param>
+      <returns>List of added file and folder objects.</returns>
+      <exception cref="T:System.IO.IOException">If archiveFileStream is null or cannot be read from. Also thrown if one of the zip members cannot be persisted into the Corkscrew system</exception>
+    </member>
+  </members>
+</doc>

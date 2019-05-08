@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Corkscrew_ConfigDB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{4376e77b-de72-4702-b0b4-6dfaef83faf6}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql100DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>Corkscrew_ConfigDB</RootNamespace>
+    <AssemblyName>Corkscrew_ConfigDB</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <SccProjectName>
+    </SccProjectName>
+    <SccProvider>
+    </SccProvider>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <GenerateCreateScript>False</GenerateCreateScript>
+    <DelayedDurability>DISABLED</DelayedDurability>
+    <DacDescription>Configuration (Farm) database for Corkscrew CMS</DacDescription>
+    <TargetFrameworkProfile />
+    <GenerateSqlClrDdl>False</GenerateSqlClrDdl>
+    <GenerateSqlClrSymbols>False</GenerateSqlClrSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <PlatformTarget>x64</PlatformTarget>
+    <RunSqlCodeAnalysis>False</RunSqlCodeAnalysis>
+    <SqlCodeAnalysisRules>-Microsoft.Rules.Data.SR0007;-Microsoft.Rules.Data.SR0015</SqlCodeAnalysisRules>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="Scripts" />
+    <Folder Include="Scripts\Deployment" />
+    <Folder Include="Scripts\Maintenance" />
+    <Folder Include="Scripts\Developer" />
+    <Folder Include="dbo\Functions" />
+    <Folder Include="dbo\Indexes" />
+    <Folder Include="dbo\Keys" />
+    <Folder Include="dbo\Stored Procedures" />
+    <Folder Include="dbo\Tables" />
+    <Folder Include="dbo\Triggers" />
+    <Folder Include="dbo\Views" />
+    <Folder Include="dbo\Jobs" />
+    <Folder Include="dbo\Stored Procedures\Configuration" />
+    <Folder Include="dbo\Stored Procedures\FileSystem" />
+    <Folder Include="dbo\Stored Procedures\MIME" />
+    <Folder Include="dbo\Stored Procedures\Workflow" />
+    <Folder Include="dbo\Stored Procedures\Permissioning" />
+    <Folder Include="dbo\Stored Procedures\Sites" />
+    <Folder Include="dbo\Stored Procedures\Users" />
+    <Folder Include="dbo\Stored Procedures\SignaturePanel" />
+    <Folder Include="dbo\Stored Procedures\Mail" />
+    <Folder Include="dbo\Stored Procedures\TabularData" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Sites.sql" />
+    <Build Include="dbo\Tables\DnsSites.sql" />
+    <Build Include="dbo\Tables\Configuration.sql" />
+    <Build Include="dbo\Tables\Users.sql" />
+    <Build Include="dbo\Tables\MIMETypes.sql" />
+    <Build Include="dbo\Jobs\CleanupSites.sql" />
+    <Build Include="dbo\Tables\DatabaseCleanupQueue.sql" />
+    <None Include="Scripts\Deployment\InstallDefaultMIMETypes.sql" />
+    <Build Include="dbo\Tables\Permissions.sql" />
+    <Build Include="dbo\Tables\FileSystem.sql" />
+    <Build Include="dbo\Indexes\IDX_FileSystem.sql" />
+    <Build Include="dbo\Indexes\IDX_Sites.sql" />
+    <Build Include="dbo\Tables\JournalLog.sql" />
+    <Build Include="dbo\Stored Procedures\JournalLogWriteEntry.sql" />
+    <Build Include="dbo\Tables\FileSystemChangeLog.sql" />
+    <Build Include="dbo\Tables\SitesChangeLog.sql" />
+    <Build Include="dbo\Stored Procedures\Configuration\ConfigurationDelete.sql" />
+    <Build Include="dbo\Stored Procedures\Configuration\ConfigurationGetAll.sql" />
+    <Build Include="dbo\Stored Procedures\Configuration\ConfigurationGetByName.sql" />
+    <Build Include="dbo\Stored Procedures\Configuration\ConfigurationSave.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemCopyContent.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemDeleteById.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemGetByDirectory.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemGetByFullPath.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemGetById.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemGetDataById.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemGetDirectoryContentSize.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemSave.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemSaveContent.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemUpdateDirectoryName.sql" />
+    <Build Include="dbo\Stored Procedures\MIME\MIMETypeDeleteByExtension.sql" />
+    <Build Include="dbo\Stored Procedures\MIME\MIMETypeGetForExtension.sql" />
+    <Build Include="dbo\Stored Procedures\MIME\MIMETypeMatchByPartialName.sql" />
+    <Build Include="dbo\Stored Procedures\MIME\MIMETypeSave.sql" />
+    <Build Include="dbo\Stored Procedures\MIME\MIMETypesGetAll.sql" />
+    <Build Include="dbo\Stored Procedures\Permissioning\PermissionSave.sql" />
+    <Build Include="dbo\Stored Procedures\Permissioning\PermissionsDeleteByPrincipalId.sql" />
+    <Build Include="dbo\Stored Procedures\Permissioning\PermissionsDeleteByResourceUri.sql" />
+    <Build Include="dbo\Stored Procedures\Permissioning\PermissionsGetAllAdministrators.sql" />
+    <Build Include="dbo\Stored Procedures\Permissioning\PermissionsGetByResourceUri.sql" />
+    <Build Include="dbo\Stored Procedures\Permissioning\PermissionsGetByPrincipalId.sql" />
+    <Build Include="dbo\Stored Procedures\Permissioning\PermissionsSetChildAccess.sql" />
+    <Build Include="dbo\Stored Procedures\Permissioning\PermissionsTestAccess.sql" />
+    <Build Include="dbo\Stored Procedures\Permissioning\PermissionsTestAdministrator.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\DnsSitesDeleteByDnsName.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\DnsSitesSave.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\SiteDeleteById.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\SiteGetAllDnsNames.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\SiteGetByDnsName.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\SiteGetById.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\SiteGetByName.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\SiteSave.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\SitesGetAll.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UserDeleteById.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UserGetByName.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UserSave.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UsersGetAll.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UsersGetById.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UserLogin.sql" />
+    <Build Include="dbo\Tables\WorkflowDefinitions.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwDefnCreateWorkflow.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwDefnSaveChanges.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwDefnGetById.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwDefnGetByName.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwDefnGetAll.sql" />
+    <Build Include="dbo\Tables\WorkflowAssociations.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnCreateAssociation.sql" />
+    <Build Include="dbo\Functions\DATETIMEDEFAULT.sql" />
+    <Build Include="dbo\Functions\GUIDDEFAULT.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnSaveAssociation.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnGetForFarm.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnGetForSite.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnGetForDirectory.sql" />
+    <Build Include="dbo\Tables\WorkflowInstances.sql" />
+    <Build Include="dbo\Functions\SYSTEMUSERGUID.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwInstGetByDefinition.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwInstGetByAssociation.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnGetById.sql" />
+    <Build Include="dbo\Tables\WorkflowHistory.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwInstUpdateStateChange.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwInstGetById.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwHistGetByInstance.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwHistGetByAssociation.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwInstGetAllRunnable.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnGetByDefinitionId.sql" />
+    <Build Include="dbo\Tables\SignaturePanel.sql" />
+    <Build Include="dbo\Stored Procedures\SignaturePanel\SaveSignaturePanel.sql" />
+    <Build Include="dbo\Stored Procedures\SignaturePanel\GetSignaturePanelById.sql" />
+    <Build Include="dbo\Tables\SignaturePanelItem.sql" />
+    <Build Include="dbo\Stored Procedures\SignaturePanel\SaveSignaturePanelItem.sql" />
+    <Build Include="dbo\Stored Procedures\SignaturePanel\GetSignaturePanelItemByPanelId.sql" />
+    <Build Include="dbo\Tables\MailSendQueue.sql" />
+    <Build Include="dbo\Tables\SMTPConfiguration.sql" />
+    <Build Include="dbo\Stored Procedures\Mail\GetQueuedMail.sql" />
+    <Build Include="dbo\Stored Procedures\Mail\GetQueuedMailItemById.sql" />
+    <Build Include="dbo\Stored Procedures\Mail\GetSMTPConfiguration.sql" />
+    <Build Include="dbo\Stored Procedures\Mail\QueueMail.sql" />
+    <Build Include="dbo\Stored Procedures\Mail\SetSMTPConfiguration.sql" />
+    <Build Include="dbo\Stored Procedures\Mail\UpdateMailTry.sql" />
+    <Build Include="dbo\Stored Procedures\SignaturePanel\DeleteSignaturePanelItemById.sql" />
+    <Build Include="dbo\Tables\WorkflowManifests.sql" />
+    <Build Include="dbo\Tables\WorkflowManifestItems.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwDefnAllowEvents.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnSubscribeEvents.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwManifestCreateManifest.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwManifestSaveManifest.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwManifestAddManifestItem.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwManifestGetManifestForDefinition.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwManifestSaveManifestItem.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwManifestDeleteManifestItem.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwManifestDeleteManifest.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwManifestGetManifestItemForManifest.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwManifestGetManifestItemById.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwDefnDeleteById.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnDeleteByDefinitionId.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnDeleteByAssociationId.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwDefnGetEvents.sql" />
+    <Build Include="dbo\Stored Procedures\Workflow\WrkflwAssnGetEvents.sql" />
+    <Build Include="dbo\Tables\APILogins.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UserVerifyAPILogin.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\SiteGetHistoryById.sql" />
+    <Build Include="dbo\Stored Procedures\Sites\SiteGetHistoryBySiteId.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemGetHistoryById.sql" />
+    <Build Include="dbo\Stored Procedures\FileSystem\FileSystemGetHistoryByItemId.sql" />
+    <Build Include="dbo\Tables\UserGroups.sql" />
+    <Build Include="dbo\Tables\UserGroupMembers.sql" />
+    <Build Include="dbo\Stored Procedures\Users\AddUserToGroup.sql" />
+    <Build Include="dbo\Stored Procedures\Users\RemoveUserFromGroup.sql" />
+    <Build Include="dbo\Stored Procedures\Users\GetGroupMembership.sql" />
+    <Build Include="dbo\Stored Procedures\Users\GetUserMemberships.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UserGroupSave.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UserGroupDeleteById.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UserGroupGetAll.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UserGroupGetById.sql" />
+    <Build Include="dbo\Stored Procedures\Users\UserGroupGetByName.sql" />
+    <Build Include="dbo\Stored Procedures\Users\GetUsersNotInGroupByGroupId.sql" />
+    <Build Include="dbo\Tables\TabularDataColDefs.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\CreateColDef.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\DropColDef.sql" />
+    <Build Include="dbo\Tables\TabularDataTableColumns.sql" />
+    <Build Include="dbo\Tables\TabularDataTableDefs.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\CreateTableDef.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\DropTableDef.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\GetColumnsAddedToTable.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\GetTableData.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\AddColumnToTableDef.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\RemoveColumnFromTableDef.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\GetTableDefsAll.sql" />
+    <Build Include="dbo\Tables\EntityRegistry.sql" />
+    <Build Include="dbo\Stored Procedures\GetTypeFromEntityRegistry.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\GetColDefsAll.sql" />
+    <Build Include="dbo\Stored Procedures\TabularData\GetColDefById.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Deployment\Corkscrew_ConfigDB.publish.xml" />
+    <None Include="Scripts\Deployment\InstallDatabaseCleanupJob.sql" />
+    <None Include="Scripts\Deployment\InstallSystemFolders.sql" />
+    <None Include="Corkscrew_ConfigDB.publish.xml" />
+    <None Include="Manifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="Scripts\Deployment\Script.PreDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Deployment\Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\100\SqlSchemas\master.dacpac">
+      <HintPath>$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\100\SqlSchemas\master.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseVariableLiteralValue>master</DatabaseVariableLiteralValue>
+    </ArtifactReference>
+    <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\100\SqlSchemas\msdb.dacpac">
+      <HintPath>$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\100\SqlSchemas\msdb.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseVariableLiteralValue>msdb</DatabaseVariableLiteralValue>
+    </ArtifactReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+      DEL /S /Q $(SolutionDir)BuildDrops\Corkscrew_ConfigDB
+      XCOPY /R /E /Y /I /EXCLUDE:$(ProjectDir)SkipFiles.txt $(ProjectDir)*.sql $(SolutionDir)BuildDrops\Corkscrew_ConfigDB
+      COPY /Y $(ProjectDir)\Manifest.xml $(SolutionDir)BuildDrops\Corkscrew_ConfigDB\Manifest.xml
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

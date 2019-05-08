@@ -1,0 +1,10 @@
+.cs
+.xml
+.csproj
+.user
+.vspcc
+SkipFiles.txt
+\obj\
+\business\
+\datacontracts\
+\Properties\

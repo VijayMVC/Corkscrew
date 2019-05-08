@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Component Name="Explorer" InstallFailureIsFatal="false" CabFileName="Explorer" InstallFolderName="Explorer">
+  <description>
+    This is a Windows app that provides a thick-client UI to manage Corkscrew structures. This is has more features than the centrally-hosted 
+    Control Center and exposes ability to perform almost every possible action on the Farm and its objects. It uses .NET Framework 4.6 technology. 
+    The app will require connectivity to your Corkscrew_ConfigDB database to function.
+  </description>
+  <Depependencies />
+  <Installers>
+    <Installer type="Filesystem">
+      <parameters source="$(InstallSource)\Explorer" overwrite="true" />
+    </Installer>
+    <Installer type="ConnectionString">
+      <parameters configFile="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Explorer.exe.config" />
+    </Installer>
+    <Installer type="ProgramShortcuts">
+      <parameters targetFilePath="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Explorer.exe" 
+                  placeIn="Desktop" 
+                  icon="$(InstallTargetRoot)\$(ComponentDestination)\Corkscrew.Explorer.exe" 
+                  workingDirectory="$(InstallTargetRoot)\$(ComponentDestination)" 
+                  title="Corkscrew Explorer" 
+                  description="This is a Windows app that provides a thick-client UI to manage Corkscrew structures. This is has more features than the centrally-hosted Control Center and exposes ability to perform almost every possible action on the Farm and its objects. It uses .NET Framework 4.6 technology. The app will require connectivity to your Corkscrew_ConfigDB database to function." />
+    </Installer>
+    <Installer type="Registry">
+      <Actions>
+        <Action type="Install" hive="LocalMachine" parentKey="SOFTWARE\Aquarius Operating Systems\CMS\InstalledComponents" keyPath="Explorer" keyType="ValueName" value="1" />
+      </Actions>
+    </Installer>
+  </Installers>
+</Component>

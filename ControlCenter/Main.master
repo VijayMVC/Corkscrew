@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Corkscrew.ControlCenter.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="referrer" content="origin-when-crossorigin" id="meta_referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Corkscrew Control Center is an web app to control and manage your Corkscrew farm deployment." />
+    <meta name="author" content="Aquarius Operating Systems, India." />
+    <meta name="generator" content="Corkscrew CMS" />
+    <meta name="keywords" content="Corkscrew, CMS, Control Center, Manager, Site Administration, Farm Administration, Control Panel" />
+    <meta name="copyright" content="Copyright © 2016 Aquarius Operating Systems, India. All Rights Reserved." />
+
+    <title>
+        <asp:ContentPlaceHolder runat="server" ID="PageTitle" />
+        | Corkscrew Control Center</title>
+
+    <link rel="stylesheet" type="text/css" href="/resources/styles/theme-main.css" />
+    <link rel="icon" href="/resources/images/corkscrew_icon.png" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+    <% bool isGlobalAdmin = Corkscrew.ControlCenter.WebHelpers.IsUserFarmAdmin(HttpContext.Current); %>
+    <div class="topBanner dropShadowBox">
+        <img id="siteActionsMenuGear" class="siteActionsMenu" src="/resources/images/corkscrew_icon.png" onclick="toggleSiteActions('siteActionsMenuDropDownMenu', 'siteActionsMenuGear'); return false;" />
+        <span class="topBannerText dropShadowText">Aquarius Corkscrew - Central Control Center</span>
+    </div>
+    <div class="siteActionsMenuDropdown" id="siteActionsMenuDropDownMenu" style="display: none;">
+        <div class="leftSideBarContainer">
+            <div class="sideBarMenuContainer firstItem">
+                <div class="sidebarMenuItem" onclick="window.location.href='/'"><a href="/">Dashboard</a></div>
+                <hr class="menuItemDivider" />
+                <div class="sideBarMenuTitle clickable" onclick="toggleMenu('menuFarm', 'expmenuFarm'); return false;">
+                    <div class="sidebarMenuTitleText">
+                        <img id="expmenuFarm" src="/resources/images/collapse.png" class="expander expanded" />
+                        Farm
+                    </div>
+                </div>
+                <div id="menuFarm">
+                    <div class="sidebarMenuItem" onclick="window.location.href='/sites/All.aspx';"><a href="/sites/All.aspx">Sites</a></div>
+                    <% if (isGlobalAdmin) { %><div class="sidebarMenuItem" onclick="window.location.href='/users/All.aspx';"><a href="/users/All.aspx">Users</a></div><% } %>
+                    <% if (isGlobalAdmin) { %><div class="sidebarMenuItem" onclick="window.location.href='/usergroups/All.aspx';"><a href="/usergroups/All.aspx">User Groups</a></div><% } %>
+                    <hr class="menuItemDivider" />
+                    <div class="sidebarMenuItem" onclick="window.location.href='/farm/Configuration.aspx';"><a href="/farm/Configuration.aspx">Configuration Properties</a></div>
+                    <div class="sidebarMenuItem" onclick="window.location.href='/farm/ContentTypes.aspx';"><a href="/farm/ContentTypes.aspx">Content Types</a></div>
+                    <hr class="menuItemDivider" />
+                    <div class="sidebarMenuItem" onclick="window.location.href='/workflows/WorkflowDefinitions.aspx';"><a href="/workflows/WorkflowDefinitions.aspx">Workflow Definitions</a></div>
+                    <hr class="menuItemDivider" />
+                    <div class="sidebarMenuItem" onclick="window.location.href='/Logout.aspx';"><a href="/Logout.aspx">Log out</a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="contentArea">
+        <div class="contentAreaContent">
+            <h1>
+                <asp:ContentPlaceHolder runat="server" ID="ContentAreaPageHeading" />
+            </h1>
+            <form runat="server" id="managerMasterPageForm">
+                <asp:ContentPlaceHolder runat="server" ID="ContentAreaContent" />
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Keep this here so that Jquery engine is initalized correctly -->
+    <script type="text/javascript" src="/external/jquery/jquery-1.10.2.js"></script>
+
+    <!-- This is the Adobe TypeKit font script -->
+    <script type="text/javascript" src="/external/fvr3lgc.js"></script>
+    <script type="text/javascript">
+
+        var imgExpandedUrl = '/resources/images/collapse.png';
+        var imgCollapsedUrl = '/resources/images/expand.png';
+        var gearExpandedUrl = '/resources/images/corkscrew_icon.png';
+        var gearCollapsedUrl = '/resources/images/corkscrew_icon.png';
+
+        // main entry point function
+        $(document).ready(function ($) {
+            try {
+                Typekit.load();
+            } catch (e) { }
+        });
+
+        // IE detection code thanks to StackOverflow answer:
+        // [stackoverflow.com/a/21712356]
+        //
+        function IE() {
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf('MSIE ');
+            var trident = ua.indexOf('Trident/');
+
+            if (msie > 0) {
+                // IE 10 or older => return version number
+                return true;
+            }
+
+            if (trident > 0) {
+                // IE 11 (or newer) => return version number
+                var rv = ua.indexOf('rv:');
+                return true;
+            }
+
+            // other browser
+            return false;
+        }
+
+        // toggles the expander for a menu section
+        function toggleMenu(dropDownId, expanderImageId) {
+            var menu = document.getElementById(dropDownId);
+            var expander = document.getElementById(expanderImageId);
+
+            if (menu != null) {
+                if (menu.style != null) {
+                    if (menu.style.cssText == '') {
+                        menu.style.cssText = 'display: none;';
+                        if (expander != null) {
+                            expander.className = 'expander collapsed';
+
+                            if (IE()) {
+                                // IE does not like changing src urls via classes
+                                expander.src = imgCollapsedUrl;
+                            }
+                        }
+                    } else {
+                        menu.style.cssText = '';
+                        if (expander != null) {
+                            expander.className = 'expander expanded';
+
+                            if (IE()) {
+                                // IE does not like changing src urls via classes
+                                expander.src = imgExpandedUrl;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // toggles the display of the Site Actions menu
+        function toggleSiteActions(dropDownId, expanderImageId) {
+            var menu = document.getElementById(dropDownId);
+            var expander = document.getElementById(expanderImageId);
+
+            if (menu != null) {
+                if (menu.style != null) {
+                    if (menu.style.cssText == '') {
+                        menu.style.cssText = 'display: none;';
+                        if (expander != null) {
+                            expander.src = gearExpandedUrl;
+                        }
+                    } else {
+                        menu.style.cssText = '';
+                        if (expander != null) {
+                            expander.src = gearCollapsedUrl;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Sets the menu state as expanded or collapsed
+        function setMenuState(state, dropDownId, expanderImageId) {
+            var menu = document.getElementById(dropDownId);
+            var expander = document.getElementById(expanderImageId);
+
+            if (menu != null) {
+                if (menu.style != null) {
+                    if (state == 'close') {
+                        menu.style.cssText = 'display: none;';
+                        if (expander != null) {
+                            expander.className = 'expander collapsed';
+
+                            if (IE()) {
+                                // IE does not like changing src urls via classes
+                                expander.src = imgCollapsedUrl;
+                            }
+                        }
+                    } else {
+                        menu.style.cssText = '';
+                        if (expander != null) {
+                            expander.className = 'expander expanded';
+
+                            if (IE()) {
+                                // IE does not like changing src urls via classes
+                                expander.src = imgExpandedUrl;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <asp:ContentPlaceHolder runat="server" ID="scripts" />
+</body>
+</html>
